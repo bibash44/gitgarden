@@ -148,7 +148,7 @@ async function generateAndPushFiles() {
 function scheduleNextExecution() {
   //   const { hour, minute } = generateRandomTime();
   const hour = 18;
-  const minute = 26;
+  const minute = 27;
   const cronExpression = `${minute} ${hour} * * *`;
 
   cron.schedule(cronExpression, async () => {
