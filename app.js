@@ -48,6 +48,10 @@ async function initGit() {
 
     if (!status.current) {
       // Create README.md if it doesn't exist
+      //   creating main branch
+      logger.info("Creating main branch...");
+      await git.checkout(["-b", "main"]);
+
       if (!fs.existsSync("README.md")) {
         fs.writeFileSync(
           "README.md",
@@ -57,10 +61,13 @@ async function initGit() {
 
       // Initial commit
       await git.add(".").commit("Initial commit");
-
-      // Create main branch and track remote
-      await git.branch(["main"]);
-      await git.checkout("main");
+    } else if (status.current !== "main") {
+      // If we're not on main, checkout or create it
+      try {
+        await git.checkout("main");
+      } catch (error) {
+        await git.checkout(["-b", "main"]);
+      }
     }
 
     // Test the connection
