@@ -5,7 +5,9 @@ const simpleGit = require("simple-git");
 const winston = require("winston");
 const express = require("express");
 const app = express();
-const fs= require('fs')
+const fs = require("fs");
+const fileGenerator = require("./src/generators/file_generator");
+const FileGenerator = require("./src/generators/file_generator");
 const port = process.env.PORT || 3000;
 
 const gitConfig = {
@@ -93,26 +95,79 @@ if (process.env.NODE_ENV != "production") {
 
 // generate random time for cron
 function generateRandomTime() {
-  const startHour = parseInt(process.env.START_HOUR) || 9;
-  const endHour = parseInt(process.env.END_HOUR) || 17;
-  const hour =
-    Math.floor(Math.random() * (endHour - startHour + 1)) + startHour;
-  const minute = Math.floor(Math.random() * 60);
-
-  return `${minute} ${hour} * * *`;
+  const hour = Math.floor(Math.random() * 24); // 0-23 hours
+  const minute = Math.floor(Math.random() * 60); // 0-59 minutes
+  return { hour, minute };
 }
 
-async function init() {
-  try {
-    logger.info("Starting Gitgarden");
+// function to handle file generation and git push
 
-    cron.schedule(generateRandomTime(), async () => {
-      logger.info("Starting daily file generation task");
-    });
+async function generateAndPushFiles() {
+  try {
+    logger.info("Starting the file generation process");
+
+    const generatedFiles = await FileGenerator.generateFiles();
+
+    if (generatedFiles && generatedFiles.length > 0) {
+      const git = await initGit();
+
+      // Add and commit files
+      await git.add(`*`);
+      await git.commit(
+        `Generated ${
+          generatedFiles.length
+        } files on ${new Date().toISOString()}`
+      );
+      await git.push("origin", "main");
+
+      logger.info(
+        `Successfully pushed ${generatedFiles.length} files to GitHub`
+      );
+      logger.info("Generated files:", generatedFiles);
+    } else {
+      logger.warn("No files were generated");
+    }
+    return generatedFiles;
   } catch (error) {
-    logger.error("Initialization failed: ", error);
+    logger.error("Error in generate and push process:", error);
+    // Still schedule next execution even if this one failed
+    scheduleNextExecution();
+    throw error;
   }
 }
+
+// Function to schedule next execution
+function scheduleNextExecution() {
+  const { hour, minute } = generateRandomTime();
+  const cronExpression = `${minute} ${hour} * * *`;
+
+  cron.schedule(cronExpression, async () => {
+    logger.info(`Executing scheduled task at ${hour}:${minute}`);
+    await generateAndPushFiles().catch((error) => {
+      logger.error("Scheduled task failed:", error);
+    });
+  });
+
+  logger.info(`Next execution scheduled for ${hour}:${minute}`);
+}
+
+// Routes
+app.get("/", (req, res) => {
+  res.json({ message: "GitGarden is running!" });
+});
+
+// Route to manually trigger generation
+app.get("/generate", async (req, res) => {
+  try {
+    const files = await generateAndPushFiles();
+    res.json({
+      message: "Files generated and pushed successfully",
+      files: files,
+    });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
 
 app.get("/test-git", async (req, res) => {
   try {
@@ -133,6 +188,9 @@ app.get("/test-git", async (req, res) => {
   }
 });
 
-init().catch(console.error);
+app.listen(port, () => {
+  console.log(`Server is listening at port ${port}`);
 
-app.listen(port, () => console.log(`Server is listening at port ${port}`));
+  // Start the first scheduled execution
+  scheduleNextExecution();
+});
