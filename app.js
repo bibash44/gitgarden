@@ -5,6 +5,7 @@ const simpleGit = require("simple-git");
 const winston = require("winston");
 const express = require("express");
 const app = express();
+const fs= require('fs')
 const port = process.env.PORT || 3000;
 
 const gitConfig = {
@@ -23,6 +24,13 @@ async function initGit() {
 
     const git = simpleGit();
 
+    // Check if .git exists
+    if (!fs.existsSync(".git")) {
+      // Initialize git repository
+      await git.init();
+      logger.info("Git repository initialized");
+    }
+
     // Configure git user
     await git.addConfig("user.name", gitConfig.user);
     await git.addConfig("user.email", gitConfig.email);
@@ -32,6 +40,26 @@ async function initGit() {
     await git.addRemote("origin", remoteURL);
 
     logger.info("Git configured successfully");
+
+    // / Create initial commit if needed
+    const status = await git.status();
+
+    if (!status.current) {
+      // Create README.md if it doesn't exist
+      if (!fs.existsSync("README.md")) {
+        fs.writeFileSync(
+          "README.md",
+          "# GitGarden\nAutomatic file generator for GitHub activity."
+        );
+      }
+
+      // Initial commit
+      await git.add(".").commit("Initial commit");
+
+      // Create main branch and track remote
+      await git.branch(["main"]);
+      await git.checkout("main");
+    }
 
     // Test the connection
     await git.fetch();
@@ -86,19 +114,24 @@ async function init() {
   }
 }
 
-app.get('/test-git', async (req, res) => {
-    try {
-        const git = await initGit();
-        // Test commit and push
-        await git.add('.')
-            .commit('Test commit from GitGarden')
-            .push('origin', 'main');  // or your default branch name
-        
-        res.json({ message: 'Git operations completed successfully' });
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
-})
+app.get("/test-git", async (req, res) => {
+  try {
+    const git = await initGit();
+    // Test commit and push
+    // Get current branch
+    const status = await git.status();
+    const currentBranch = status.current || "main";
+
+    await git
+      .add(".")
+      .commit("Test commit from GitGarden")
+      .push("origin", currentBranch, ["--set-upstream"]);
+
+    res.json({ message: "Git operations completed successfully" });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
 
 init().catch(console.error);
 
