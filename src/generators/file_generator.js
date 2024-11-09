@@ -1,33 +1,39 @@
 const fs = require("fs");
 const path = require("path");
+const ContentGenerator = require("./content_generator");
 
 class FileGenerator {
   constructor() {
+    this.contentGenerator = new ContentGenerator();
     this.fileExtension = {
-      code: [".js", ".java", ".cpp", ".cs", ".py"],
+      code: [".js", ".java", ".py"],
       text: [".md", ".txt"],
     };
 
-    this.initializeTempDirectory()
+    this.tempDir = process.env.TEMP_DIR || "temp";
+    this.initializeTempDirectory();
   }
 
   async generateFiles() {
     try {
-      const numberOfFiles = this._getRandomNumber(
-        process.env.MIN_FILES_PER_DAY,
-        process.env.MAX_FILES_PER_DAY
-      );
+      const minFiles = parseInt(process.env.MIN_FILES_PER_DAY || "2");
+      const maxFiles = parseInt(process.env.MAX_FILES_PER_DAY || "5");
+
+      const numberOfFiles = this._getRandomNumber(minFiles, maxFiles);
+      console.log(`Generating ${numberOfFiles} files`); // Debug log
 
       const generatedFiles = [];
       for (let i = 0; i < numberOfFiles; i++) {
         const fileType = this._generateRandomFileType();
         const extension = this._generateExtension(fileType);
         const fileName = this._generateFileName(extension);
-        const content = await this._generateFileContent(fileType);
+        const content = this.contentGenerator.generateContent(extension);
 
-        await this._writeFile(fileName, content);
-        generatedFiles.push(fileName);
+       const filePath= await this._writeFile(fileName, content);
+        generatedFiles.push({ fileName, filePath });
       }
+
+      return generatedFiles;
     } catch (error) {
       throw new Error(`File generation failed: ${error.message}`);
     }
@@ -43,7 +49,7 @@ class FileGenerator {
 
   _generateExtension(fileType) {
     const extensions = this.fileExtension[fileType];
-    return extensions[Math.floor(Math.random() * extensions.length())];
+    return extensions[Math.floor(Math.random() * extensions.length)];
   }
   _generateFileName(extension) {
     const timestamp = new Date().getTime();
@@ -56,16 +62,9 @@ class FileGenerator {
     return filePath;
   }
 
-  async _generateFileContent(fileType) {
-    return fileType === "code"
-      ? "Generate code content \\console.log('Hello world')"
-      : "To do : Generate text content";
-  }
-
-  async initializeTempDirectory() {
-    const tempDir = process.env.TEMP_DIR || "temp";
-    if (!fs.existsSync(tempDir)) {
-     await fs.mkdir(tempDir);
+  initializeTempDirectory() {
+    if (!fs.existsSync(this.tempDir)) {
+      fs.mkdirSync(this.tempDir);
     }
   }
 }
