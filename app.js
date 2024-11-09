@@ -43,15 +43,15 @@ async function initGit() {
 
     logger.info("Git configured successfully");
 
-    // / Create initial commit if needed
     const status = await git.status();
 
+    // If no branch exists, create and checkout main
     if (!status.current) {
-      // Create README.md if it doesn't exist
       //   creating main branch
       logger.info("Creating main branch...");
       await git.checkout(["-b", "main"]);
 
+      // Create README.md if it doesn't exist
       if (!fs.existsSync("README.md")) {
         fs.writeFileSync(
           "README.md",
@@ -60,6 +60,7 @@ async function initGit() {
       }
 
       // Initial commit
+      //  Create initial commit if needed
       await git.add(".").commit("Initial commit");
     } else if (status.current !== "main") {
       // If we're not on main, checkout or create it
@@ -119,7 +120,7 @@ async function generateAndPushFiles() {
       const git = await initGit();
 
       // Add and commit files
-      await git.add(`*`);
+      await git.add(".");
       await git.commit(
         `Generated ${
           generatedFiles.length
@@ -145,14 +146,14 @@ async function generateAndPushFiles() {
 
 // Function to schedule next execution
 function scheduleNextExecution() {
-  const { hour, minute } = generateRandomTime();
+  //   const { hour, minute } = generateRandomTime();
+  const hour = 18;
+  const minute = 26;
   const cronExpression = `${minute} ${hour} * * *`;
 
   cron.schedule(cronExpression, async () => {
     logger.info(`Executing scheduled task at ${hour}:${minute}`);
-    await generateAndPushFiles().catch((error) => {
-      logger.error("Scheduled task failed:", error);
-    });
+    await generateAndPushFiles();
   });
 
   logger.info(`Next execution scheduled for ${hour}:${minute}`);
