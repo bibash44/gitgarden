@@ -19,12 +19,35 @@ async function generateAndPushFiles() {
 
       logger.info(`Successfully pushed ${generatedFiles.length} files to GitHub`);
       logger.info("Generated files:", generatedFiles);
+      
+      // remove files after being successfully pushed to git
+      await deleteGeneratedFiles(generatedFiles)
     } else {
       logger.warn("No files were generated");
     }
     return generatedFiles;
   } catch (error) {
     logger.error("Error in generate and push process:", error);
+    throw error;
+  }
+}
+
+async function deleteGeneratedFiles(generatedFiles) {
+  try {
+    const tempDir = process.env.TEMP_DIR || "temp";
+    
+    // Delete each generated file
+    for (const file of generatedFiles) {
+      const filePath = path.join(tempDir, file.fileName);
+      if (fs.existsSync(filePath)) {
+        fs.unlinkSync(filePath);
+        logger.info(`Deleted file: ${file.fileName}`);
+      }
+    }
+
+    logger.info('All generated files cleaned up successfully');
+  } catch (error) {
+    logger.error('Error cleaning up files:', error);
     throw error;
   }
 }
