@@ -23,7 +23,7 @@ async function generateAndPushFiles() {
       logger.info("Generated files:", generatedFiles);
       
       // remove files after being successfully pushed to git
-      await deleteGeneratedFiles(generatedFiles)
+      await cleanTempDirectory()
     } else {
       logger.warn("No files were generated");
     }
@@ -34,24 +34,24 @@ async function generateAndPushFiles() {
   }
 }
 
-async function deleteGeneratedFiles(generatedFiles) {
+async function cleanTempDirectory() {
   try {
     const tempDir = process.env.TEMP_DIR || "temp";
     
-    // Delete each generated file
-    for (const file of generatedFiles) {
-      const filePath = path.join(tempDir, file.fileName);
-      if (fs.existsSync(filePath)) {
-        fs.unlinkSync(filePath);
-        logger.info(`Deleted file: ${file.fileName}`);
-      }
+    // Read all files in the directory
+    const files = fs.readdirSync(tempDir);
+    
+    // Delete each file
+    for (const file of files) {
+      fs.unlinkSync(path.join(tempDir, file));
     }
 
-    logger.info('All generated files cleaned up successfully');
+    logger.info('Temp directory cleaned successfully');
   } catch (error) {
-    logger.error('Error cleaning up files:', error);
+    logger.error('Error cleaning temp directory:', error);
     throw error;
   }
 }
+
 
 module.exports = { generateAndPushFiles };
