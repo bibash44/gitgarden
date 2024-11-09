@@ -44,7 +44,7 @@ class FileGenerator {
   }
 
   _generateRandomFileType() {
-    return Math.random() > 0.5 ? "code" : "text";
+    return Math.random() > 0.5 ? "text" : "code";
   }
 
   _generateExtension(fileType) {
