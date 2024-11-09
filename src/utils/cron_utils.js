@@ -9,15 +9,25 @@ function generateRandomTime() {
 
 function scheduleNextExecution(callback) {
   // const { hour, minute } = generateRandomTime();
-
-  const hour =18
-  const minute =43
-
+  const hour=18
+  const minute=58
   const cronExpression = `${minute} ${hour} * * *`;
 
+ 
+
   cron.schedule(cronExpression, async () => {
-    logger.info(`Executing scheduled task at ${hour}:${minute}`);
-    await callback();
+    try {
+      logger.info(`Executing scheduled task at ${hour}:${minute}`);
+      await callback();
+      
+      // After execution completes, immediately schedule next run
+      scheduleNextExecution(callback);
+      
+    } catch (error) {
+      logger.error('Task execution failed:', error);
+      // Even if task fails, schedule next run
+      scheduleNextExecution(callback);
+    }
   });
 
   logger.info(`Next execution scheduled for ${hour}:${minute}`);
