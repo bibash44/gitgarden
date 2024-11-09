@@ -1,6 +1,8 @@
 const logger = require("../config/logger");
 const { initGit } = require("../utils/git_utils");
 const FileGenerator = require("../generators/file_generator");
+const fs = require("fs");
+const path = require("path");
 
 async function generateAndPushFiles() {
   try {
