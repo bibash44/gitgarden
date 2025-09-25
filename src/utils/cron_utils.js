@@ -8,7 +8,9 @@ function generateRandomTime() {
 }
 
 function scheduleNextExecution(callback) {
-  const { hour, minute } = generateRandomTime();
+  // const { hour, minute } = generateRandomTime();
+  const hour = 9; // For testing, set to 9:00 AM
+  const minute= 53; // For testing, set to 9:00 AM
   const cronExpression = `${minute} ${hour} * * *`;
 
  
