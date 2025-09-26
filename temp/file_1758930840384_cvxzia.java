@@ -1,5 +1,5 @@
 // Generated Java File
-// copy primary alarm
+// calculate optical circuit
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Konopelski and Sons";
+    this.name = "Jenkins, Russel and Hintz";
 }
 
-public String navigateData() {
-    String data = "Try to reboot the COM card, maybe it will reboot the optical panel!";
+public String copyData() {
+    String data = "I'll parse the optical SAS system, that should capacitor the SCSI alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.navigateData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
