@@ -1,26 +1,26 @@
 // Generated Java File
-// back up bluetooth program
+// program haptic monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class capacitorProcessor {
+public class driverProcessor {
 private final String id;
 private final String name;
 
-public capacitorProcessor() {
+public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Casper, Schroeder and Berge";
+    this.name = "Mraz - Cummerata";
 }
 
 public String parseData() {
-    String data = "The JBOD card is down, hack the 1080p interface so we can override the SQL driver!";
+    String data = "Use the solid state HTTP hard drive, then you can transmit the solid state hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    capacitorProcessor processor = new capacitorProcessor();
+    driverProcessor processor = new driverProcessor();
     String result = processor.parseData();
     System.out.println("Result: " + result);
 }

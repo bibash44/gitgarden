@@ -1,5 +1,5 @@
 // Generated Java File
-// parse optical port
+// override online circuit
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public interfaceProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Lehner - Kozey";
+    this.name = "Cartwright, Schoen and Volkman";
 }
 
-public String indexData() {
-    String data = "generating the interface won't do anything, we need to hack the online SMS protocol!";
+public String programData() {
+    String data = "If we compress the microchip, we can get to the COM circuit through the bluetooth AI application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     interfaceProcessor processor = new interfaceProcessor();
-    String result = processor.indexData();
+    String result = processor.programData();
     System.out.println("Result: " + result);
 }
 }
