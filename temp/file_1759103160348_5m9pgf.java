@@ -1,5 +1,5 @@
 // Generated Java File
-// hack haptic feed
+// parse optical card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Goyette, Murazik and Leffler";
+    this.name = "West - Lind";
 }
 
 public String overrideData() {
-    String data = "The IB circuit is down, quantify the multi-byte interface so we can hack the FTP monitor!";
+    String data = "We need to program the wireless TCP program!";
     System.out.println("Processing: " + data);
     return data;
 }
