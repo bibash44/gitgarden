@@ -1,27 +1,27 @@
 // Generated Java File
-// back up primary port
+// input bluetooth transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class sensorProcessor {
+public class hard driveProcessor {
 private final String id;
 private final String name;
 
-public sensorProcessor() {
+public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Gaylord Group";
+    this.name = "Ratke - Lang";
 }
 
-public String transmitData() {
-    String data = "We need to input the multi-byte JSON program!";
+public String hackData() {
+    String data = "We need to compress the wireless GB hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    sensorProcessor processor = new sensorProcessor();
-    String result = processor.transmitData();
+    hard driveProcessor processor = new hard driveProcessor();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
