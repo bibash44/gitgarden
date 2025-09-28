@@ -1,5 +1,5 @@
 // Generated Java File
-// compress digital protocol
+// transmit 1080p feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "White - Johnson";
+    this.name = "Marvin, Hudson and Nicolas";
 }
 
-public String programData() {
-    String data = "The HDD array is down, generate the digital capacitor so we can quantify the COM interface!";
+public String generateData() {
+    String data = "I'll hack the solid state SDD bus, that should sensor the SCSI feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.programData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }
