@@ -1,26 +1,26 @@
 // Generated Java File
-// input solid state matrix
+// parse back-end array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class pixelProcessor {
+public class applicationProcessor {
 private final String id;
 private final String name;
 
-public pixelProcessor() {
+public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Streich, Pfannerstill and Weissnat";
+    this.name = "Rodriguez, Shanahan and Doyle";
 }
 
 public String transmitData() {
-    String data = "You can't index the sensor without hacking the optical PNG firewall!";
+    String data = "programming the application won't do anything, we need to compress the digital SAS monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    pixelProcessor processor = new pixelProcessor();
+    applicationProcessor processor = new applicationProcessor();
     String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
