@@ -1,5 +1,5 @@
 // Generated Java File
-// program cross-platform interface
+// navigate auxiliary hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kutch - Torp";
+    this.name = "O'Connell - Kemmer";
 }
 
-public String transmitData() {
-    String data = "backing up the driver won't do anything, we need to copy the optical RSS card!";
+public String quantifyData() {
+    String data = "The SCSI circuit is down, input the optical system so we can back up the RSS port!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     feedProcessor processor = new feedProcessor();
-    String result = processor.transmitData();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
