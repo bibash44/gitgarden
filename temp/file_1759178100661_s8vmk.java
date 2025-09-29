@@ -4,24 +4,24 @@
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class circuitProcessor {
+public class firewallProcessor {
 private final String id;
 private final String name;
 
-public circuitProcessor() {
+public firewallProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Konopelski - Jacobs";
+    this.name = "Kirlin, Beahan and Lueilwitz";
 }
 
-public String navigateData() {
-    String data = "We need to synthesize the 1080p XML circuit!";
+public String copyData() {
+    String data = "We need to generate the optical SMTP bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    circuitProcessor processor = new circuitProcessor();
-    String result = processor.navigateData();
+    firewallProcessor processor = new firewallProcessor();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
