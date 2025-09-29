@@ -1,5 +1,5 @@
 // Generated Java File
-// back up primary interface
+// quantify online port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Green, Bergstrom and Satterfield";
+    this.name = "DuBuque - Gaylord";
 }
 
-public String generateData() {
-    String data = "You can't reboot the hard drive without synthesizing the digital SSL pixel!";
+public String rebootData() {
+    String data = "If we parse the bandwidth, we can get to the SCSI alarm through the open-source TCP feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.generateData();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
