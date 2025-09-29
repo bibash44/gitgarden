@@ -1,5 +1,5 @@
 // Generated Java File
-// connect bluetooth feed
+// index bluetooth alarm
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public portProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Wolff LLC";
+    this.name = "Stroman, Effertz and Brown";
 }
 
-public String indexData() {
-    String data = "I'll bypass the bluetooth JBOD program, that should hard drive the THX system!";
+public String transmitData() {
+    String data = "Try to generate the HDD protocol, maybe it will quantify the redundant matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     portProcessor processor = new portProcessor();
-    String result = processor.indexData();
+    String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
 }
