@@ -1,27 +1,27 @@
 // Generated Java File
-// compress virtual monitor
+// parse online feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class systemProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Wolff and Sons";
+    this.name = "Veum Inc";
 }
 
-public String hackData() {
-    String data = "Try to bypass the RAM bus, maybe it will index the wireless port!";
+public String parseData() {
+    String data = "Use the back-end HTTP application, then you can copy the auxiliary port!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
-    String result = processor.hackData();
+    systemProcessor processor = new systemProcessor();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
