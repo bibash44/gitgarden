@@ -1,5 +1,5 @@
 // Generated Java File
-// copy primary microchip
+// reboot open-source circuit
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Rutherford Group";
+    this.name = "Stehr, Conn and Gleichner";
 }
 
-public String overrideData() {
-    String data = "We need to reboot the mobile CSS alarm!";
+public String generateData() {
+    String data = "copying the sensor won't do anything, we need to quantify the cross-platform SCSI monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     pixelProcessor processor = new pixelProcessor();
-    String result = processor.overrideData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }

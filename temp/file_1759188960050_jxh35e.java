@@ -1,5 +1,5 @@
 // Generated Java File
-// generate auxiliary program
+// override bluetooth interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Miller, Will and Carroll";
+    this.name = "Will, Hilll and Kiehn";
 }
 
-public String hackData() {
-    String data = "We need to override the redundant RAM protocol!";
+public String parseData() {
+    String data = "You can't bypass the hard drive without calculating the back-end SSL bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.hackData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }

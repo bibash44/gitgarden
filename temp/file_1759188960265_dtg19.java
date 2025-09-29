@@ -1,5 +1,5 @@
 // Generated Java File
-// copy open-source bus
+// calculate online panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public circuitProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Howell LLC";
+    this.name = "Bins, Kuhn and Gorczany";
 }
 
-public String inputData() {
-    String data = "The USB microchip is down, input the cross-platform monitor so we can program the THX transmitter!";
+public String navigateData() {
+    String data = "If we compress the circuit, we can get to the FTP system through the online SCSI alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     circuitProcessor processor = new circuitProcessor();
-    String result = processor.inputData();
+    String result = processor.navigateData();
     System.out.println("Result: " + result);
 }
 }
