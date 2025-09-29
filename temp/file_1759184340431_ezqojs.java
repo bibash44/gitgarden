@@ -1,27 +1,27 @@
 // Generated Java File
-// copy 1080p pixel
+// hack 1080p bandwidth
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class arrayProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Ledner, Bailey and Daugherty";
+    this.name = "Grimes - Wilderman";
 }
 
-public String parseData() {
-    String data = "Try to synthesize the USB array, maybe it will bypass the back-end port!";
+public String hackData() {
+    String data = "We need to reboot the multi-byte RAM system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
-    String result = processor.parseData();
+    arrayProcessor processor = new arrayProcessor();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
