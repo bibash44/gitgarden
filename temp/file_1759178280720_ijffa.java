@@ -1,5 +1,5 @@
 // Generated Java File
-// reboot optical bus
+// hack mobile microchip
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Beahan Group";
+    this.name = "Russel and Sons";
 }
 
-public String programData() {
-    String data = "If we hack the microchip, we can get to the FTP port through the optical HTTP transmitter!";
+public String quantifyData() {
+    String data = "Try to reboot the FTP interface, maybe it will calculate the 1080p microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     panelProcessor processor = new panelProcessor();
-    String result = processor.programData();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
