@@ -1,26 +1,26 @@
 // Generated Java File
-// calculate mobile alarm
+// program cross-platform driver
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class transmitterProcessor {
+public class circuitProcessor {
 private final String id;
 private final String name;
 
-public transmitterProcessor() {
+public circuitProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Larkin Group";
+    this.name = "Wiegand Group";
 }
 
 public String hackData() {
-    String data = "We need to quantify the bluetooth HDD circuit!";
+    String data = "compressing the card won't do anything, we need to connect the neural THX hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    transmitterProcessor processor = new transmitterProcessor();
+    circuitProcessor processor = new circuitProcessor();
     String result = processor.hackData();
     System.out.println("Result: " + result);
 }
