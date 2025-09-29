@@ -1,5 +1,5 @@
 // Generated Java File
-// input haptic array
+// compress online alarm
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Parker, Mueller and Crooks";
+    this.name = "Casper, Auer and Smith";
 }
 
-public String generateData() {
-    String data = "programming the program won't do anything, we need to program the virtual JBOD feed!";
+public String transmitData() {
+    String data = "Use the 1080p RSS transmitter, then you can generate the 1080p card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.generateData();
+    String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
 }
