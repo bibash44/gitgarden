@@ -1,26 +1,26 @@
 // Generated Java File
-// bypass 1080p interface
+// input optical port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class programProcessor {
+public class alarmProcessor {
 private final String id;
 private final String name;
 
-public programProcessor() {
+public alarmProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "O'Kon - Rau";
+    this.name = "Zieme, Sauer and O'Hara";
 }
 
 public String indexData() {
-    String data = "You can't navigate the matrix without compressing the mobile SCSI bus!";
+    String data = "You can't copy the hard drive without navigating the open-source SAS port!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    programProcessor processor = new programProcessor();
+    alarmProcessor processor = new alarmProcessor();
     String result = processor.indexData();
     System.out.println("Result: " + result);
 }
