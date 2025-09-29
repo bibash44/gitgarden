@@ -1,26 +1,26 @@
 // Generated Java File
-// compress back-end circuit
+// connect bluetooth array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class feedProcessor {
+public class panelProcessor {
 private final String id;
 private final String name;
 
-public feedProcessor() {
+public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Watsica - Leuschke";
+    this.name = "Ledner - Rau";
 }
 
 public String compressData() {
-    String data = "You can't program the card without compressing the cross-platform IB feed!";
+    String data = "If we transmit the driver, we can get to the JSON card through the back-end XSS interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    feedProcessor processor = new feedProcessor();
+    panelProcessor processor = new panelProcessor();
     String result = processor.compressData();
     System.out.println("Result: " + result);
 }
