@@ -1,5 +1,5 @@
 // Generated Java File
-// transmit redundant protocol
+// synthesize haptic system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public alarmProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Reynolds - Dickinson";
+    this.name = "Brown - Mosciski";
 }
 
-public String overrideData() {
-    String data = "Use the bluetooth RSS bandwidth, then you can bypass the wireless system!";
+public String parseData() {
+    String data = "navigating the hard drive won't do anything, we need to transmit the multi-byte ADP matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     alarmProcessor processor = new alarmProcessor();
-    String result = processor.overrideData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
