@@ -1,5 +1,5 @@
 // Generated Java File
-// parse wireless port
+// copy cross-platform array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Schaefer - Herman";
+    this.name = "Spencer, Kemmer and Murazik";
 }
 
-public String rebootData() {
-    String data = "You can't synthesize the panel without compressing the online GB feed!";
+public String connectData() {
+    String data = "The COM alarm is down, compress the solid state transmitter so we can navigate the GB interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.rebootData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
