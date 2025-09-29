@@ -1,27 +1,27 @@
 // Generated Java File
-// transmit primary system
+// compress primary array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class systemProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public systemProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "O'Keefe - Swift";
+    this.name = "Farrell - Crist";
 }
 
-public String quantifyData() {
-    String data = "We need to override the haptic JBOD bus!";
+public String hackData() {
+    String data = "Use the haptic ADP program, then you can back up the 1080p monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    systemProcessor processor = new systemProcessor();
-    String result = processor.quantifyData();
+    sensorProcessor processor = new sensorProcessor();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
