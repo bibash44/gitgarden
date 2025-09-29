@@ -1,26 +1,26 @@
 // Generated Java File
-// program primary card
+// generate 1080p array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class capacitorProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public capacitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Blick, Kozey and Hammes";
+    this.name = "D'Amore Group";
 }
 
 public String programData() {
-    String data = "Use the open-source GB monitor, then you can input the open-source system!";
+    String data = "I'll connect the primary HTTP matrix, that should alarm the HTTP panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
+    capacitorProcessor processor = new capacitorProcessor();
     String result = processor.programData();
     System.out.println("Result: " + result);
 }
