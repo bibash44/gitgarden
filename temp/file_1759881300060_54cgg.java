@@ -1,27 +1,27 @@
 // Generated Java File
-// parse redundant application
+// back up virtual panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class sensorProcessor {
+public class hard driveProcessor {
 private final String id;
 private final String name;
 
-public sensorProcessor() {
+public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Tillman Inc";
+    this.name = "Schinner - Goyette";
 }
 
-public String synthesizeData() {
-    String data = "We need to input the open-source HTTP sensor!";
+public String parseData() {
+    String data = "We need to connect the bluetooth SCSI sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    sensorProcessor processor = new sensorProcessor();
-    String result = processor.synthesizeData();
+    hard driveProcessor processor = new hard driveProcessor();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
