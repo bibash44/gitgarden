@@ -1,27 +1,27 @@
 // Generated Java File
-// back up auxiliary port
+// hack wireless card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class alarmProcessor {
+public class programProcessor {
 private final String id;
 private final String name;
 
-public alarmProcessor() {
+public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Walker Inc";
+    this.name = "Lind, Torp and Ebert";
 }
 
-public String programData() {
-    String data = "Use the bluetooth XSS feed, then you can hack the redundant circuit!";
+public String compressData() {
+    String data = "We need to program the digital THX capacitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    alarmProcessor processor = new alarmProcessor();
-    String result = processor.programData();
+    programProcessor processor = new programProcessor();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
