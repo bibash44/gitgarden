@@ -1,5 +1,5 @@
 // Generated Java File
-// transmit wireless capacitor
+// compress primary pixel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Bednar and Sons";
+    this.name = "Howe - Pollich";
 }
 
-public String connectData() {
-    String data = "Try to synthesize the GB circuit, maybe it will calculate the online system!";
+public String programData() {
+    String data = "We need to hack the optical HTTP transmitter!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.connectData();
+    String result = processor.programData();
     System.out.println("Result: " + result);
 }
 }
