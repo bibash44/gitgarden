@@ -1,26 +1,26 @@
 // Generated Java File
-// override cross-platform bus
+// parse 1080p monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class microchipProcessor {
+public class applicationProcessor {
 private final String id;
 private final String name;
 
-public microchipProcessor() {
+public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Gottlieb - Stroman";
+    this.name = "Roob Group";
 }
 
 public String programData() {
-    String data = "I'll index the multi-byte USB sensor, that should driver the SSL array!";
+    String data = "Try to connect the TCP feed, maybe it will connect the back-end hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    microchipProcessor processor = new microchipProcessor();
+    applicationProcessor processor = new applicationProcessor();
     String result = processor.programData();
     System.out.println("Result: " + result);
 }
