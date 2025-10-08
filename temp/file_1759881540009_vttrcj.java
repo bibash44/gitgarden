@@ -1,26 +1,26 @@
 // Generated Java File
-// compress primary alarm
+// generate solid state program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class programProcessor {
+public class feedProcessor {
 private final String id;
 private final String name;
 
-public programProcessor() {
+public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Ferry, Homenick and Kovacek";
+    this.name = "Monahan, Wilkinson and Beahan";
 }
 
 public String indexData() {
-    String data = "We need to compress the mobile USB bandwidth!";
+    String data = "parsing the array won't do anything, we need to program the mobile AGP application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    programProcessor processor = new programProcessor();
+    feedProcessor processor = new feedProcessor();
     String result = processor.indexData();
     System.out.println("Result: " + result);
 }
