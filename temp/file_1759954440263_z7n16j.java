@@ -1,5 +1,5 @@
 // Generated Java File
-// back up bluetooth program
+// copy bluetooth port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Goyette - Hagenes";
+    this.name = "Carter LLC";
 }
 
-public String bypassData() {
-    String data = "We need to generate the wireless RSS circuit!";
+public String transmitData() {
+    String data = "If we generate the hard drive, we can get to the SCSI hard drive through the auxiliary AGP microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     busProcessor processor = new busProcessor();
-    String result = processor.bypassData();
+    String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
 }
