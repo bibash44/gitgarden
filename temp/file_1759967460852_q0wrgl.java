@@ -1,5 +1,5 @@
 // Generated Java File
-// compress digital array
+// connect bluetooth transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public microchipProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Pouros Inc";
+    this.name = "Schiller, Zulauf and Kunze";
 }
 
-public String synthesizeData() {
-    String data = "Try to transmit the SMTP feed, maybe it will hack the virtual array!";
+public String compressData() {
+    String data = "You can't synthesize the hard drive without navigating the redundant IB interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     microchipProcessor processor = new microchipProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }

@@ -1,27 +1,27 @@
 // Generated Java File
-// calculate virtual sensor
+// program bluetooth microchip
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class sensorProcessor {
+public class cardProcessor {
 private final String id;
 private final String name;
 
-public sensorProcessor() {
+public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Howe - Schinner";
+    this.name = "Romaguera, Daugherty and Heaney";
 }
 
-public String inputData() {
-    String data = "We need to transmit the auxiliary JBOD card!";
+public String parseData() {
+    String data = "We need to calculate the multi-byte SMTP circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    sensorProcessor processor = new sensorProcessor();
-    String result = processor.inputData();
+    cardProcessor processor = new cardProcessor();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
