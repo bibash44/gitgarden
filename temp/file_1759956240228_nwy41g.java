@@ -1,5 +1,5 @@
 // Generated Java File
-// index back-end transmitter
+// program 1080p alarm
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mills Inc";
+    this.name = "Schmidt - Will";
 }
 
-public String indexData() {
-    String data = "Try to override the SAS bus, maybe it will back up the neural sensor!";
+public String copyData() {
+    String data = "Try to copy the ADP sensor, maybe it will copy the digital hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     hard driveProcessor processor = new hard driveProcessor();
-    String result = processor.indexData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
