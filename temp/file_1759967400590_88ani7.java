@@ -1,27 +1,27 @@
 // Generated Java File
-// hack cross-platform firewall
+// calculate virtual sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class protocolProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public protocolProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Spinka LLC";
+    this.name = "Howe - Schinner";
 }
 
-public String indexData() {
-    String data = "We need to connect the primary XSS port!";
+public String inputData() {
+    String data = "We need to transmit the auxiliary JBOD card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    protocolProcessor processor = new protocolProcessor();
-    String result = processor.indexData();
+    sensorProcessor processor = new sensorProcessor();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
