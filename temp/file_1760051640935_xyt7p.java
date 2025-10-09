@@ -1,26 +1,26 @@
 // Generated Java File
-// override online system
+// transmit redundant system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class applicationProcessor {
+public class circuitProcessor {
 private final String id;
 private final String name;
 
-public applicationProcessor() {
+public circuitProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Keeling - Hintz";
+    this.name = "Schoen Inc";
 }
 
 public String connectData() {
-    String data = "Try to input the USB program, maybe it will calculate the back-end port!";
+    String data = "overriding the capacitor won't do anything, we need to transmit the 1080p SQL program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    applicationProcessor processor = new applicationProcessor();
+    circuitProcessor processor = new circuitProcessor();
     String result = processor.connectData();
     System.out.println("Result: " + result);
 }
