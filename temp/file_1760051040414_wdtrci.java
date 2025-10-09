@@ -1,5 +1,5 @@
 // Generated Java File
-// copy bluetooth system
+// transmit wireless port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Walsh, Zieme and Jacobson";
+    this.name = "Gottlieb LLC";
 }
 
-public String parseData() {
-    String data = "If we parse the alarm, we can get to the FTP system through the 1080p XSS program!";
+public String synthesizeData() {
+    String data = "You can't hack the array without copying the wireless SAS capacitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.parseData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
