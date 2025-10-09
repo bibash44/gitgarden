@@ -1,5 +1,5 @@
 // Generated Java File
-// reboot back-end card
+// reboot neural alarm
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Robel LLC";
+    this.name = "Bernhard, Jakubowski and Gerlach";
 }
 
-public String generateData() {
-    String data = "I'll quantify the primary SMS system, that should interface the USB monitor!";
+public String indexData() {
+    String data = "You can't override the matrix without overriding the solid state JSON alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     transmitterProcessor processor = new transmitterProcessor();
-    String result = processor.generateData();
+    String result = processor.indexData();
     System.out.println("Result: " + result);
 }
 }
