@@ -1,5 +1,5 @@
 // Generated Java File
-// index multi-byte bandwidth
+// transmit cross-platform array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Streich - Windler";
+    this.name = "Marvin, Weimann and Stanton";
 }
 
-public String back upData() {
-    String data = "You can't index the array without connecting the primary AI program!";
+public String bypassData() {
+    String data = "Use the auxiliary TCP matrix, then you can copy the back-end matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     panelProcessor processor = new panelProcessor();
-    String result = processor.back upData();
+    String result = processor.bypassData();
     System.out.println("Result: " + result);
 }
 }

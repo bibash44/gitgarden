@@ -1,5 +1,5 @@
 // Generated Java File
-// index open-source alarm
+// back up bluetooth application
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Funk and Sons";
+    this.name = "Gorczany, Sawayn and Skiles";
 }
 
-public String calculateData() {
-    String data = "transmitting the sensor won't do anything, we need to back up the primary HDD feed!";
+public String copyData() {
+    String data = "The FTP hard drive is down, calculate the optical protocol so we can quantify the PCI panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     pixelProcessor processor = new pixelProcessor();
-    String result = processor.calculateData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }

@@ -1,5 +1,5 @@
 // Generated Java File
-// index open-source alarm
+// override solid state interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Funk and Sons";
+    this.name = "Fadel, Zemlak and Torphy";
 }
 
-public String calculateData() {
-    String data = "transmitting the sensor won't do anything, we need to back up the primary HDD feed!";
+public String overrideData() {
+    String data = "You can't index the pixel without programming the optical RSS array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     pixelProcessor processor = new pixelProcessor();
-    String result = processor.calculateData();
+    String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
 }
