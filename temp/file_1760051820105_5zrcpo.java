@@ -1,5 +1,5 @@
 // Generated Java File
-// synthesize haptic sensor
+// copy back-end system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Becker, Waelchi and Cartwright";
+    this.name = "Towne, Powlowski and Dietrich";
 }
 
-public String connectData() {
-    String data = "Try to quantify the PNG application, maybe it will generate the virtual transmitter!";
+public String copyData() {
+    String data = "If we connect the application, we can get to the SMS bandwidth through the auxiliary SCSI system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     arrayProcessor processor = new arrayProcessor();
-    String result = processor.connectData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
