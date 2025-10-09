@@ -1,5 +1,5 @@
 // Generated Java File
-// program online feed
+// program optical transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "D'Amore, Koelpin and Mann";
+    this.name = "Hackett Group";
 }
 
-public String generateData() {
-    String data = "I'll generate the haptic COM feed, that should port the SCSI monitor!";
+public String compressData() {
+    String data = "We need to program the auxiliary SMS bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     driverProcessor processor = new driverProcessor();
-    String result = processor.generateData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
