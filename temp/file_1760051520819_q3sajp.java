@@ -1,5 +1,5 @@
 // Generated Java File
-// override redundant transmitter
+// transmit virtual circuit
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Leannon, Reichert and Howell";
+    this.name = "Schaefer and Sons";
 }
 
-public String compressData() {
-    String data = "I'll index the solid state GB sensor, that should microchip the PCI application!";
+public String hackData() {
+    String data = "Use the optical THX microchip, then you can transmit the online hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.compressData();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
