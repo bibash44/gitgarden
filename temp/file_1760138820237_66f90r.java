@@ -1,5 +1,5 @@
 // Generated Java File
-// generate redundant capacitor
+// bypass 1080p capacitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public matrixProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "McLaughlin, Ondricka and Waelchi";
+    this.name = "Ruecker, Purdy and Weissnat";
 }
 
-public String synthesizeData() {
-    String data = "I'll calculate the digital PNG interface, that should firewall the HTTP port!";
+public String back upData() {
+    String data = "compressing the application won't do anything, we need to compress the wireless COM protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     matrixProcessor processor = new matrixProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.back upData();
     System.out.println("Result: " + result);
 }
 }
