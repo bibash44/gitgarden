@@ -1,5 +1,5 @@
 // Generated Java File
-// program virtual program
+// connect neural alarm
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Heidenreich, Luettgen and Crooks";
+    this.name = "Lockman, Erdman and Leuschke";
 }
 
-public String indexData() {
-    String data = "Try to back up the RSS hard drive, maybe it will transmit the cross-platform monitor!";
+public String copyData() {
+    String data = "You can't compress the capacitor without compressing the wireless SCSI card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     driverProcessor processor = new driverProcessor();
-    String result = processor.indexData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }

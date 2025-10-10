@@ -1,5 +1,5 @@
 // Generated Java File
-// compress back-end array
+// quantify digital array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Wilkinson - Smith";
+    this.name = "Wolff, Reynolds and Lynch";
 }
 
-public String synthesizeData() {
-    String data = "Use the back-end FTP system, then you can synthesize the cross-platform array!";
+public String quantifyData() {
+    String data = "I'll override the 1080p TCP bandwidth, that should transmitter the JSON monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     programProcessor processor = new programProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
