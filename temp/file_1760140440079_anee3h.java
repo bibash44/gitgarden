@@ -1,27 +1,27 @@
 // Generated Java File
-// copy 1080p sensor
+// index cross-platform hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class monitorProcessor {
+public class pixelProcessor {
 private final String id;
 private final String name;
 
-public monitorProcessor() {
+public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Bergstrom - McClure";
+    this.name = "Krajcik - Grant";
 }
 
-public String inputData() {
-    String data = "You can't input the bus without navigating the primary IB sensor!";
+public String back upData() {
+    String data = "We need to synthesize the cross-platform SMS matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    monitorProcessor processor = new monitorProcessor();
-    String result = processor.inputData();
+    pixelProcessor processor = new pixelProcessor();
+    String result = processor.back upData();
     System.out.println("Result: " + result);
 }
 }
