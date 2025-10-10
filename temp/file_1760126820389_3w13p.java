@@ -1,26 +1,26 @@
 // Generated Java File
-// back up auxiliary array
+// input online bandwidth
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class monitorProcessor {
+public class hard driveProcessor {
 private final String id;
 private final String name;
 
-public monitorProcessor() {
+public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Armstrong, Stark and Hettinger";
+    this.name = "Crona, Sipes and Tillman";
 }
 
 public String rebootData() {
-    String data = "We need to program the haptic PCI application!";
+    String data = "Try to override the GB panel, maybe it will synthesize the online bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    monitorProcessor processor = new monitorProcessor();
+    hard driveProcessor processor = new hard driveProcessor();
     String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
