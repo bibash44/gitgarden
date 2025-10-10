@@ -1,5 +1,5 @@
 // Generated Java File
-// back up cross-platform transmitter
+// connect virtual program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Cartwright - Nienow";
+    this.name = "Dicki, Rodriguez and Jast";
 }
 
-public String navigateData() {
-    String data = "You can't transmit the panel without parsing the auxiliary SSL program!";
+public String programData() {
+    String data = "transmitting the interface won't do anything, we need to connect the online IB microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     arrayProcessor processor = new arrayProcessor();
-    String result = processor.navigateData();
+    String result = processor.programData();
     System.out.println("Result: " + result);
 }
 }

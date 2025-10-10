@@ -1,27 +1,27 @@
 // Generated Java File
-// compress wireless matrix
+// compress virtual array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class systemProcessor {
+public class arrayProcessor {
 private final String id;
 private final String name;
 
-public systemProcessor() {
+public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mueller Inc";
+    this.name = "Frami - Bergnaum";
 }
 
-public String synthesizeData() {
-    String data = "We need to input the multi-byte XML sensor!";
+public String hackData() {
+    String data = "Use the digital HDD monitor, then you can synthesize the redundant system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    systemProcessor processor = new systemProcessor();
-    String result = processor.synthesizeData();
+    arrayProcessor processor = new arrayProcessor();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
