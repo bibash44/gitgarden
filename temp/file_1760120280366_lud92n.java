@@ -1,27 +1,27 @@
 // Generated Java File
-// program optical circuit
+// transmit primary matrix
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class portProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public portProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Jacobi - Bahringer";
+    this.name = "Heller and Sons";
 }
 
-public String copyData() {
-    String data = "Use the auxiliary HDD system, then you can compress the 1080p circuit!";
+public String compressData() {
+    String data = "Try to hack the HDD firewall, maybe it will copy the neural system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
-    String result = processor.copyData();
+    portProcessor processor = new portProcessor();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
