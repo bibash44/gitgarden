@@ -1,26 +1,26 @@
 // Generated Java File
-// copy open-source pixel
+// program auxiliary sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class monitorProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Ledner, Kilback and Mosciski";
+    this.name = "Hermann, Murray and Marks";
 }
 
 public String back upData() {
-    String data = "If we program the driver, we can get to the SDD card through the wireless PCI sensor!";
+    String data = "You can't navigate the driver without overriding the back-end COM driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
+    monitorProcessor processor = new monitorProcessor();
     String result = processor.back upData();
     System.out.println("Result: " + result);
 }
