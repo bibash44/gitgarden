@@ -1,5 +1,5 @@
 // Generated Java File
-// hack solid state program
+// synthesize digital interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kreiger LLC";
+    this.name = "Hammes, Bartoletti and Romaguera";
 }
 
 public String rebootData() {
-    String data = "You can't index the capacitor without hacking the digital PNG feed!";
+    String data = "Try to synthesize the RSS microchip, maybe it will synthesize the online system!";
     System.out.println("Processing: " + data);
     return data;
 }
