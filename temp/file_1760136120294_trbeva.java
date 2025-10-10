@@ -1,5 +1,5 @@
 // Generated Java File
-// input redundant monitor
+// input solid state interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public interfaceProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Homenick, Hintz and Osinski";
+    this.name = "Davis, Franecki and Lang";
 }
 
-public String connectData() {
-    String data = "I'll parse the digital AGP array, that should alarm the AI program!";
+public String indexData() {
+    String data = "Use the optical SMS card, then you can copy the online circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     interfaceProcessor processor = new interfaceProcessor();
-    String result = processor.connectData();
+    String result = processor.indexData();
     System.out.println("Result: " + result);
 }
 }
