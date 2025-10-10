@@ -1,5 +1,5 @@
 // Generated Java File
-// override back-end alarm
+// calculate optical driver
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Lehner Inc";
+    this.name = "Schmeler, Roob and Ebert";
 }
 
-public String compressData() {
-    String data = "The HDD feed is down, connect the optical monitor so we can quantify the AI microchip!";
+public String calculateData() {
+    String data = "The SMS program is down, override the open-source bus so we can transmit the RAM program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.compressData();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
