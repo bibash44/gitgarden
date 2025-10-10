@@ -1,26 +1,26 @@
 // Generated Java File
-// program back-end system
+// index bluetooth feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class monitorProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Moen Group";
+    this.name = "Altenwerth - Bogan";
 }
 
 public String copyData() {
-    String data = "If we program the microchip, we can get to the HTTP firewall through the multi-byte SDD hard drive!";
+    String data = "Try to transmit the THX hard drive, maybe it will generate the primary program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
+    monitorProcessor processor = new monitorProcessor();
     String result = processor.copyData();
     System.out.println("Result: " + result);
 }
