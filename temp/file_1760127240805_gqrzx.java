@@ -1,5 +1,5 @@
 // Generated Java File
-// back up auxiliary bus
+// hack wireless port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Gerhold, Purdy and McDermott";
+    this.name = "Friesen - Sawayn";
 }
 
-public String parseData() {
-    String data = "We need to input the open-source COM application!";
+public String overrideData() {
+    String data = "Use the neural IB transmitter, then you can copy the auxiliary program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     programProcessor processor = new programProcessor();
-    String result = processor.parseData();
+    String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
 }
