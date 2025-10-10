@@ -1,26 +1,26 @@
 // Generated Java File
-// calculate digital transmitter
+// connect multi-byte pixel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class programProcessor {
+public class busProcessor {
 private final String id;
 private final String name;
 
-public programProcessor() {
+public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Ernser, Hoppe and Schulist";
+    this.name = "Lebsack, Schowalter and O'Kon";
 }
 
 public String indexData() {
-    String data = "You can't input the alarm without generating the optical SAS hard drive!";
+    String data = "Use the 1080p HDD array, then you can generate the haptic bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    programProcessor processor = new programProcessor();
+    busProcessor processor = new busProcessor();
     String result = processor.indexData();
     System.out.println("Result: " + result);
 }
