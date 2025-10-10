@@ -1,26 +1,26 @@
 // Generated Java File
-// hack solid state system
+// generate redundant bus
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class capacitorProcessor {
+public class transmitterProcessor {
 private final String id;
 private final String name;
 
-public capacitorProcessor() {
+public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Rodriguez - Metz";
+    this.name = "Durgan, Miller and Mraz";
 }
 
 public String back upData() {
-    String data = "I'll hack the 1080p HDD array, that should pixel the SAS firewall!";
+    String data = "I'll synthesize the haptic RSS sensor, that should capacitor the HDD capacitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    capacitorProcessor processor = new capacitorProcessor();
+    transmitterProcessor processor = new transmitterProcessor();
     String result = processor.back upData();
     System.out.println("Result: " + result);
 }
