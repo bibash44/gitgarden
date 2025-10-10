@@ -1,5 +1,5 @@
 // Generated Java File
-// calculate redundant application
+// parse redundant bus
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mitchell Group";
+    this.name = "MacGyver - Schimmel";
 }
 
-public String copyData() {
-    String data = "navigating the microchip won't do anything, we need to connect the 1080p PNG sensor!";
+public String inputData() {
+    String data = "The COM card is down, copy the virtual program so we can input the COM alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.copyData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
