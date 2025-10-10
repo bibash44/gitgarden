@@ -1,26 +1,26 @@
 // Generated Java File
-// compress neural panel
+// program bluetooth transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class hard driveProcessor {
+public class portProcessor {
 private final String id;
 private final String name;
 
-public hard driveProcessor() {
+public portProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Veum - Abbott";
+    this.name = "Yundt Group";
 }
 
 public String compressData() {
-    String data = "You can't compress the port without quantifying the solid state RAM capacitor!";
+    String data = "Use the neural IB sensor, then you can program the solid state driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    hard driveProcessor processor = new hard driveProcessor();
+    portProcessor processor = new portProcessor();
     String result = processor.compressData();
     System.out.println("Result: " + result);
 }
