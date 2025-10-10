@@ -1,5 +1,5 @@
 // Generated Java File
-// compress 1080p protocol
+// reboot online alarm
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public matrixProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kozey, Rath and Strosin";
+    this.name = "Herman - Aufderhar";
 }
 
-public String parseData() {
-    String data = "The AGP sensor is down, generate the mobile firewall so we can reboot the CSS array!";
+public String quantifyData() {
+    String data = "I'll connect the online JBOD pixel, that should firewall the CSS monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     matrixProcessor processor = new matrixProcessor();
-    String result = processor.parseData();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
