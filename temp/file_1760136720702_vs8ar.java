@@ -1,5 +1,5 @@
 // Generated Java File
-// hack bluetooth monitor
+// transmit redundant pixel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Sauer, Hills and Barton";
+    this.name = "Miller Group";
 }
 
-public String parseData() {
-    String data = "Try to compress the SSL system, maybe it will transmit the solid state pixel!";
+public String navigateData() {
+    String data = "bypassing the sensor won't do anything, we need to reboot the wireless FTP port!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     cardProcessor processor = new cardProcessor();
-    String result = processor.parseData();
+    String result = processor.navigateData();
     System.out.println("Result: " + result);
 }
 }
