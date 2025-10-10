@@ -1,5 +1,5 @@
 // Generated Java File
-// program wireless protocol
+// parse back-end program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Wisoky LLC";
+    this.name = "Botsford, Dooley and Koelpin";
 }
 
-public String calculateData() {
-    String data = "generating the interface won't do anything, we need to generate the bluetooth HTTP port!";
+public String generateData() {
+    String data = "generating the array won't do anything, we need to copy the primary JSON monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.calculateData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }
