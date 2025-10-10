@@ -1,5 +1,5 @@
 // Generated Java File
-// generate virtual array
+// navigate neural program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Windler, Stroman and Witting";
+    this.name = "Oberbrunner - Friesen";
 }
 
-public String connectData() {
-    String data = "The COM circuit is down, copy the online pixel so we can generate the HDD port!";
+public String transmitData() {
+    String data = "bypassing the bandwidth won't do anything, we need to generate the neural USB array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     sensorProcessor processor = new sensorProcessor();
-    String result = processor.connectData();
+    String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
 }
