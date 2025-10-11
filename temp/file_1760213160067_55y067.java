@@ -1,26 +1,26 @@
 // Generated Java File
-// navigate virtual transmitter
+// bypass bluetooth microchip
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class capacitorProcessor {
+public class hard driveProcessor {
 private final String id;
 private final String name;
 
-public capacitorProcessor() {
+public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Brekke, Dooley and Gulgowski";
+    this.name = "McGlynn - Collins";
 }
 
 public String bypassData() {
-    String data = "Try to hack the JSON matrix, maybe it will input the haptic protocol!";
+    String data = "Use the redundant THX firewall, then you can transmit the 1080p program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    capacitorProcessor processor = new capacitorProcessor();
+    hard driveProcessor processor = new hard driveProcessor();
     String result = processor.bypassData();
     System.out.println("Result: " + result);
 }
