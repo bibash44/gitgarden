@@ -1,27 +1,27 @@
 // Generated Java File
-// input multi-byte program
+// program optical alarm
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class sensorProcessor {
+public class pixelProcessor {
 private final String id;
 private final String name;
 
-public sensorProcessor() {
+public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Towne Inc";
+    this.name = "Schuster - Funk";
 }
 
-public String synthesizeData() {
-    String data = "We need to compress the back-end COM firewall!";
+public String parseData() {
+    String data = "Use the solid state USB feed, then you can copy the mobile bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    sensorProcessor processor = new sensorProcessor();
-    String result = processor.synthesizeData();
+    pixelProcessor processor = new pixelProcessor();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
