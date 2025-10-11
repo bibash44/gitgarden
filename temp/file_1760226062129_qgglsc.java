@@ -1,27 +1,27 @@
 // Generated Java File
-// hack bluetooth application
+// program back-end array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class circuitProcessor {
+public class firewallProcessor {
 private final String id;
 private final String name;
 
-public circuitProcessor() {
+public firewallProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Koepp, Kuhic and Ullrich";
+    this.name = "Marquardt - Mraz";
 }
 
-public String rebootData() {
-    String data = "We need to input the digital ADP monitor!";
+public String inputData() {
+    String data = "We need to input the solid state IB alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    circuitProcessor processor = new circuitProcessor();
-    String result = processor.rebootData();
+    firewallProcessor processor = new firewallProcessor();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
