@@ -1,26 +1,26 @@
 // Generated Java File
-// program wireless firewall
+// bypass mobile firewall
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class microchipProcessor {
+public class monitorProcessor {
 private final String id;
 private final String name;
 
-public microchipProcessor() {
+public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Cartwright, Brown and Ortiz";
+    this.name = "Hayes Inc";
 }
 
 public String compressData() {
-    String data = "indexing the bandwidth won't do anything, we need to program the bluetooth SDD alarm!";
+    String data = "Try to transmit the SSL card, maybe it will program the virtual firewall!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    microchipProcessor processor = new microchipProcessor();
+    monitorProcessor processor = new monitorProcessor();
     String result = processor.compressData();
     System.out.println("Result: " + result);
 }
