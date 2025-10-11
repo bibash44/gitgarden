@@ -1,5 +1,5 @@
 // Generated Java File
-// back up virtual interface
+// compress 1080p protocol
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public alarmProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Rath, Casper and Satterfield";
+    this.name = "Cremin Inc";
 }
 
-public String parseData() {
-    String data = "If we quantify the circuit, we can get to the PCI panel through the bluetooth JBOD application!";
+public String copyData() {
+    String data = "The AGP firewall is down, input the wireless bus so we can input the COM program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     alarmProcessor processor = new alarmProcessor();
-    String result = processor.parseData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
