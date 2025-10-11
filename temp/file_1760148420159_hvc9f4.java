@@ -1,5 +1,5 @@
 // Generated Java File
-// program bluetooth program
+// index bluetooth program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public portProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Boyer and Sons";
+    this.name = "Koss, Altenwerth and Torp";
 }
 
-public String programData() {
-    String data = "I'll synthesize the haptic JBOD transmitter, that should program the SDD feed!";
+public String navigateData() {
+    String data = "If we parse the circuit, we can get to the FTP feed through the optical JSON application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     portProcessor processor = new portProcessor();
-    String result = processor.programData();
+    String result = processor.navigateData();
     System.out.println("Result: " + result);
 }
 }
