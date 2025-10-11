@@ -1,5 +1,5 @@
 // Generated Java File
-// back up redundant hard drive
+// synthesize redundant alarm
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Schuppe - Ankunding";
+    this.name = "Klein LLC";
 }
 
-public String connectData() {
-    String data = "Try to index the XSS driver, maybe it will transmit the mobile program!";
+public String synthesizeData() {
+    String data = "You can't synthesize the hard drive without compressing the virtual HDD bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     transmitterProcessor processor = new transmitterProcessor();
-    String result = processor.connectData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
