@@ -1,5 +1,5 @@
 // Generated Java File
-// index back-end port
+// connect 1080p pixel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kerluke - Lubowitz";
+    this.name = "Robel - Sporer";
 }
 
-public String programData() {
-    String data = "If we compress the sensor, we can get to the SMTP alarm through the wireless PNG port!";
+public String synthesizeData() {
+    String data = "If we back up the hard drive, we can get to the SCSI protocol through the cross-platform THX bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.programData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
