@@ -1,5 +1,5 @@
 // Generated Java File
-// index back-end card
+// synthesize back-end system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "MacGyver Group";
+    this.name = "Douglas and Sons";
 }
 
-public String compressData() {
-    String data = "If we synthesize the driver, we can get to the ADP protocol through the bluetooth GB card!";
+public String generateData() {
+    String data = "We need to input the back-end PNG feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     panelProcessor processor = new panelProcessor();
-    String result = processor.compressData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }
