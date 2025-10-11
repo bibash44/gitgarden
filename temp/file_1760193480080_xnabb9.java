@@ -1,26 +1,26 @@
 // Generated Java File
-// compress 1080p pixel
+// connect 1080p microchip
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class transmitterProcessor {
+public class driverProcessor {
 private final String id;
 private final String name;
 
-public transmitterProcessor() {
+public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "O'Keefe Inc";
+    this.name = "Reynolds - Boyle";
 }
 
 public String synthesizeData() {
-    String data = "Try to reboot the CSS alarm, maybe it will copy the mobile application!";
+    String data = "Use the online GB driver, then you can parse the bluetooth alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    transmitterProcessor processor = new transmitterProcessor();
+    driverProcessor processor = new driverProcessor();
     String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
