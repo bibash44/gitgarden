@@ -1,5 +1,5 @@
 // Generated Java File
-// back up digital array
+// bypass solid state panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Padberg - Hand";
+    this.name = "Purdy - Brekke";
 }
 
-public String rebootData() {
-    String data = "If we index the system, we can get to the SSL panel through the digital SQL capacitor!";
+public String overrideData() {
+    String data = "navigating the panel won't do anything, we need to generate the 1080p THX interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     driverProcessor processor = new driverProcessor();
-    String result = processor.rebootData();
+    String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
 }
