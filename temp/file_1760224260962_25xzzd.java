@@ -1,26 +1,26 @@
 // Generated Java File
-// program redundant capacitor
+// program primary program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class arrayProcessor {
+public class busProcessor {
 private final String id;
 private final String name;
 
-public arrayProcessor() {
+public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Auer, Grant and Hoppe";
+    this.name = "Koss Inc";
 }
 
 public String inputData() {
-    String data = "Try to calculate the JSON driver, maybe it will connect the open-source bandwidth!";
+    String data = "You can't input the port without quantifying the solid state IB application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    arrayProcessor processor = new arrayProcessor();
+    busProcessor processor = new busProcessor();
     String result = processor.inputData();
     System.out.println("Result: " + result);
 }
