@@ -1,5 +1,5 @@
 // Generated Java File
-// back up virtual card
+// parse optical port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public interfaceProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Vandervort, Corkery and Johns";
+    this.name = "Bartell - Zieme";
 }
 
-public String overrideData() {
-    String data = "Try to program the JBOD capacitor, maybe it will synthesize the back-end transmitter!";
+public String connectData() {
+    String data = "We need to program the virtual JBOD monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     interfaceProcessor processor = new interfaceProcessor();
-    String result = processor.overrideData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
