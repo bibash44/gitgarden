@@ -1,26 +1,26 @@
 // Generated Java File
-// bypass online program
+// copy multi-byte sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class interfaceProcessor {
+public class busProcessor {
 private final String id;
 private final String name;
 
-public interfaceProcessor() {
+public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Fritsch - Wintheiser";
+    this.name = "Gibson Group";
 }
 
 public String copyData() {
-    String data = "hacking the interface won't do anything, we need to input the haptic COM alarm!";
+    String data = "The EXE monitor is down, connect the back-end sensor so we can transmit the JBOD capacitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    interfaceProcessor processor = new interfaceProcessor();
+    busProcessor processor = new busProcessor();
     String result = processor.copyData();
     System.out.println("Result: " + result);
 }
