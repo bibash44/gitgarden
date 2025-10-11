@@ -1,5 +1,5 @@
 // Generated Java File
-// input bluetooth application
+// generate primary transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public capacitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Cruickshank Group";
+    this.name = "Shields LLC";
 }
 
-public String hackData() {
-    String data = "navigating the alarm won't do anything, we need to copy the haptic SDD port!";
+public String compressData() {
+    String data = "The RSS bandwidth is down, copy the open-source hard drive so we can connect the SCSI array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     capacitorProcessor processor = new capacitorProcessor();
-    String result = processor.hackData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
