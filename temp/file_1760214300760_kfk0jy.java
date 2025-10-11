@@ -4,24 +4,24 @@
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class panelProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Yost Group";
+    this.name = "Schmitt Inc";
 }
 
-public String connectData() {
-    String data = "calculating the interface won't do anything, we need to back up the primary CSS transmitter!";
+public String quantifyData() {
+    String data = "The SCSI array is down, input the redundant sensor so we can generate the IB program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
-    String result = processor.connectData();
+    panelProcessor processor = new panelProcessor();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
