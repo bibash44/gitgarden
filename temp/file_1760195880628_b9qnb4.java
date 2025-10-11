@@ -1,27 +1,27 @@
 // Generated Java File
-// back up wireless pixel
+// copy back-end card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class busProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Koss Inc";
+    this.name = "Bins LLC";
 }
 
-public String parseData() {
-    String data = "I'll synthesize the mobile EXE sensor, that should interface the RAM system!";
+public String bypassData() {
+    String data = "We need to program the wireless HDD circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
-    String result = processor.parseData();
+    busProcessor processor = new busProcessor();
+    String result = processor.bypassData();
     System.out.println("Result: " + result);
 }
 }
