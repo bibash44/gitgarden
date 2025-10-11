@@ -1,5 +1,5 @@
 // Generated Java File
-// override mobile system
+// reboot optical hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Huels - Barton";
+    this.name = "Boehm - Schimmel";
 }
 
-public String transmitData() {
-    String data = "Use the wireless SMTP firewall, then you can program the online panel!";
+public String connectData() {
+    String data = "We need to input the multi-byte SMS card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     hard driveProcessor processor = new hard driveProcessor();
-    String result = processor.transmitData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
