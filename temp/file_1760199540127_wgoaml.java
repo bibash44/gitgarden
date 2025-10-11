@@ -1,5 +1,5 @@
 // Generated Java File
-// compress 1080p matrix
+// override 1080p sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Rippin, Schmeler and Koepp";
+    this.name = "Runolfsson LLC";
 }
 
-public String inputData() {
-    String data = "hacking the port won't do anything, we need to index the optical XSS port!";
+public String rebootData() {
+    String data = "Use the bluetooth SAS port, then you can reboot the haptic pixel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.inputData();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
