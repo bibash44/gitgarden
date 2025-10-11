@@ -1,5 +1,5 @@
 // Generated Java File
-// navigate multi-byte capacitor
+// parse auxiliary panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Emard and Sons";
+    this.name = "Waelchi - Brown";
 }
 
-public String rebootData() {
-    String data = "Try to parse the FTP driver, maybe it will program the redundant hard drive!";
+public String hackData() {
+    String data = "I'll calculate the digital JBOD matrix, that should array the XSS monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.rebootData();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
