@@ -1,5 +1,5 @@
 // Generated Java File
-// parse 1080p program
+// bypass online panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public capacitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mueller Inc";
+    this.name = "Braun - Lowe";
 }
 
-public String programData() {
-    String data = "The HTTP protocol is down, calculate the back-end capacitor so we can navigate the SQL array!";
+public String parseData() {
+    String data = "calculating the application won't do anything, we need to hack the 1080p SQL panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     capacitorProcessor processor = new capacitorProcessor();
-    String result = processor.programData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
