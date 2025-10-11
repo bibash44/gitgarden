@@ -1,5 +1,5 @@
 // Generated Java File
-// back up redundant monitor
+// navigate redundant bus
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Altenwerth - Lueilwitz";
+    this.name = "Turner Inc";
 }
 
-public String overrideData() {
-    String data = "We need to back up the solid state USB monitor!";
+public String parseData() {
+    String data = "If we parse the sensor, we can get to the XSS hard drive through the 1080p RAM system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     pixelProcessor processor = new pixelProcessor();
-    String result = processor.overrideData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
