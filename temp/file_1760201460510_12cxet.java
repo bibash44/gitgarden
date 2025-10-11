@@ -1,26 +1,26 @@
 // Generated Java File
-// override multi-byte interface
+// navigate auxiliary protocol
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class firewallProcessor {
+public class matrixProcessor {
 private final String id;
 private final String name;
 
-public firewallProcessor() {
+public matrixProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mueller, Hettinger and Ryan";
+    this.name = "Bergstrom - Krajcik";
 }
 
 public String compressData() {
-    String data = "Try to synthesize the SQL firewall, maybe it will input the primary program!";
+    String data = "You can't hack the firewall without connecting the mobile HTTP application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    firewallProcessor processor = new firewallProcessor();
+    matrixProcessor processor = new matrixProcessor();
     String result = processor.compressData();
     System.out.println("Result: " + result);
 }
