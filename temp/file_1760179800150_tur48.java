@@ -1,26 +1,26 @@
 // Generated Java File
-// generate 1080p panel
+// index digital transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class panelProcessor {
+public class transmitterProcessor {
 private final String id;
 private final String name;
 
-public panelProcessor() {
+public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "McCullough - Turcotte";
+    this.name = "Treutel - Hoppe";
 }
 
 public String programData() {
-    String data = "We need to override the auxiliary PCI port!";
+    String data = "Use the back-end RSS system, then you can index the virtual capacitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    panelProcessor processor = new panelProcessor();
+    transmitterProcessor processor = new transmitterProcessor();
     String result = processor.programData();
     System.out.println("Result: " + result);
 }
