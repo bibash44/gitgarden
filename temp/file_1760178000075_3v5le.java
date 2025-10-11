@@ -1,5 +1,5 @@
 // Generated Java File
-// compress digital array
+// index virtual system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public matrixProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Ryan, Kozey and Legros";
+    this.name = "Hudson, Kuhic and Toy";
 }
 
-public String compressData() {
-    String data = "If we copy the application, we can get to the IB array through the 1080p GB capacitor!";
+public String indexData() {
+    String data = "If we compress the interface, we can get to the SCSI interface through the digital CSS firewall!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     matrixProcessor processor = new matrixProcessor();
-    String result = processor.compressData();
+    String result = processor.indexData();
     System.out.println("Result: " + result);
 }
 }
