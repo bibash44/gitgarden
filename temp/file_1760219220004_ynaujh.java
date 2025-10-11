@@ -1,26 +1,26 @@
 // Generated Java File
-// compress wireless port
+// input virtual bus
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class panelProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public panelProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Schuster Group";
+    this.name = "Denesik Inc";
 }
 
 public String compressData() {
-    String data = "Try to navigate the XSS capacitor, maybe it will compress the digital bus!";
+    String data = "I'll override the wireless ADP port, that should pixel the USB matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    panelProcessor processor = new panelProcessor();
+    sensorProcessor processor = new sensorProcessor();
     String result = processor.compressData();
     System.out.println("Result: " + result);
 }
