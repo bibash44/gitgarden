@@ -1,26 +1,26 @@
 // Generated Java File
-// connect bluetooth feed
+// compress haptic pixel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class programProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kozey, Bednar and Fritsch";
+    this.name = "Bogan, Dickens and Bernier";
 }
 
 public String indexData() {
-    String data = "The USB alarm is down, compress the optical matrix so we can program the SAS bus!";
+    String data = "If we transmit the transmitter, we can get to the COM card through the 1080p FTP pixel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
+    programProcessor processor = new programProcessor();
     String result = processor.indexData();
     System.out.println("Result: " + result);
 }
