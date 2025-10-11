@@ -1,27 +1,27 @@
 // Generated Java File
-// connect cross-platform pixel
+// synthesize digital bandwidth
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class driverProcessor {
+public class monitorProcessor {
 private final String id;
 private final String name;
 
-public driverProcessor() {
+public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Moen - Kertzmann";
+    this.name = "Terry and Sons";
 }
 
-public String indexData() {
-    String data = "We need to parse the redundant XML card!";
+public String back upData() {
+    String data = "We need to compress the redundant HDD system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    driverProcessor processor = new driverProcessor();
-    String result = processor.indexData();
+    monitorProcessor processor = new monitorProcessor();
+    String result = processor.back upData();
     System.out.println("Result: " + result);
 }
 }

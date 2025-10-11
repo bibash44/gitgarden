@@ -1,27 +1,27 @@
 // Generated Java File
-// connect cross-platform pixel
+// input mobile hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class driverProcessor {
+public class applicationProcessor {
 private final String id;
 private final String name;
 
-public driverProcessor() {
+public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Moen - Kertzmann";
+    this.name = "Mayer Group";
 }
 
-public String indexData() {
-    String data = "We need to parse the redundant XML card!";
+public String inputData() {
+    String data = "We need to parse the haptic ADP monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    driverProcessor processor = new driverProcessor();
-    String result = processor.indexData();
+    applicationProcessor processor = new applicationProcessor();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
