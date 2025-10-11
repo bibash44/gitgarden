@@ -1,5 +1,5 @@
 // Generated Java File
-// calculate mobile array
+// bypass mobile card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Powlowski - McClure";
+    this.name = "Ferry Group";
 }
 
-public String transmitData() {
-    String data = "Use the multi-byte XSS sensor, then you can connect the cross-platform port!";
+public String bypassData() {
+    String data = "We need to compress the back-end XML application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     feedProcessor processor = new feedProcessor();
-    String result = processor.transmitData();
+    String result = processor.bypassData();
     System.out.println("Result: " + result);
 }
 }
