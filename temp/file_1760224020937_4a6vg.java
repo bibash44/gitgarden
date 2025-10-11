@@ -1,26 +1,26 @@
 // Generated Java File
-// connect primary transmitter
+// compress optical system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class firewallProcessor {
+public class alarmProcessor {
 private final String id;
 private final String name;
 
-public firewallProcessor() {
+public alarmProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Schuppe LLC";
+    this.name = "Bradtke - Olson";
 }
 
 public String programData() {
-    String data = "hacking the panel won't do anything, we need to index the wireless SCSI transmitter!";
+    String data = "overriding the firewall won't do anything, we need to parse the auxiliary JBOD array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    firewallProcessor processor = new firewallProcessor();
+    alarmProcessor processor = new alarmProcessor();
     String result = processor.programData();
     System.out.println("Result: " + result);
 }
