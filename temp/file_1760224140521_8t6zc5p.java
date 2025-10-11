@@ -1,27 +1,27 @@
 // Generated Java File
-// program bluetooth matrix
+// copy mobile capacitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class panelProcessor {
+public class monitorProcessor {
 private final String id;
 private final String name;
 
-public panelProcessor() {
+public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Weber, Cormier and Baumbach";
+    this.name = "DuBuque, Rath and Bauch";
 }
 
-public String hackData() {
-    String data = "We need to copy the mobile SMTP application!";
+public String rebootData() {
+    String data = "We need to program the solid state HTTP bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    panelProcessor processor = new panelProcessor();
-    String result = processor.hackData();
+    monitorProcessor processor = new monitorProcessor();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
