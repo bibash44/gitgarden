@@ -1,5 +1,5 @@
 // Generated Java File
-// index virtual application
+// parse digital interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Beier Group";
+    this.name = "Hirthe, Predovic and Daniel";
 }
 
-public String hackData() {
-    String data = "You can't calculate the firewall without navigating the virtual SDD card!";
+public String indexData() {
+    String data = "Try to reboot the SAS capacitor, maybe it will parse the bluetooth bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     feedProcessor processor = new feedProcessor();
-    String result = processor.hackData();
+    String result = processor.indexData();
     System.out.println("Result: " + result);
 }
 }
