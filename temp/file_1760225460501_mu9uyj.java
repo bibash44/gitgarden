@@ -1,26 +1,26 @@
 // Generated Java File
-// calculate 1080p transmitter
+// connect haptic monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class sensorProcessor {
+public class transmitterProcessor {
 private final String id;
 private final String name;
 
-public sensorProcessor() {
+public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "VonRueden - Torp";
+    this.name = "Dietrich, Rempel and Orn";
 }
 
 public String calculateData() {
-    String data = "The JBOD bus is down, bypass the back-end alarm so we can parse the SQL card!";
+    String data = "You can't navigate the system without overriding the haptic THX program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    sensorProcessor processor = new sensorProcessor();
+    transmitterProcessor processor = new transmitterProcessor();
     String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
