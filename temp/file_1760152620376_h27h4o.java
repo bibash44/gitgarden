@@ -1,5 +1,5 @@
 // Generated Java File
-// index cross-platform panel
+// index optical feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public bandwidthProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Purdy - Kovacek";
+    this.name = "Hermiston, Hoppe and Parker";
 }
 
-public String inputData() {
-    String data = "We need to input the mobile PNG firewall!";
+public String programData() {
+    String data = "Use the wireless THX system, then you can connect the redundant transmitter!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     bandwidthProcessor processor = new bandwidthProcessor();
-    String result = processor.inputData();
+    String result = processor.programData();
     System.out.println("Result: " + result);
 }
 }
