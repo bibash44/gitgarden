@@ -1,26 +1,26 @@
 // Generated Java File
-// override 1080p driver
+// reboot 1080p card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class microchipProcessor {
+public class portProcessor {
 private final String id;
 private final String name;
 
-public microchipProcessor() {
+public portProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kirlin LLC";
+    this.name = "Ledner - Mohr";
 }
 
 public String navigateData() {
-    String data = "Try to calculate the SSL transmitter, maybe it will generate the primary capacitor!";
+    String data = "Use the auxiliary COM card, then you can connect the bluetooth transmitter!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    microchipProcessor processor = new microchipProcessor();
+    portProcessor processor = new portProcessor();
     String result = processor.navigateData();
     System.out.println("Result: " + result);
 }
