@@ -1,5 +1,5 @@
 // Generated Java File
-// synthesize primary capacitor
+// compress solid state program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Flatley, Fisher and Feil";
+    this.name = "Marvin Group";
 }
 
-public String hackData() {
-    String data = "If we generate the capacitor, we can get to the SMS bandwidth through the neural SAS monitor!";
+public String inputData() {
+    String data = "connecting the port won't do anything, we need to connect the neural TCP card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.hackData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
