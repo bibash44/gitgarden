@@ -1,5 +1,5 @@
 // Generated Java File
-// compress primary transmitter
+// generate auxiliary alarm
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Farrell - Jaskolski";
+    this.name = "Powlowski - Bogisich";
 }
 
-public String quantifyData() {
-    String data = "Try to transmit the FTP bus, maybe it will index the primary array!";
+public String transmitData() {
+    String data = "The HDD pixel is down, override the back-end microchip so we can back up the THX system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     driverProcessor processor = new driverProcessor();
-    String result = processor.quantifyData();
+    String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
 }
