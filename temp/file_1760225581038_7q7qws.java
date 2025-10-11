@@ -1,26 +1,26 @@
 // Generated Java File
-// connect 1080p application
+// index digital program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class systemProcessor {
+public class interfaceProcessor {
 private final String id;
 private final String name;
 
-public systemProcessor() {
+public interfaceProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Konopelski LLC";
+    this.name = "Mraz, McKenzie and Rodriguez";
 }
 
 public String back upData() {
-    String data = "I'll generate the online HTTP microchip, that should monitor the SCSI application!";
+    String data = "Use the redundant USB transmitter, then you can override the digital matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    systemProcessor processor = new systemProcessor();
+    interfaceProcessor processor = new interfaceProcessor();
     String result = processor.back upData();
     System.out.println("Result: " + result);
 }

@@ -1,26 +1,26 @@
 // Generated Java File
-// connect 1080p application
+// parse optical card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class systemProcessor {
+public class monitorProcessor {
 private final String id;
 private final String name;
 
-public systemProcessor() {
+public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Konopelski LLC";
+    this.name = "Price, Rosenbaum and Altenwerth";
 }
 
 public String back upData() {
-    String data = "I'll generate the online HTTP microchip, that should monitor the SCSI application!";
+    String data = "Use the digital XSS bus, then you can bypass the mobile interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    systemProcessor processor = new systemProcessor();
+    monitorProcessor processor = new monitorProcessor();
     String result = processor.back upData();
     System.out.println("Result: " + result);
 }
