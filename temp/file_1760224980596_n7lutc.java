@@ -1,26 +1,26 @@
 // Generated Java File
-// back up wireless firewall
+// transmit solid state array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class hard driveProcessor {
+public class driverProcessor {
 private final String id;
 private final String name;
 
-public hard driveProcessor() {
+public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Monahan - Schaefer";
+    this.name = "Brown, Tromp and Upton";
 }
 
 public String transmitData() {
-    String data = "The HTTP program is down, parse the solid state protocol so we can connect the RAM bus!";
+    String data = "If we synthesize the system, we can get to the PCI feed through the wireless PCI card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    hard driveProcessor processor = new hard driveProcessor();
+    driverProcessor processor = new driverProcessor();
     String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
