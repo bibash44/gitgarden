@@ -1,5 +1,5 @@
 // Generated Java File
-// override haptic program
+// input 1080p program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Cummerata, Heaney and Sporer";
+    this.name = "Reilly and Sons";
 }
 
-public String compressData() {
-    String data = "Use the bluetooth HTTP matrix, then you can navigate the auxiliary interface!";
+public String generateData() {
+    String data = "I'll compress the optical SCSI transmitter, that should application the EXE bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.compressData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }
