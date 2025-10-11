@@ -1,26 +1,26 @@
 // Generated Java File
-// override auxiliary firewall
+// parse virtual program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class protocolProcessor {
+public class programProcessor {
 private final String id;
 private final String name;
 
-public protocolProcessor() {
+public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Leuschke, Stanton and Gislason";
+    this.name = "Walker, Schmeler and Wolff";
 }
 
 public String hackData() {
-    String data = "calculating the circuit won't do anything, we need to connect the online SCSI feed!";
+    String data = "Try to hack the EXE circuit, maybe it will reboot the back-end driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    protocolProcessor processor = new protocolProcessor();
+    programProcessor processor = new programProcessor();
     String result = processor.hackData();
     System.out.println("Result: " + result);
 }
