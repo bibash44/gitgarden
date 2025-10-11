@@ -1,5 +1,5 @@
 // Generated Java File
-// synthesize digital program
+// generate 1080p matrix
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Turcotte - Leannon";
+    this.name = "Lang Group";
 }
 
-public String generateData() {
-    String data = "The EXE bus is down, connect the haptic bus so we can calculate the PNG monitor!";
+public String bypassData() {
+    String data = "The CSS firewall is down, transmit the primary bandwidth so we can quantify the HDD hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     pixelProcessor processor = new pixelProcessor();
-    String result = processor.generateData();
+    String result = processor.bypassData();
     System.out.println("Result: " + result);
 }
 }
