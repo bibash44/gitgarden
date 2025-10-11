@@ -1,5 +1,5 @@
 // Generated Java File
-// copy 1080p port
+// program digital firewall
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Torp, Corwin and Hyatt";
+    this.name = "Grant - Considine";
 }
 
-public String quantifyData() {
-    String data = "We need to index the digital GB card!";
+public String copyData() {
+    String data = "We need to bypass the haptic JBOD driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     pixelProcessor processor = new pixelProcessor();
-    String result = processor.quantifyData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
