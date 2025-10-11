@@ -1,5 +1,5 @@
 // Generated Java File
-// parse neural protocol
+// index open-source microchip
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "McGlynn, Heaney and Price";
+    this.name = "Koch - VonRueden";
 }
 
-public String generateData() {
-    String data = "You can't index the driver without indexing the mobile HDD capacitor!";
+public String parseData() {
+    String data = "We need to hack the primary EXE microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     hard driveProcessor processor = new hard driveProcessor();
-    String result = processor.generateData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
