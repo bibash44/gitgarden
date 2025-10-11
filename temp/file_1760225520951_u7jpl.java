@@ -1,27 +1,27 @@
 // Generated Java File
-// bypass digital driver
+// connect bluetooth system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class cardProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Morar and Sons";
+    this.name = "Weissnat - Huel";
 }
 
-public String compressData() {
-    String data = "I'll program the online JSON microchip, that should sensor the PNG pixel!";
+public String rebootData() {
+    String data = "Use the digital GB system, then you can navigate the primary program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
-    String result = processor.compressData();
+    cardProcessor processor = new cardProcessor();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
