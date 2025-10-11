@@ -1,27 +1,27 @@
 // Generated Java File
-// connect neural bandwidth
+// generate 1080p panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class programProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Stehr LLC";
+    this.name = "Parker Group";
 }
 
-public String overrideData() {
-    String data = "You can't transmit the driver without bypassing the virtual SAS interface!";
+public String parseData() {
+    String data = "Try to input the XML driver, maybe it will parse the wireless sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
-    String result = processor.overrideData();
+    programProcessor processor = new programProcessor();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
