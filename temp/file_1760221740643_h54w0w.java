@@ -1,5 +1,5 @@
 // Generated Java File
-// calculate primary matrix
+// connect redundant monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Little Group";
+    this.name = "Bogan, Cole and Jacobson";
 }
 
-public String copyData() {
-    String data = "If we input the transmitter, we can get to the SDD hard drive through the bluetooth CSS protocol!";
+public String programData() {
+    String data = "Try to connect the SQL interface, maybe it will hack the digital driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     panelProcessor processor = new panelProcessor();
-    String result = processor.copyData();
+    String result = processor.programData();
     System.out.println("Result: " + result);
 }
 }
