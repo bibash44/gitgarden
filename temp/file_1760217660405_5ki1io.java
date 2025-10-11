@@ -1,5 +1,5 @@
 // Generated Java File
-// generate wireless circuit
+// input redundant system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public protocolProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Cummings Group";
+    this.name = "Bode - Bayer";
 }
 
-public String parseData() {
-    String data = "You can't synthesize the capacitor without transmitting the digital PCI system!";
+public String programData() {
+    String data = "I'll calculate the digital HTTP circuit, that should microchip the JBOD transmitter!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     protocolProcessor processor = new protocolProcessor();
-    String result = processor.parseData();
+    String result = processor.programData();
     System.out.println("Result: " + result);
 }
 }
