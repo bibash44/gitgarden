@@ -1,5 +1,5 @@
 // Generated Java File
-// connect multi-byte matrix
+// reboot haptic hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public capacitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Schamberger - Schinner";
+    this.name = "Schoen - Schmitt";
 }
 
-public String compressData() {
-    String data = "overriding the hard drive won't do anything, we need to generate the open-source EXE system!";
+public String connectData() {
+    String data = "hacking the protocol won't do anything, we need to program the auxiliary RAM matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     capacitorProcessor processor = new capacitorProcessor();
-    String result = processor.compressData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
