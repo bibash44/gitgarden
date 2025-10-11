@@ -1,27 +1,27 @@
 // Generated Java File
-// back up auxiliary pixel
+// input neural program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class transmitterProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Strosin LLC";
+    this.name = "Bartoletti - Nicolas";
 }
 
-public String copyData() {
-    String data = "I'll bypass the primary FTP bandwidth, that should sensor the SMTP capacitor!";
+public String inputData() {
+    String data = "We need to override the online SMS system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
-    String result = processor.copyData();
+    transmitterProcessor processor = new transmitterProcessor();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
