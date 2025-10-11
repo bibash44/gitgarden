@@ -1,26 +1,26 @@
 // Generated Java File
-// parse 1080p array
+// override multi-byte interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class monitorProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public monitorProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Franecki Group";
+    this.name = "Breitenberg - Bartell";
 }
 
 public String quantifyData() {
-    String data = "Use the haptic JSON hard drive, then you can quantify the optical sensor!";
+    String data = "Try to parse the PNG monitor, maybe it will generate the auxiliary driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    monitorProcessor processor = new monitorProcessor();
+    sensorProcessor processor = new sensorProcessor();
     String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
