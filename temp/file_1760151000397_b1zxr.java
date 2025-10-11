@@ -1,5 +1,5 @@
 // Generated Java File
-// hack virtual protocol
+// connect wireless application
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Considine - Ferry";
+    this.name = "Zemlak and Sons";
 }
 
-public String copyData() {
-    String data = "Try to calculate the HDD microchip, maybe it will generate the bluetooth protocol!";
+public String navigateData() {
+    String data = "The HDD feed is down, copy the virtual program so we can bypass the SAS driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     driverProcessor processor = new driverProcessor();
-    String result = processor.copyData();
+    String result = processor.navigateData();
     System.out.println("Result: " + result);
 }
 }
