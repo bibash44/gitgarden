@@ -1,5 +1,5 @@
 // Generated Java File
-// quantify cross-platform microchip
+// connect redundant port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Runolfsdottir - Hoeger";
+    this.name = "Bosco Inc";
 }
 
-public String back upData() {
-    String data = "Try to quantify the PNG capacitor, maybe it will quantify the optical transmitter!";
+public String hackData() {
+    String data = "Use the back-end FTP card, then you can override the digital array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     sensorProcessor processor = new sensorProcessor();
-    String result = processor.back upData();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
