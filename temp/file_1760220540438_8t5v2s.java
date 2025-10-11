@@ -1,27 +1,27 @@
 // Generated Java File
-// input back-end card
+// input 1080p card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class feedProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kovacek - Erdman";
+    this.name = "Boyer Group";
 }
 
-public String rebootData() {
-    String data = "Use the bluetooth AI array, then you can bypass the open-source matrix!";
+public String quantifyData() {
+    String data = "Try to bypass the JBOD driver, maybe it will transmit the optical port!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
-    String result = processor.rebootData();
+    feedProcessor processor = new feedProcessor();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
