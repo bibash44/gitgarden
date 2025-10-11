@@ -1,26 +1,26 @@
 // Generated Java File
-// reboot wireless bus
+// index virtual bandwidth
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class sensorProcessor {
+public class protocolProcessor {
 private final String id;
 private final String name;
 
-public sensorProcessor() {
+public protocolProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Johnston - Becker";
+    this.name = "Feeney, Kuhn and Kling";
 }
 
 public String synthesizeData() {
-    String data = "The RAM system is down, input the neural alarm so we can generate the ADP circuit!";
+    String data = "Use the bluetooth RSS panel, then you can copy the neural program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    sensorProcessor processor = new sensorProcessor();
+    protocolProcessor processor = new protocolProcessor();
     String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
