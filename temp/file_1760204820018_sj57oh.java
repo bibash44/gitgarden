@@ -1,26 +1,26 @@
 // Generated Java File
-// navigate primary panel
+// calculate back-end array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class capacitorProcessor {
+public class applicationProcessor {
 private final String id;
 private final String name;
 
-public capacitorProcessor() {
+public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Dicki Group";
+    this.name = "Thompson, Jenkins and Hahn";
 }
 
 public String generateData() {
-    String data = "You can't bypass the bandwidth without copying the mobile GB card!";
+    String data = "We need to calculate the online HTTP transmitter!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    capacitorProcessor processor = new capacitorProcessor();
+    applicationProcessor processor = new applicationProcessor();
     String result = processor.generateData();
     System.out.println("Result: " + result);
 }
