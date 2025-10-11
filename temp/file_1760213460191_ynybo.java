@@ -1,26 +1,26 @@
 // Generated Java File
-// override 1080p monitor
+// program wireless sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class sensorProcessor {
+public class programProcessor {
 private final String id;
 private final String name;
 
-public sensorProcessor() {
+public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hauck - Hickle";
+    this.name = "Huel Group";
 }
 
 public String overrideData() {
-    String data = "I'll program the back-end SSL hard drive, that should panel the EXE microchip!";
+    String data = "calculating the card won't do anything, we need to bypass the neural PNG monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    sensorProcessor processor = new sensorProcessor();
+    programProcessor processor = new programProcessor();
     String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
