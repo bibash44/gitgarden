@@ -1,5 +1,5 @@
 // Generated Java File
-// quantify solid state sensor
+// back up back-end capacitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kuhic, Steuber and Jacobi";
+    this.name = "Reilly, Fay and Schroeder";
 }
 
-public String overrideData() {
-    String data = "You can't reboot the driver without programming the multi-byte CSS transmitter!";
+public String copyData() {
+    String data = "Use the haptic RSS port, then you can input the solid state array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     pixelProcessor processor = new pixelProcessor();
-    String result = processor.overrideData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
