@@ -1,26 +1,26 @@
 // Generated Java File
-// back up back-end capacitor
+// connect bluetooth program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class pixelProcessor {
+public class interfaceProcessor {
 private final String id;
 private final String name;
 
-public pixelProcessor() {
+public interfaceProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Reilly, Fay and Schroeder";
+    this.name = "Kihn - Kautzer";
 }
 
 public String copyData() {
-    String data = "Use the haptic RSS port, then you can input the solid state array!";
+    String data = "The SSL firewall is down, parse the neural system so we can calculate the PNG card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    pixelProcessor processor = new pixelProcessor();
+    interfaceProcessor processor = new interfaceProcessor();
     String result = processor.copyData();
     System.out.println("Result: " + result);
 }
