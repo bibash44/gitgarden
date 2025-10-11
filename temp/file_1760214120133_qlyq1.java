@@ -1,26 +1,26 @@
 // Generated Java File
-// input cross-platform interface
+// connect cross-platform bus
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class transmitterProcessor {
+public class interfaceProcessor {
 private final String id;
 private final String name;
 
-public transmitterProcessor() {
+public interfaceProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Barrows, Parker and Wintheiser";
+    this.name = "Trantow - Reynolds";
 }
 
 public String parseData() {
-    String data = "Try to parse the PNG protocol, maybe it will copy the open-source interface!";
+    String data = "compressing the card won't do anything, we need to copy the auxiliary AGP protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    transmitterProcessor processor = new transmitterProcessor();
+    interfaceProcessor processor = new interfaceProcessor();
     String result = processor.parseData();
     System.out.println("Result: " + result);
 }
