@@ -1,5 +1,5 @@
 // Generated Java File
-// input mobile bandwidth
+// index digital bandwidth
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public protocolProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Conn, Bashirian and Legros";
+    this.name = "Green - Friesen";
 }
 
 public String hackData() {
-    String data = "hacking the program won't do anything, we need to navigate the haptic ADP hard drive!";
+    String data = "Try to compress the AI system, maybe it will calculate the bluetooth capacitor!";
     System.out.println("Processing: " + data);
     return data;
 }
