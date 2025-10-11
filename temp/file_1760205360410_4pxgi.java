@@ -1,5 +1,5 @@
 // Generated Java File
-// copy back-end driver
+// generate 1080p hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Terry, Schmidt and Ritchie";
+    this.name = "Hermann - Predovic";
 }
 
-public String indexData() {
-    String data = "Try to compress the THX panel, maybe it will override the solid state array!";
+public String connectData() {
+    String data = "You can't reboot the port without transmitting the auxiliary EXE transmitter!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     busProcessor processor = new busProcessor();
-    String result = processor.indexData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
