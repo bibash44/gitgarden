@@ -1,26 +1,26 @@
 // Generated Java File
-// copy wireless firewall
+// quantify neural transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class transmitterProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public transmitterProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Shields Inc";
+    this.name = "Witting, Gutkowski and Bogan";
 }
 
 public String copyData() {
-    String data = "Use the wireless PNG card, then you can program the wireless sensor!";
+    String data = "calculating the interface won't do anything, we need to copy the mobile HTTP alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    transmitterProcessor processor = new transmitterProcessor();
+    sensorProcessor processor = new sensorProcessor();
     String result = processor.copyData();
     System.out.println("Result: " + result);
 }
