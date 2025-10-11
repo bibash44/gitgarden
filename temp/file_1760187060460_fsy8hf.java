@@ -1,5 +1,5 @@
 // Generated Java File
-// generate 1080p matrix
+// generate redundant capacitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Lang Group";
+    this.name = "Hammes - Buckridge";
 }
 
-public String bypassData() {
-    String data = "The CSS firewall is down, transmit the primary bandwidth so we can quantify the HDD hard drive!";
+public String copyData() {
+    String data = "I'll input the solid state RAM application, that should firewall the PNG card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     pixelProcessor processor = new pixelProcessor();
-    String result = processor.bypassData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
