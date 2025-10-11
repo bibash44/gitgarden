@@ -1,5 +1,5 @@
 // Generated Java File
-// parse digital array
+// synthesize back-end monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Jenkins - Langworth";
+    this.name = "Simonis - Kunde";
 }
 
-public String transmitData() {
-    String data = "programming the bandwidth won't do anything, we need to copy the wireless PCI monitor!";
+public String compressData() {
+    String data = "Use the haptic USB program, then you can program the online matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     cardProcessor processor = new cardProcessor();
-    String result = processor.transmitData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
