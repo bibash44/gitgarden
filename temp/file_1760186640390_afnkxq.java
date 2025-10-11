@@ -1,26 +1,26 @@
 // Generated Java File
-// copy bluetooth interface
+// program auxiliary protocol
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class feedProcessor {
+public class pixelProcessor {
 private final String id;
 private final String name;
 
-public feedProcessor() {
+public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Raynor, Stanton and Gottlieb";
+    this.name = "Howell, Graham and Dach";
 }
 
 public String compressData() {
-    String data = "copying the pixel won't do anything, we need to hack the neural EXE system!";
+    String data = "If we compress the application, we can get to the XML alarm through the neural RSS protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    feedProcessor processor = new feedProcessor();
+    pixelProcessor processor = new pixelProcessor();
     String result = processor.compressData();
     System.out.println("Result: " + result);
 }

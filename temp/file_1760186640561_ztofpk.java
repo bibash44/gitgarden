@@ -1,26 +1,26 @@
 // Generated Java File
-// hack optical alarm
+// copy digital panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class programProcessor {
+public class monitorProcessor {
 private final String id;
 private final String name;
 
-public programProcessor() {
+public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Feeney - Kirlin";
+    this.name = "Hagenes and Sons";
 }
 
 public String overrideData() {
-    String data = "If we synthesize the panel, we can get to the FTP protocol through the back-end GB feed!";
+    String data = "Use the wireless SMS array, then you can quantify the cross-platform alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    programProcessor processor = new programProcessor();
+    monitorProcessor processor = new monitorProcessor();
     String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
