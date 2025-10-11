@@ -1,5 +1,5 @@
 // Generated Java File
-// program wireless bandwidth
+// program solid state feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Windler and Sons";
+    this.name = "Ernser, Wiza and Brown";
 }
 
-public String synthesizeData() {
-    String data = "Try to navigate the XSS array, maybe it will input the digital system!";
+public String calculateData() {
+    String data = "Try to input the HTTP array, maybe it will bypass the virtual monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     pixelProcessor processor = new pixelProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
