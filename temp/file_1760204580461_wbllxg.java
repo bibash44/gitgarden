@@ -1,5 +1,5 @@
 // Generated Java File
-// back up wireless sensor
+// parse wireless port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hoeger Inc";
+    this.name = "Schultz LLC";
 }
 
-public String calculateData() {
-    String data = "programming the matrix won't do anything, we need to program the open-source CSS bandwidth!";
+public String back upData() {
+    String data = "I'll synthesize the primary SQL circuit, that should card the XML microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     panelProcessor processor = new panelProcessor();
-    String result = processor.calculateData();
+    String result = processor.back upData();
     System.out.println("Result: " + result);
 }
 }
