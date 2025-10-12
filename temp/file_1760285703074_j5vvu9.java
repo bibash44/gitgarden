@@ -1,26 +1,26 @@
 // Generated Java File
-// calculate 1080p hard drive
+// generate digital capacitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class panelProcessor {
+public class driverProcessor {
 private final String id;
 private final String name;
 
-public panelProcessor() {
+public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Torphy, Nader and Rau";
+    this.name = "Hegmann Group";
 }
 
 public String transmitData() {
-    String data = "If we override the panel, we can get to the HDD firewall through the cross-platform SMTP firewall!";
+    String data = "I'll back up the solid state HTTP transmitter, that should hard drive the USB card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    panelProcessor processor = new panelProcessor();
+    driverProcessor processor = new driverProcessor();
     String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
