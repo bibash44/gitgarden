@@ -1,5 +1,5 @@
 // Generated Java File
-// quantify cross-platform application
+// compress mobile program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kris and Sons";
+    this.name = "Dare, Littel and Kerluke";
 }
 
-public String copyData() {
-    String data = "The ADP card is down, navigate the solid state capacitor so we can input the XML pixel!";
+public String parseData() {
+    String data = "Use the optical JSON sensor, then you can generate the optical firewall!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.copyData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
