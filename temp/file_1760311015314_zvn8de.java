@@ -1,26 +1,26 @@
 // Generated Java File
-// program cross-platform program
+// calculate neural driver
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class sensorProcessor {
+public class transmitterProcessor {
 private final String id;
 private final String name;
 
-public sensorProcessor() {
+public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Green, Franecki and Johnston";
+    this.name = "Leuschke - Mueller";
 }
 
 public String transmitData() {
-    String data = "Try to bypass the SAS pixel, maybe it will compress the bluetooth panel!";
+    String data = "We need to quantify the optical ADP driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    sensorProcessor processor = new sensorProcessor();
+    transmitterProcessor processor = new transmitterProcessor();
     String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
