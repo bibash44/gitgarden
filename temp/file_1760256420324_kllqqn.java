@@ -1,5 +1,5 @@
 // Generated Java File
-// program 1080p system
+// back up 1080p bandwidth
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public firewallProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Emard - Heathcote";
+    this.name = "Beier, Weimann and Dach";
 }
 
-public String parseData() {
-    String data = "Try to copy the SDD matrix, maybe it will synthesize the online program!";
+public String rebootData() {
+    String data = "The FTP program is down, reboot the online microchip so we can override the SAS matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     firewallProcessor processor = new firewallProcessor();
-    String result = processor.parseData();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
