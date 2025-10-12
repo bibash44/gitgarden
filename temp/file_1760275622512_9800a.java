@@ -1,26 +1,26 @@
 // Generated Java File
-// synthesize mobile panel
+// program auxiliary card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Padberg - Kirlin";
+    this.name = "Waters Inc";
 }
 
 public String transmitData() {
-    String data = "I'll calculate the wireless GB capacitor, that should alarm the AI port!";
+    String data = "Try to connect the HDD capacitor, maybe it will parse the haptic sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
+    sensorProcessor processor = new sensorProcessor();
     String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
