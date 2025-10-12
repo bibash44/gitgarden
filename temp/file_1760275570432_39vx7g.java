@@ -1,5 +1,5 @@
 // Generated Java File
-// back up optical array
+// index multi-byte circuit
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Miller and Sons";
+    this.name = "Lockman, Abbott and Simonis";
 }
 
-public String navigateData() {
-    String data = "You can't index the port without generating the solid state HDD application!";
+public String compressData() {
+    String data = "We need to back up the auxiliary ADP hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     arrayProcessor processor = new arrayProcessor();
-    String result = processor.navigateData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
