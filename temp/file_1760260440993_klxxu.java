@@ -1,26 +1,26 @@
 // Generated Java File
-// index digital pixel
+// program optical program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class monitorProcessor {
+public class panelProcessor {
 private final String id;
 private final String name;
 
-public monitorProcessor() {
+public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Schaden Inc";
+    this.name = "Upton Group";
 }
 
 public String hackData() {
-    String data = "Try to calculate the SMTP card, maybe it will connect the neural system!";
+    String data = "You can't program the card without compressing the bluetooth ADP card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    monitorProcessor processor = new monitorProcessor();
+    panelProcessor processor = new panelProcessor();
     String result = processor.hackData();
     System.out.println("Result: " + result);
 }
