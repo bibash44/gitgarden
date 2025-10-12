@@ -1,26 +1,26 @@
 // Generated Java File
-// transmit mobile hard drive
+// compress solid state program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class pixelProcessor {
+public class systemProcessor {
 private final String id;
 private final String name;
 
-public pixelProcessor() {
+public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mertz - Parker";
+    this.name = "Wiza, Lubowitz and Wolf";
 }
 
 public String copyData() {
-    String data = "We need to back up the mobile SCSI firewall!";
+    String data = "The SMS port is down, compress the auxiliary microchip so we can reboot the SDD system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    pixelProcessor processor = new pixelProcessor();
+    systemProcessor processor = new systemProcessor();
     String result = processor.copyData();
     System.out.println("Result: " + result);
 }
