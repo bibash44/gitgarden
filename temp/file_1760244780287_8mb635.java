@@ -1,5 +1,5 @@
 // Generated Java File
-// generate bluetooth hard drive
+// connect neural protocol
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Cronin, Denesik and Schmitt";
+    this.name = "Blick LLC";
 }
 
-public String indexData() {
-    String data = "generating the array won't do anything, we need to navigate the optical XSS bus!";
+public String copyData() {
+    String data = "I'll reboot the auxiliary SCSI capacitor, that should alarm the COM capacitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.indexData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
