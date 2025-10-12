@@ -1,26 +1,26 @@
 // Generated Java File
-// input digital panel
+// reboot open-source program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class feedProcessor {
+public class pixelProcessor {
 private final String id;
 private final String name;
 
-public feedProcessor() {
+public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Runolfsson, Haag and MacGyver";
+    this.name = "Kiehn Inc";
 }
 
 public String calculateData() {
-    String data = "I'll connect the back-end ADP array, that should card the COM program!";
+    String data = "parsing the panel won't do anything, we need to calculate the solid state COM microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    feedProcessor processor = new feedProcessor();
+    pixelProcessor processor = new pixelProcessor();
     String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
