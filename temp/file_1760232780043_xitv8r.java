@@ -1,27 +1,27 @@
 // Generated Java File
-// generate auxiliary hard drive
+// copy solid state sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class feedProcessor {
+public class busProcessor {
 private final String id;
 private final String name;
 
-public feedProcessor() {
+public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Koss, Smitham and Tremblay";
+    this.name = "Marks - O'Kon";
 }
 
-public String compressData() {
-    String data = "We need to connect the neural SMS feed!";
+public String connectData() {
+    String data = "Use the neural EXE circuit, then you can program the redundant interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    feedProcessor processor = new feedProcessor();
-    String result = processor.compressData();
+    busProcessor processor = new busProcessor();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
