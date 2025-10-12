@@ -1,26 +1,26 @@
 // Generated Java File
-// connect solid state circuit
+// back up digital matrix
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class panelProcessor {
+public class alarmProcessor {
 private final String id;
 private final String name;
 
-public panelProcessor() {
+public alarmProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Leffler - Schinner";
+    this.name = "Crist, Klocko and Hermann";
 }
 
 public String generateData() {
-    String data = "Use the online SMTP firewall, then you can back up the solid state bus!";
+    String data = "connecting the capacitor won't do anything, we need to quantify the wireless SMTP system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    panelProcessor processor = new panelProcessor();
+    alarmProcessor processor = new alarmProcessor();
     String result = processor.generateData();
     System.out.println("Result: " + result);
 }
