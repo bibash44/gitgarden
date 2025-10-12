@@ -1,5 +1,5 @@
 // Generated Java File
-// bypass haptic circuit
+// input back-end driver
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Macejkovic Inc";
+    this.name = "Watsica, Mraz and Reynolds";
 }
 
-public String connectData() {
-    String data = "If we hack the program, we can get to the HTTP sensor through the optical EXE application!";
+public String synthesizeData() {
+    String data = "If we synthesize the card, we can get to the PNG system through the digital GB hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     transmitterProcessor processor = new transmitterProcessor();
-    String result = processor.connectData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
