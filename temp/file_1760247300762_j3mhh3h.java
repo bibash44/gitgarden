@@ -1,5 +1,5 @@
 // Generated Java File
-// transmit primary sensor
+// parse redundant bandwidth
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Herzog - Bayer";
+    this.name = "Littel, Gaylord and Schulist";
 }
 
-public String calculateData() {
-    String data = "generating the matrix won't do anything, we need to navigate the mobile XML protocol!";
+public String quantifyData() {
+    String data = "We need to parse the auxiliary SCSI port!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     busProcessor processor = new busProcessor();
-    String result = processor.calculateData();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
