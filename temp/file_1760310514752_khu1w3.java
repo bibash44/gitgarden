@@ -1,5 +1,5 @@
 // Generated Java File
-// compress mobile program
+// bypass cross-platform monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Dare, Littel and Kerluke";
+    this.name = "O'Reilly - Goodwin";
 }
 
-public String parseData() {
-    String data = "Use the optical JSON sensor, then you can generate the optical firewall!";
+public String connectData() {
+    String data = "transmitting the program won't do anything, we need to copy the bluetooth RAM bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.parseData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
