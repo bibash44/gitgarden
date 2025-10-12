@@ -1,5 +1,5 @@
 // Generated Java File
-// input virtual pixel
+// calculate redundant interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Farrell and Sons";
+    this.name = "Abernathy, Stroman and Nienow";
 }
 
-public String overrideData() {
-    String data = "generating the array won't do anything, we need to calculate the wireless PNG interface!";
+public String synthesizeData() {
+    String data = "Try to copy the CSS system, maybe it will compress the haptic system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     hard driveProcessor processor = new hard driveProcessor();
-    String result = processor.overrideData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
