@@ -1,27 +1,27 @@
 // Generated Java File
-// reboot back-end interface
+// copy digital card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class arrayProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Lakin Inc";
+    this.name = "Beatty - Blick";
 }
 
-public String bypassData() {
-    String data = "We need to copy the optical JBOD port!";
+public String copyData() {
+    String data = "indexing the feed won't do anything, we need to transmit the optical AI sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
-    String result = processor.bypassData();
+    arrayProcessor processor = new arrayProcessor();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
