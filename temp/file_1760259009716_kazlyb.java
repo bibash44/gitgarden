@@ -1,5 +1,5 @@
 // Generated Java File
-// connect mobile port
+// input back-end matrix
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Nitzsche Inc";
+    this.name = "Gulgowski, O'Conner and Hickle";
 }
 
-public String indexData() {
-    String data = "We need to connect the virtual PNG sensor!";
+public String compressData() {
+    String data = "I'll connect the open-source RAM bus, that should program the GB alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     sensorProcessor processor = new sensorProcessor();
-    String result = processor.indexData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
