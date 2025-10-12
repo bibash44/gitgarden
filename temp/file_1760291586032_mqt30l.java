@@ -1,5 +1,5 @@
 // Generated Java File
-// override online bus
+// navigate back-end pixel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Keeling - Leannon";
+    this.name = "Heidenreich, Kub and Lemke";
 }
 
-public String compressData() {
-    String data = "The COM circuit is down, quantify the neural bandwidth so we can override the AGP pixel!";
+public String inputData() {
+    String data = "Use the online SMTP application, then you can bypass the back-end transmitter!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.compressData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
