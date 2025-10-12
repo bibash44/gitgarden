@@ -1,5 +1,5 @@
 // Generated Java File
-// input wireless bus
+// override primary program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Nienow - Hamill";
+    this.name = "Boehm - Bergstrom";
 }
 
-public String inputData() {
-    String data = "Use the open-source SMTP interface, then you can bypass the digital port!";
+public String programData() {
+    String data = "We need to quantify the multi-byte SMS program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     cardProcessor processor = new cardProcessor();
-    String result = processor.inputData();
+    String result = processor.programData();
     System.out.println("Result: " + result);
 }
 }
