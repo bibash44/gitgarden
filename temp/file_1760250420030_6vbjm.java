@@ -1,5 +1,5 @@
 // Generated Java File
-// copy open-source hard drive
+// compress auxiliary capacitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Rowe, Kovacek and Quigley";
+    this.name = "Rutherford - Kuhlman";
 }
 
-public String generateData() {
-    String data = "We need to calculate the cross-platform XML program!";
+public String rebootData() {
+    String data = "Use the bluetooth JSON pixel, then you can parse the optical alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     sensorProcessor processor = new sensorProcessor();
-    String result = processor.generateData();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
