@@ -1,5 +1,5 @@
 // Generated Java File
-// override haptic monitor
+// copy bluetooth sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Thompson Group";
+    this.name = "Bartoletti, Shanahan and Breitenberg";
 }
 
-public String compressData() {
-    String data = "transmitting the bandwidth won't do anything, we need to transmit the solid state AI panel!";
+public String rebootData() {
+    String data = "The THX microchip is down, navigate the bluetooth capacitor so we can calculate the XSS driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     driverProcessor processor = new driverProcessor();
-    String result = processor.compressData();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
