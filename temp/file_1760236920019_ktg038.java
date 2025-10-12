@@ -1,26 +1,26 @@
 // Generated Java File
-// transmit optical matrix
+// bypass auxiliary transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class applicationProcessor {
+public class matrixProcessor {
 private final String id;
 private final String name;
 
-public applicationProcessor() {
+public matrixProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Klocko Group";
+    this.name = "Hartmann - Kassulke";
 }
 
 public String transmitData() {
-    String data = "Try to calculate the TCP circuit, maybe it will generate the open-source card!";
+    String data = "If we transmit the interface, we can get to the GB system through the back-end HTTP protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    applicationProcessor processor = new applicationProcessor();
+    matrixProcessor processor = new matrixProcessor();
     String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
