@@ -1,5 +1,5 @@
 // Generated Java File
-// navigate mobile hard drive
+// transmit online program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Towne - Wehner";
+    this.name = "Cassin - Ortiz";
 }
 
-public String navigateData() {
-    String data = "I'll index the redundant RSS capacitor, that should bandwidth the SSL circuit!";
+public String calculateData() {
+    String data = "You can't program the circuit without transmitting the redundant RSS bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.navigateData();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
