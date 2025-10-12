@@ -1,26 +1,26 @@
 // Generated Java File
-// compress auxiliary capacitor
+// index bluetooth card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class sensorProcessor {
+public class systemProcessor {
 private final String id;
 private final String name;
 
-public sensorProcessor() {
+public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Rutherford - Kuhlman";
+    this.name = "Zulauf - Doyle";
 }
 
 public String rebootData() {
-    String data = "Use the bluetooth JSON pixel, then you can parse the optical alarm!";
+    String data = "Try to compress the ADP array, maybe it will transmit the primary sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    sensorProcessor processor = new sensorProcessor();
+    systemProcessor processor = new systemProcessor();
     String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
