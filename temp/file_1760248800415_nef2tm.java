@@ -1,27 +1,27 @@
 // Generated Java File
-// hack digital pixel
+// reboot wireless application
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class portProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public portProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hessel - Waters";
+    this.name = "Conn - White";
 }
 
-public String copyData() {
-    String data = "I'll index the solid state SQL transmitter, that should protocol the XML interface!";
+public String compressData() {
+    String data = "We need to hack the auxiliary SMTP application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
-    String result = processor.copyData();
+    portProcessor processor = new portProcessor();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
