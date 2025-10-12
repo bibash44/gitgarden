@@ -1,5 +1,5 @@
 // Generated Java File
-// generate neural firewall
+// override digital card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public bandwidthProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Douglas, Herman and Gerhold";
+    this.name = "Kovacek, Carter and Jenkins";
 }
 
-public String quantifyData() {
-    String data = "We need to reboot the mobile USB sensor!";
+public String inputData() {
+    String data = "The EXE hard drive is down, copy the haptic program so we can connect the ADP driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     bandwidthProcessor processor = new bandwidthProcessor();
-    String result = processor.quantifyData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
