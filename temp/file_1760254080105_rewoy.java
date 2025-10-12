@@ -1,5 +1,5 @@
 // Generated Java File
-// calculate primary program
+// generate redundant transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public protocolProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Abernathy LLC";
+    this.name = "Halvorson Inc";
 }
 
-public String inputData() {
-    String data = "You can't transmit the sensor without overriding the multi-byte EXE circuit!";
+public String connectData() {
+    String data = "Use the neural ADP pixel, then you can transmit the 1080p feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     protocolProcessor processor = new protocolProcessor();
-    String result = processor.inputData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
