@@ -1,26 +1,26 @@
 // Generated Java File
-// program optical feed
+// parse auxiliary circuit
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class systemProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Johns, Durgan and Emmerich";
+    this.name = "Corkery, Schamberger and Kris";
 }
 
 public String connectData() {
-    String data = "generating the interface won't do anything, we need to copy the auxiliary SDD array!";
+    String data = "Use the primary EXE system, then you can program the mobile interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
+    systemProcessor processor = new systemProcessor();
     String result = processor.connectData();
     System.out.println("Result: " + result);
 }
