@@ -1,5 +1,5 @@
 // Generated Java File
-// bypass virtual transmitter
+// override bluetooth capacitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Krajcik - Hane";
+    this.name = "Kuvalis - Gislason";
 }
 
-public String quantifyData() {
-    String data = "I'll copy the wireless FTP panel, that should port the HDD firewall!";
+public String rebootData() {
+    String data = "You can't transmit the program without synthesizing the redundant USB bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     transmitterProcessor processor = new transmitterProcessor();
-    String result = processor.quantifyData();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
