@@ -1,26 +1,26 @@
 // Generated Java File
-// parse primary protocol
+// calculate 1080p array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class circuitProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public circuitProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kuhn - Hyatt";
+    this.name = "Mills, Marquardt and Hermann";
 }
 
 public String back upData() {
-    String data = "Try to connect the RSS interface, maybe it will calculate the optical bus!";
+    String data = "I'll copy the primary FTP driver, that should sensor the SQL panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
+    circuitProcessor processor = new circuitProcessor();
     String result = processor.back upData();
     System.out.println("Result: " + result);
 }
