@@ -1,5 +1,5 @@
 // Generated Java File
-// hack 1080p firewall
+// index auxiliary panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Russel, Monahan and Bartell";
+    this.name = "Skiles Inc";
 }
 
-public String quantifyData() {
-    String data = "copying the driver won't do anything, we need to copy the mobile HDD pixel!";
+public String connectData() {
+    String data = "Try to override the HDD capacitor, maybe it will hack the solid state program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.quantifyData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
