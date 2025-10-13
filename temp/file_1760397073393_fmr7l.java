@@ -1,5 +1,5 @@
 // Generated Java File
-// override optical matrix
+// parse digital port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Wuckert and Sons";
+    this.name = "King and Sons";
 }
 
-public String calculateData() {
-    String data = "navigating the circuit won't do anything, we need to generate the digital SCSI pixel!";
+public String indexData() {
+    String data = "You can't synthesize the transmitter without copying the mobile SMS sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.calculateData();
+    String result = processor.indexData();
     System.out.println("Result: " + result);
 }
 }
