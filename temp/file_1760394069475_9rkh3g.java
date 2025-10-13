@@ -1,26 +1,26 @@
 // Generated Java File
-// override optical system
+// input haptic circuit
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class sensorProcessor {
+public class arrayProcessor {
 private final String id;
 private final String name;
 
-public sensorProcessor() {
+public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mann Inc";
+    this.name = "Emard LLC";
 }
 
 public String hackData() {
-    String data = "I'll synthesize the solid state TCP firewall, that should circuit the ADP program!";
+    String data = "transmitting the transmitter won't do anything, we need to transmit the bluetooth ADP card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    sensorProcessor processor = new sensorProcessor();
+    arrayProcessor processor = new arrayProcessor();
     String result = processor.hackData();
     System.out.println("Result: " + result);
 }
