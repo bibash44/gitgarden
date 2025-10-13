@@ -1,5 +1,5 @@
 // Generated Java File
-// connect primary system
+// synthesize 1080p driver
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public firewallProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Fahey, Schulist and Flatley";
+    this.name = "Roob - Jacobs";
 }
 
-public String inputData() {
-    String data = "connecting the panel won't do anything, we need to index the redundant COM matrix!";
+public String generateData() {
+    String data = "synthesizing the program won't do anything, we need to back up the optical GB sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     firewallProcessor processor = new firewallProcessor();
-    String result = processor.inputData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }
