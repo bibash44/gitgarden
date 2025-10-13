@@ -1,27 +1,27 @@
 // Generated Java File
-// calculate open-source hard drive
+// generate haptic port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class monitorProcessor {
+public class circuitProcessor {
 private final String id;
 private final String name;
 
-public monitorProcessor() {
+public circuitProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Pacocha - Goldner";
+    this.name = "Cole - Macejkovic";
 }
 
-public String copyData() {
-    String data = "We need to reboot the bluetooth THX capacitor!";
+public String connectData() {
+    String data = "We need to hack the primary THX circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    monitorProcessor processor = new monitorProcessor();
-    String result = processor.copyData();
+    circuitProcessor processor = new circuitProcessor();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }

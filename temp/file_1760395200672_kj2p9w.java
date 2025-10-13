@@ -1,26 +1,26 @@
 // Generated Java File
-// calculate open-source hard drive
+// index bluetooth sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class monitorProcessor {
+public class programProcessor {
 private final String id;
 private final String name;
 
-public monitorProcessor() {
+public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Pacocha - Goldner";
+    this.name = "Marks Inc";
 }
 
 public String copyData() {
-    String data = "We need to reboot the bluetooth THX capacitor!";
+    String data = "Try to back up the RAM program, maybe it will program the multi-byte sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    monitorProcessor processor = new monitorProcessor();
+    programProcessor processor = new programProcessor();
     String result = processor.copyData();
     System.out.println("Result: " + result);
 }

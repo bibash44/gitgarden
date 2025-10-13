@@ -1,5 +1,5 @@
 // Generated Java File
-// calculate open-source hard drive
+// reboot mobile driver
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Pacocha - Goldner";
+    this.name = "West Inc";
 }
 
-public String copyData() {
-    String data = "We need to reboot the bluetooth THX capacitor!";
+public String hackData() {
+    String data = "compressing the transmitter won't do anything, we need to generate the auxiliary SDD panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.copyData();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
