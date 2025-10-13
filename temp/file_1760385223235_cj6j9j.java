@@ -1,5 +1,5 @@
 // Generated Java File
-// parse wireless feed
+// compress multi-byte interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Rodriguez Group";
+    this.name = "Daugherty, Blanda and Harber";
 }
 
-public String navigateData() {
-    String data = "We need to program the auxiliary XSS hard drive!";
+public String transmitData() {
+    String data = "I'll connect the mobile RAM protocol, that should interface the SCSI bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     busProcessor processor = new busProcessor();
-    String result = processor.navigateData();
+    String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
 }
