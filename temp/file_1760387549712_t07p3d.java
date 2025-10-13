@@ -1,5 +1,5 @@
 // Generated Java File
-// override open-source system
+// input wireless microchip
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Buckridge - Pollich";
+    this.name = "Runolfsson LLC";
 }
 
-public String parseData() {
-    String data = "Try to input the SDD bandwidth, maybe it will input the open-source driver!";
+public String overrideData() {
+    String data = "calculating the microchip won't do anything, we need to transmit the neural SAS card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.parseData();
+    String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
 }
