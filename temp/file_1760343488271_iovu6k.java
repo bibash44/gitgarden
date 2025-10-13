@@ -1,27 +1,27 @@
 // Generated Java File
-// hack auxiliary interface
+// reboot wireless firewall
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class pixelProcessor {
+public class protocolProcessor {
 private final String id;
 private final String name;
 
-public pixelProcessor() {
+public protocolProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Boyer LLC";
+    this.name = "Thompson, Kovacek and Bednar";
 }
 
-public String inputData() {
-    String data = "We need to input the wireless PCI bus!";
+public String copyData() {
+    String data = "We need to compress the cross-platform USB bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    pixelProcessor processor = new pixelProcessor();
-    String result = processor.inputData();
+    protocolProcessor processor = new protocolProcessor();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
