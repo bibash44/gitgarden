@@ -1,5 +1,5 @@
 // Generated Java File
-// override online port
+// calculate digital matrix
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public alarmProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Daniel - Green";
+    this.name = "Hane, Satterfield and Roob";
 }
 
-public String rebootData() {
-    String data = "Try to navigate the TCP port, maybe it will reboot the bluetooth program!";
+public String parseData() {
+    String data = "Try to compress the SCSI monitor, maybe it will quantify the 1080p circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     alarmProcessor processor = new alarmProcessor();
-    String result = processor.rebootData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
