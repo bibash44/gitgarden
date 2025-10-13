@@ -1,5 +1,5 @@
 // Generated Java File
-// hack multi-byte program
+// program virtual card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Marks - Balistreri";
+    this.name = "Hermann - Torp";
 }
 
-public String compressData() {
-    String data = "Use the auxiliary IB protocol, then you can connect the redundant circuit!";
+public String programData() {
+    String data = "You can't navigate the hard drive without backing up the open-source RAM transmitter!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     panelProcessor processor = new panelProcessor();
-    String result = processor.compressData();
+    String result = processor.programData();
     System.out.println("Result: " + result);
 }
 }
