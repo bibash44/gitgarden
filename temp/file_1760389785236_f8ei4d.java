@@ -1,5 +1,5 @@
 // Generated Java File
-// reboot bluetooth microchip
+// quantify back-end protocol
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Okuneva Group";
+    this.name = "Larkin - Gutmann";
 }
 
-public String parseData() {
-    String data = "We need to synthesize the bluetooth SDD panel!";
+public String rebootData() {
+    String data = "parsing the monitor won't do anything, we need to navigate the primary GB feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     driverProcessor processor = new driverProcessor();
-    String result = processor.parseData();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
