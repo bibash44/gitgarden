@@ -1,5 +1,5 @@
 // Generated Java File
-// transmit solid state program
+// connect wireless bus
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public matrixProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Feest and Sons";
+    this.name = "Kozey and Sons";
 }
 
-public String indexData() {
-    String data = "We need to input the neural SDD circuit!";
+public String hackData() {
+    String data = "You can't input the interface without copying the online COM panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     matrixProcessor processor = new matrixProcessor();
-    String result = processor.indexData();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
