@@ -1,5 +1,5 @@
 // Generated Java File
-// calculate solid state circuit
+// copy online program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kertzmann - Keebler";
+    this.name = "Casper, Ernser and Breitenberg";
 }
 
-public String overrideData() {
-    String data = "overriding the program won't do anything, we need to override the multi-byte JSON system!";
+public String quantifyData() {
+    String data = "You can't bypass the firewall without connecting the haptic IB hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     programProcessor processor = new programProcessor();
-    String result = processor.overrideData();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
