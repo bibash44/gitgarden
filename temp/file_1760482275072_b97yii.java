@@ -1,26 +1,26 @@
 // Generated Java File
-// connect virtual program
+// index bluetooth program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class protocolProcessor {
+public class busProcessor {
 private final String id;
 private final String name;
 
-public protocolProcessor() {
+public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Wiza - Schiller";
+    this.name = "Sauer - Kuhlman";
 }
 
 public String indexData() {
-    String data = "The THX protocol is down, input the solid state application so we can calculate the SDD feed!";
+    String data = "You can't bypass the application without copying the haptic RAM matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    protocolProcessor processor = new protocolProcessor();
+    busProcessor processor = new busProcessor();
     String result = processor.indexData();
     System.out.println("Result: " + result);
 }
