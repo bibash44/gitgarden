@@ -1,5 +1,5 @@
 // Generated Java File
-// generate 1080p driver
+// compress back-end firewall
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Heaney, Green and Bergstrom";
+    this.name = "Will - Hodkiewicz";
 }
 
-public String parseData() {
-    String data = "Try to back up the EXE matrix, maybe it will program the optical feed!";
+public String generateData() {
+    String data = "Try to back up the PNG system, maybe it will bypass the back-end microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     transmitterProcessor processor = new transmitterProcessor();
-    String result = processor.parseData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }
