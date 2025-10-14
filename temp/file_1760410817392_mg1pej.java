@@ -1,5 +1,5 @@
 // Generated Java File
-// back up 1080p pixel
+// hack neural protocol
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Funk - Brekke";
+    this.name = "Haley Inc";
 }
 
-public String programData() {
-    String data = "You can't generate the system without programming the back-end TCP matrix!";
+public String synthesizeData() {
+    String data = "compressing the capacitor won't do anything, we need to calculate the 1080p IB protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     arrayProcessor processor = new arrayProcessor();
-    String result = processor.programData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
