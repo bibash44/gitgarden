@@ -1,27 +1,27 @@
 // Generated Java File
-// generate bluetooth system
+// parse digital system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class systemProcessor {
+public class busProcessor {
 private final String id;
 private final String name;
 
-public systemProcessor() {
+public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Langosh, Durgan and Treutel";
+    this.name = "Keebler, Becker and Blick";
 }
 
-public String parseData() {
-    String data = "We need to calculate the online IB protocol!";
+public String rebootData() {
+    String data = "We need to hack the bluetooth EXE panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    systemProcessor processor = new systemProcessor();
-    String result = processor.parseData();
+    busProcessor processor = new busProcessor();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
