@@ -1,5 +1,5 @@
 // Generated Java File
-// copy 1080p bus
+// transmit bluetooth sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public microchipProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Haley - Mills";
+    this.name = "Sipes, Wolf and Waelchi";
 }
 
-public String connectData() {
-    String data = "We need to quantify the virtual PCI sensor!";
+public String synthesizeData() {
+    String data = "The FTP pixel is down, override the virtual program so we can transmit the EXE port!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     microchipProcessor processor = new microchipProcessor();
-    String result = processor.connectData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
