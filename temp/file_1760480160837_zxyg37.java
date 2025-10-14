@@ -1,26 +1,26 @@
 // Generated Java File
-// program online microchip
+// copy virtual application
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class microchipProcessor {
+public class bandwidthProcessor {
 private final String id;
 private final String name;
 
-public microchipProcessor() {
+public bandwidthProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Fadel, Fisher and Littel";
+    this.name = "Daniel - Hamill";
 }
 
 public String indexData() {
-    String data = "If we calculate the transmitter, we can get to the SMS port through the back-end COM feed!";
+    String data = "We need to index the online JBOD sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    microchipProcessor processor = new microchipProcessor();
+    bandwidthProcessor processor = new bandwidthProcessor();
     String result = processor.indexData();
     System.out.println("Result: " + result);
 }
