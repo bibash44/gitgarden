@@ -1,27 +1,27 @@
 // Generated Java File
-// back up wireless pixel
+// navigate digital bus
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class programProcessor {
+public class circuitProcessor {
 private final String id;
 private final String name;
 
-public programProcessor() {
+public circuitProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Ondricka, Berge and Keebler";
+    this.name = "Ortiz Group";
 }
 
-public String inputData() {
-    String data = "We need to hack the solid state SCSI transmitter!";
+public String rebootData() {
+    String data = "We need to calculate the bluetooth PNG alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    programProcessor processor = new programProcessor();
-    String result = processor.inputData();
+    circuitProcessor processor = new circuitProcessor();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
