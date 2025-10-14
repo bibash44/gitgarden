@@ -1,26 +1,26 @@
 // Generated Java File
-// reboot primary program
+// transmit primary pixel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class firewallProcessor {
+public class circuitProcessor {
 private final String id;
 private final String name;
 
-public firewallProcessor() {
+public circuitProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Frami, Hilll and Maggio";
+    this.name = "Flatley - Ziemann";
 }
 
 public String overrideData() {
-    String data = "synthesizing the pixel won't do anything, we need to input the neural PCI panel!";
+    String data = "Try to hack the USB capacitor, maybe it will copy the solid state application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    firewallProcessor processor = new firewallProcessor();
+    circuitProcessor processor = new circuitProcessor();
     String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
