@@ -1,5 +1,5 @@
 // Generated Java File
-// quantify mobile sensor
+// index 1080p circuit
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Howell, White and O'Connell";
+    this.name = "Feil Group";
 }
 
-public String generateData() {
-    String data = "Try to back up the GB feed, maybe it will hack the haptic driver!";
+public String parseData() {
+    String data = "Use the haptic IB array, then you can quantify the 1080p alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.generateData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
