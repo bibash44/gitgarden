@@ -1,5 +1,5 @@
 // Generated Java File
-// hack cross-platform hard drive
+// connect wireless panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public capacitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Douglas, Armstrong and Barton";
+    this.name = "Carter LLC";
 }
 
-public String generateData() {
-    String data = "The USB capacitor is down, navigate the auxiliary panel so we can hack the JBOD bus!";
+public String compressData() {
+    String data = "We need to bypass the bluetooth SMTP circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     capacitorProcessor processor = new capacitorProcessor();
-    String result = processor.generateData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
