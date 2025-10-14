@@ -1,5 +1,5 @@
 // Generated Java File
-// bypass neural capacitor
+// generate solid state feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Franecki Inc";
+    this.name = "McClure, O'Reilly and Monahan";
 }
 
-public String quantifyData() {
-    String data = "We need to calculate the mobile SMTP application!";
+public String inputData() {
+    String data = "We need to quantify the bluetooth HDD feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     busProcessor processor = new busProcessor();
-    String result = processor.quantifyData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
