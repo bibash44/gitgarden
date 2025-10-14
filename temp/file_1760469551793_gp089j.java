@@ -4,24 +4,24 @@
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class transmitterProcessor {
+public class driverProcessor {
 private final String id;
 private final String name;
 
-public transmitterProcessor() {
+public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Russel, Legros and Bode";
+    this.name = "Russel - Schiller";
 }
 
-public String bypassData() {
-    String data = "I'll synthesize the virtual IB program, that should driver the SCSI bus!";
+public String programData() {
+    String data = "Use the back-end HDD feed, then you can quantify the haptic bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    transmitterProcessor processor = new transmitterProcessor();
-    String result = processor.bypassData();
+    driverProcessor processor = new driverProcessor();
+    String result = processor.programData();
     System.out.println("Result: " + result);
 }
 }
