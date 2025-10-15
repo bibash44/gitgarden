@@ -1,5 +1,5 @@
 // Generated Java File
-// override mobile hard drive
+// generate virtual array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public circuitProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Lebsack LLC";
+    this.name = "Leuschke Inc";
 }
 
-public String inputData() {
-    String data = "The SSL capacitor is down, navigate the virtual array so we can override the CSS circuit!";
+public String navigateData() {
+    String data = "I'll back up the solid state GB port, that should microchip the ADP firewall!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     circuitProcessor processor = new circuitProcessor();
-    String result = processor.inputData();
+    String result = processor.navigateData();
     System.out.println("Result: " + result);
 }
 }
