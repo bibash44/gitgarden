@@ -1,5 +1,5 @@
 // Generated Java File
-// calculate redundant hard drive
+// copy online bandwidth
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Corwin - Daugherty";
+    this.name = "Grimes, Williamson and Collins";
 }
 
-public String compressData() {
-    String data = "Try to index the JBOD program, maybe it will copy the auxiliary driver!";
+public String generateData() {
+    String data = "quantifying the program won't do anything, we need to index the optical SCSI driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     sensorProcessor processor = new sensorProcessor();
-    String result = processor.compressData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }

@@ -1,5 +1,5 @@
 // Generated Java File
-// transmit solid state matrix
+// generate virtual monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mills, Batz and Sporer";
+    this.name = "Rosenbaum Group";
 }
 
-public String copyData() {
-    String data = "If we back up the driver, we can get to the AI array through the virtual CSS capacitor!";
+public String transmitData() {
+    String data = "We need to hack the open-source SDD sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     arrayProcessor processor = new arrayProcessor();
-    String result = processor.copyData();
+    String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
 }
