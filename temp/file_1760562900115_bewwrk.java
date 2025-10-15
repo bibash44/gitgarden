@@ -1,5 +1,5 @@
 // Generated Java File
-// hack solid state bandwidth
+// hack redundant program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public alarmProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Schuppe - Feil";
+    this.name = "Rolfson, Goldner and Schinner";
 }
 
-public String navigateData() {
-    String data = "Try to copy the COM protocol, maybe it will calculate the bluetooth circuit!";
+public String inputData() {
+    String data = "Use the solid state SMS program, then you can compress the mobile protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     alarmProcessor processor = new alarmProcessor();
-    String result = processor.navigateData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
