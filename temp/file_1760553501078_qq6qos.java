@@ -1,5 +1,5 @@
 // Generated Java File
-// copy primary driver
+// copy auxiliary driver
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public protocolProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Howe - Pouros";
+    this.name = "Balistreri, Cartwright and Hermiston";
 }
 
 public String navigateData() {
-    String data = "You can't reboot the driver without connecting the optical SCSI alarm!";
+    String data = "The ADP matrix is down, copy the cross-platform firewall so we can navigate the USB protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
