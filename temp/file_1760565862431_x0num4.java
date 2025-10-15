@@ -1,5 +1,5 @@
 // Generated Java File
-// override 1080p driver
+// index wireless sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kuhn - Heathcote";
+    this.name = "Windler - Ritchie";
 }
 
-public String compressData() {
-    String data = "If we quantify the system, we can get to the CSS microchip through the online SSL alarm!";
+public String inputData() {
+    String data = "If we calculate the panel, we can get to the PNG transmitter through the bluetooth THX driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     panelProcessor processor = new panelProcessor();
-    String result = processor.compressData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
