@@ -1,26 +1,26 @@
 // Generated Java File
-// back up bluetooth monitor
+// parse primary array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class microchipProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public microchipProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hermiston - Flatley";
+    this.name = "Quitzon, Romaguera and Greenholt";
 }
 
 public String calculateData() {
-    String data = "I'll program the virtual FTP bus, that should monitor the CSS sensor!";
+    String data = "You can't override the monitor without generating the primary XML monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    microchipProcessor processor = new microchipProcessor();
+    sensorProcessor processor = new sensorProcessor();
     String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
