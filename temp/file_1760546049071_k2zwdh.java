@@ -1,5 +1,5 @@
 // Generated Java File
-// synthesize auxiliary application
+// copy 1080p hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public protocolProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kuhlman - Macejkovic";
+    this.name = "Stokes - Rippin";
 }
 
-public String compressData() {
-    String data = "Try to index the ADP feed, maybe it will transmit the bluetooth microchip!";
+public String connectData() {
+    String data = "I'll compress the redundant TCP feed, that should driver the HDD application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     protocolProcessor processor = new protocolProcessor();
-    String result = processor.compressData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
