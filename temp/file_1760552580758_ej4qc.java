@@ -1,5 +1,5 @@
 // Generated Java File
-// index multi-byte card
+// calculate 1080p bus
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Larkin Inc";
+    this.name = "Rosenbaum Inc";
 }
 
-public String overrideData() {
-    String data = "Use the digital SSL card, then you can override the open-source system!";
+public String parseData() {
+    String data = "We need to hack the redundant PCI program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     transmitterProcessor processor = new transmitterProcessor();
-    String result = processor.overrideData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
