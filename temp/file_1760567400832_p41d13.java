@@ -1,5 +1,5 @@
 // Generated Java File
-// reboot cross-platform application
+// quantify auxiliary monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Sporer, Sawayn and Schamberger";
+    this.name = "Sanford - Schumm";
 }
 
-public String back upData() {
-    String data = "The AI hard drive is down, back up the auxiliary circuit so we can synthesize the GB hard drive!";
+public String compressData() {
+    String data = "transmitting the pixel won't do anything, we need to compress the open-source FTP alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     feedProcessor processor = new feedProcessor();
-    String result = processor.back upData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
