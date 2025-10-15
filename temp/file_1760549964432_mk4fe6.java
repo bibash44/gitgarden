@@ -1,27 +1,27 @@
 // Generated Java File
-// back up online firewall
+// copy back-end card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class applicationProcessor {
+public class driverProcessor {
 private final String id;
 private final String name;
 
-public applicationProcessor() {
+public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Anderson Inc";
+    this.name = "Nicolas - Goodwin";
 }
 
-public String inputData() {
-    String data = "We need to transmit the haptic COM driver!";
+public String indexData() {
+    String data = "We need to connect the solid state SSL program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    applicationProcessor processor = new applicationProcessor();
-    String result = processor.inputData();
+    driverProcessor processor = new driverProcessor();
+    String result = processor.indexData();
     System.out.println("Result: " + result);
 }
 }
