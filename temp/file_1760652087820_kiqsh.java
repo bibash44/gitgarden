@@ -1,26 +1,26 @@
 // Generated Java File
-// calculate digital program
+// index digital port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class alarmProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public alarmProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kassulke, Ankunding and Purdy";
+    this.name = "Schulist Inc";
 }
 
 public String programData() {
-    String data = "If we copy the panel, we can get to the SCSI protocol through the virtual FTP feed!";
+    String data = "If we reboot the card, we can get to the HTTP transmitter through the primary HDD port!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    alarmProcessor processor = new alarmProcessor();
+    sensorProcessor processor = new sensorProcessor();
     String result = processor.programData();
     System.out.println("Result: " + result);
 }
