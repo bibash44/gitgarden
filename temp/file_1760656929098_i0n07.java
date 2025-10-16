@@ -1,5 +1,5 @@
 // Generated Java File
-// generate online alarm
+// compress primary hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Langworth Inc";
+    this.name = "Bernhard LLC";
 }
 
-public String copyData() {
-    String data = "Try to hack the HTTP feed, maybe it will synthesize the bluetooth bandwidth!";
+public String inputData() {
+    String data = "copying the sensor won't do anything, we need to synthesize the bluetooth TCP protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.copyData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
