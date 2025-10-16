@@ -1,5 +1,5 @@
 // Generated Java File
-// reboot wireless transmitter
+// generate mobile system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Rowe Inc";
+    this.name = "Casper, Rau and Kling";
 }
 
-public String synthesizeData() {
-    String data = "You can't generate the system without calculating the redundant AGP array!";
+public String calculateData() {
+    String data = "If we compress the circuit, we can get to the PNG microchip through the bluetooth JBOD matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     cardProcessor processor = new cardProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
