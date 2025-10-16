@@ -1,27 +1,27 @@
 // Generated Java File
-// generate digital monitor
+// parse back-end application
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class pixelProcessor {
+public class feedProcessor {
 private final String id;
 private final String name;
 
-public pixelProcessor() {
+public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mosciski Inc";
+    this.name = "Huel Inc";
 }
 
-public String compressData() {
-    String data = "You can't hack the array without parsing the multi-byte CSS array!";
+public String parseData() {
+    String data = "Use the open-source EXE sensor, then you can program the wireless feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    pixelProcessor processor = new pixelProcessor();
-    String result = processor.compressData();
+    feedProcessor processor = new feedProcessor();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
