@@ -1,26 +1,26 @@
 // Generated Java File
-// generate neural firewall
+// override online array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class firewallProcessor {
+public class feedProcessor {
 private final String id;
 private final String name;
 
-public firewallProcessor() {
+public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Nader, Walter and Kozey";
+    this.name = "Bashirian, Hartmann and Breitenberg";
 }
 
 public String generateData() {
-    String data = "Use the online SDD program, then you can parse the back-end pixel!";
+    String data = "Try to reboot the CSS firewall, maybe it will program the cross-platform circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    firewallProcessor processor = new firewallProcessor();
+    feedProcessor processor = new feedProcessor();
     String result = processor.generateData();
     System.out.println("Result: " + result);
 }
