@@ -1,26 +1,26 @@
 // Generated Java File
-// override wireless sensor
+// hack mobile transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class sensorProcessor {
+public class feedProcessor {
 private final String id;
 private final String name;
 
-public sensorProcessor() {
+public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Greenholt, Steuber and Jacobi";
+    this.name = "Homenick, Barrows and Effertz";
 }
 
 public String rebootData() {
-    String data = "connecting the microchip won't do anything, we need to program the multi-byte SDD bus!";
+    String data = "You can't transmit the feed without programming the haptic GB bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    sensorProcessor processor = new sensorProcessor();
+    feedProcessor processor = new feedProcessor();
     String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
