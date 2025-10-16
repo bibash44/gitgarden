@@ -1,26 +1,26 @@
 // Generated Java File
-// quantify virtual bandwidth
+// quantify online transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class panelProcessor {
+public class programProcessor {
 private final String id;
 private final String name;
 
-public panelProcessor() {
+public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hayes - Feeney";
+    this.name = "Larson - Daniel";
 }
 
 public String connectData() {
-    String data = "You can't index the bus without overriding the redundant TCP bus!";
+    String data = "hacking the capacitor won't do anything, we need to override the neural SMTP alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    panelProcessor processor = new panelProcessor();
+    programProcessor processor = new programProcessor();
     String result = processor.connectData();
     System.out.println("Result: " + result);
 }
