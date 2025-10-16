@@ -1,5 +1,5 @@
 // Generated Java File
-// reboot back-end panel
+// connect optical bandwidth
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Upton and Sons";
+    this.name = "Halvorson Group";
 }
 
-public String synthesizeData() {
-    String data = "Use the auxiliary XML bus, then you can back up the solid state array!";
+public String rebootData() {
+    String data = "Try to back up the AI system, maybe it will hack the digital protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     cardProcessor processor = new cardProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
