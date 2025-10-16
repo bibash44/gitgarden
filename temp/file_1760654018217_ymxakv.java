@@ -1,5 +1,5 @@
 // Generated Java File
-// bypass redundant application
+// parse redundant transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public firewallProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Fritsch, Klocko and Schulist";
+    this.name = "Kub - Lockman";
 }
 
-public String bypassData() {
-    String data = "You can't input the system without calculating the bluetooth RAM bus!";
+public String back upData() {
+    String data = "connecting the port won't do anything, we need to input the digital PCI protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     firewallProcessor processor = new firewallProcessor();
-    String result = processor.bypassData();
+    String result = processor.back upData();
     System.out.println("Result: " + result);
 }
 }
