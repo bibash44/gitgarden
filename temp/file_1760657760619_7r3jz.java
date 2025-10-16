@@ -1,5 +1,5 @@
 // Generated Java File
-// parse back-end monitor
+// reboot redundant array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Abshire - Homenick";
+    this.name = "DuBuque, Casper and VonRueden";
 }
 
-public String compressData() {
-    String data = "The ADP circuit is down, calculate the back-end program so we can connect the RSS capacitor!";
+public String rebootData() {
+    String data = "The IB port is down, synthesize the solid state protocol so we can reboot the AGP panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     pixelProcessor processor = new pixelProcessor();
-    String result = processor.compressData();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
