@@ -1,5 +1,5 @@
 // Generated Java File
-// compress primary feed
+// compress open-source application
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Barton and Sons";
+    this.name = "Greenfelder, Bednar and Osinski";
 }
 
-public String transmitData() {
-    String data = "You can't compress the interface without indexing the neural JSON protocol!";
+public String rebootData() {
+    String data = "Use the digital AGP firewall, then you can navigate the bluetooth system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.transmitData();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
