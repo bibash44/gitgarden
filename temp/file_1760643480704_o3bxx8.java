@@ -1,5 +1,5 @@
 // Generated Java File
-// generate digital card
+// generate 1080p circuit
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Aufderhar LLC";
+    this.name = "Johns LLC";
 }
 
-public String synthesizeData() {
-    String data = "Use the bluetooth USB port, then you can synthesize the online port!";
+public String generateData() {
+    String data = "You can't back up the hard drive without indexing the neural PCI bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     feedProcessor processor = new feedProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }
