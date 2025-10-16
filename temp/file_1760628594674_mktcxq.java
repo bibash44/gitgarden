@@ -1,5 +1,5 @@
 // Generated Java File
-// back up online interface
+// input back-end feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Durgan - Howe";
+    this.name = "Anderson - Connelly";
 }
 
 public String copyData() {
-    String data = "If we parse the interface, we can get to the PNG monitor through the back-end THX alarm!";
+    String data = "You can't program the hard drive without connecting the cross-platform SSL port!";
     System.out.println("Processing: " + data);
     return data;
 }
