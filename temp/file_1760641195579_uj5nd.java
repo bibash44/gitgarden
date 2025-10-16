@@ -1,5 +1,5 @@
 // Generated Java File
-// generate solid state microchip
+// quantify 1080p array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Klocko Inc";
+    this.name = "Wintheiser, Gaylord and Hermiston";
 }
 
-public String inputData() {
-    String data = "Use the primary HTTP application, then you can generate the auxiliary port!";
+public String compressData() {
+    String data = "If we input the pixel, we can get to the ADP microchip through the online XML driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.inputData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
