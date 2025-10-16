@@ -1,5 +1,5 @@
 // Generated Java File
-// transmit digital driver
+// synthesize multi-byte bus
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public portProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Raynor, Botsford and Abbott";
+    this.name = "Fadel - Legros";
 }
 
-public String synthesizeData() {
-    String data = "Use the virtual GB bus, then you can connect the solid state program!";
+public String quantifyData() {
+    String data = "We need to connect the redundant SMTP feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     portProcessor processor = new portProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
