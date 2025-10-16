@@ -1,26 +1,26 @@
 // Generated Java File
-// navigate bluetooth array
+// synthesize 1080p driver
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class programProcessor {
+public class monitorProcessor {
 private final String id;
 private final String name;
 
-public programProcessor() {
+public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Schinner, Schumm and Buckridge";
+    this.name = "Bruen - Miller";
 }
 
 public String parseData() {
-    String data = "connecting the program won't do anything, we need to quantify the mobile RAM port!";
+    String data = "Use the 1080p SAS alarm, then you can program the neural firewall!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    programProcessor processor = new programProcessor();
+    monitorProcessor processor = new monitorProcessor();
     String result = processor.parseData();
     System.out.println("Result: " + result);
 }
