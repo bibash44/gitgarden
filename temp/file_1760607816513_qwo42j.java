@@ -1,5 +1,5 @@
 // Generated Java File
-// back up cross-platform bus
+// connect mobile panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public microchipProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Considine Group";
+    this.name = "Walker - Grimes";
 }
 
-public String copyData() {
-    String data = "Use the virtual USB program, then you can input the multi-byte port!";
+public String connectData() {
+    String data = "indexing the feed won't do anything, we need to quantify the 1080p GB system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     microchipProcessor processor = new microchipProcessor();
-    String result = processor.copyData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
