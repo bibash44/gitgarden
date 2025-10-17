@@ -1,5 +1,5 @@
 // Generated Java File
-// reboot auxiliary firewall
+// calculate virtual program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Schoen Inc";
+    this.name = "Nolan, Schuster and Carroll";
 }
 
 public String compressData() {
-    String data = "Use the auxiliary AGP protocol, then you can transmit the multi-byte transmitter!";
+    String data = "quantifying the application won't do anything, we need to input the neural USB monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
