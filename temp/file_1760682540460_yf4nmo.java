@@ -1,5 +1,5 @@
 // Generated Java File
-// compress 1080p transmitter
+// override solid state hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Bailey, Mayert and Cartwright";
+    this.name = "Conroy - Block";
 }
 
-public String copyData() {
-    String data = "The CSS firewall is down, copy the 1080p bus so we can parse the SQL bus!";
+public String compressData() {
+    String data = "If we program the monitor, we can get to the IB protocol through the primary SAS program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.copyData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
