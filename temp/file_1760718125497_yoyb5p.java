@@ -1,5 +1,5 @@
 // Generated Java File
-// generate optical port
+// input solid state array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kuhlman and Sons";
+    this.name = "Hills, Reilly and Stark";
 }
 
-public String parseData() {
-    String data = "Try to compress the SDD interface, maybe it will hack the back-end panel!";
+public String calculateData() {
+    String data = "We need to back up the redundant SQL bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.parseData();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
