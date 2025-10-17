@@ -1,26 +1,26 @@
 // Generated Java File
-// calculate wireless bandwidth
+// transmit bluetooth monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class driverProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Stroman, Hand and Roob";
+    this.name = "Ritchie, Balistreri and Klein";
 }
 
 public String compressData() {
-    String data = "I'll copy the haptic XML transmitter, that should bandwidth the THX alarm!";
+    String data = "Use the bluetooth SDD system, then you can compress the neural application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
+    driverProcessor processor = new driverProcessor();
     String result = processor.compressData();
     System.out.println("Result: " + result);
 }
