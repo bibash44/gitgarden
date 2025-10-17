@@ -1,26 +1,26 @@
 // Generated Java File
-// index multi-byte capacitor
+// index virtual panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class interfaceProcessor {
+public class driverProcessor {
 private final String id;
 private final String name;
 
-public interfaceProcessor() {
+public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Doyle - Rosenbaum";
+    this.name = "Daniel, Armstrong and Jerde";
 }
 
 public String parseData() {
-    String data = "I'll input the virtual SAS pixel, that should protocol the RSS alarm!";
+    String data = "I'll input the solid state RAM array, that should bus the CSS bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    interfaceProcessor processor = new interfaceProcessor();
+    driverProcessor processor = new driverProcessor();
     String result = processor.parseData();
     System.out.println("Result: " + result);
 }
