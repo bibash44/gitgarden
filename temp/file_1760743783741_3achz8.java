@@ -1,26 +1,26 @@
 // Generated Java File
-// generate 1080p alarm
+// back up mobile sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class systemProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public systemProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "West - Champlin";
+    this.name = "Schmeler, Kirlin and Bednar";
 }
 
 public String hackData() {
-    String data = "I'll navigate the back-end FTP array, that should panel the SMS matrix!";
+    String data = "You can't generate the matrix without transmitting the bluetooth PCI protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    systemProcessor processor = new systemProcessor();
+    sensorProcessor processor = new sensorProcessor();
     String result = processor.hackData();
     System.out.println("Result: " + result);
 }
