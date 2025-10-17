@@ -1,26 +1,26 @@
 // Generated Java File
-// parse bluetooth array
+// back up mobile program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class bandwidthProcessor {
+public class transmitterProcessor {
 private final String id;
 private final String name;
 
-public bandwidthProcessor() {
+public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hintz - Larson";
+    this.name = "Kris Group";
 }
 
 public String generateData() {
-    String data = "You can't reboot the port without transmitting the mobile USB bus!";
+    String data = "We need to connect the solid state COM alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    bandwidthProcessor processor = new bandwidthProcessor();
+    transmitterProcessor processor = new transmitterProcessor();
     String result = processor.generateData();
     System.out.println("Result: " + result);
 }
