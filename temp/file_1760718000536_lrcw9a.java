@@ -1,26 +1,26 @@
 // Generated Java File
-// back up virtual bus
+// generate optical port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class alarmProcessor {
+public class monitorProcessor {
 private final String id;
 private final String name;
 
-public alarmProcessor() {
+public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Zemlak and Sons";
+    this.name = "Kuhlman and Sons";
 }
 
 public String parseData() {
-    String data = "The SQL alarm is down, back up the virtual card so we can copy the SDD sensor!";
+    String data = "Try to compress the SDD interface, maybe it will hack the back-end panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    alarmProcessor processor = new alarmProcessor();
+    monitorProcessor processor = new monitorProcessor();
     String result = processor.parseData();
     System.out.println("Result: " + result);
 }
