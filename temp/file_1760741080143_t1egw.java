@@ -1,5 +1,5 @@
 // Generated Java File
-// reboot auxiliary interface
+// back up bluetooth feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Rowe LLC";
+    this.name = "Emard LLC";
 }
 
-public String rebootData() {
-    String data = "The SMTP transmitter is down, back up the mobile monitor so we can generate the FTP alarm!";
+public String synthesizeData() {
+    String data = "You can't back up the hard drive without copying the redundant PNG bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     sensorProcessor processor = new sensorProcessor();
-    String result = processor.rebootData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
