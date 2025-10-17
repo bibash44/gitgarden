@@ -1,26 +1,26 @@
 // Generated Java File
-// reboot 1080p application
+// calculate primary panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class matrixProcessor {
+public class busProcessor {
 private final String id;
 private final String name;
 
-public matrixProcessor() {
+public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Morar - Torphy";
+    this.name = "Mraz and Sons";
 }
 
 public String rebootData() {
-    String data = "We need to back up the wireless XSS feed!";
+    String data = "Use the 1080p IB application, then you can program the cross-platform firewall!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    matrixProcessor processor = new matrixProcessor();
+    busProcessor processor = new busProcessor();
     String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
