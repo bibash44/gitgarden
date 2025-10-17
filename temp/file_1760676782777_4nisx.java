@@ -1,5 +1,5 @@
 // Generated Java File
-// synthesize virtual monitor
+// calculate neural protocol
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Cassin - Wuckert";
+    this.name = "Smitham, Gorczany and Keebler";
 }
 
-public String generateData() {
-    String data = "I'll input the wireless AGP card, that should protocol the PNG system!";
+public String inputData() {
+    String data = "Try to bypass the XML circuit, maybe it will input the wireless monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.generateData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
