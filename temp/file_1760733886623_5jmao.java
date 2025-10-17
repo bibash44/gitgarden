@@ -1,5 +1,5 @@
 // Generated Java File
-// override back-end monitor
+// input 1080p bandwidth
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Wiza - Ernser";
+    this.name = "Hoppe, Streich and Upton";
 }
 
-public String inputData() {
-    String data = "If we bypass the panel, we can get to the THX program through the optical COM driver!";
+public String calculateData() {
+    String data = "You can't transmit the port without indexing the online SQL hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     arrayProcessor processor = new arrayProcessor();
-    String result = processor.inputData();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
