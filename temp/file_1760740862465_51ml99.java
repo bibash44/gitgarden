@@ -1,27 +1,27 @@
 // Generated Java File
-// generate redundant matrix
+// generate haptic sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class busProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Gusikowski and Sons";
+    this.name = "White - Turcotte";
 }
 
-public String hackData() {
-    String data = "Use the auxiliary THX alarm, then you can copy the primary pixel!";
+public String calculateData() {
+    String data = "We need to index the digital ADP port!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
-    String result = processor.hackData();
+    busProcessor processor = new busProcessor();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
