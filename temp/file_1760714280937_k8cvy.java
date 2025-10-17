@@ -1,27 +1,27 @@
 // Generated Java File
-// navigate optical hard drive
+// back up optical capacitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class arrayProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "McClure Inc";
+    this.name = "Herzog - Kris";
 }
 
-public String overrideData() {
-    String data = "We need to copy the neural PCI feed!";
+public String rebootData() {
+    String data = "We need to connect the multi-byte CSS alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
-    String result = processor.overrideData();
+    arrayProcessor processor = new arrayProcessor();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
