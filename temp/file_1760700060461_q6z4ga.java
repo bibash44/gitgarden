@@ -1,27 +1,27 @@
 // Generated Java File
-// input digital sensor
+// bypass online feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class pixelProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Reilly, Jerde and Sanford";
+    this.name = "Effertz - Homenick";
 }
 
-public String copyData() {
-    String data = "Try to quantify the GB panel, maybe it will index the mobile alarm!";
+public String hackData() {
+    String data = "We need to reboot the 1080p PCI monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
-    String result = processor.copyData();
+    pixelProcessor processor = new pixelProcessor();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
