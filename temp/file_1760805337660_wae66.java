@@ -1,26 +1,26 @@
 // Generated Java File
-// quantify virtual bandwidth
+// reboot wireless feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class systemProcessor {
+public class arrayProcessor {
 private final String id;
 private final String name;
 
-public systemProcessor() {
+public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Murphy - Aufderhar";
+    this.name = "Cartwright - Denesik";
 }
 
 public String rebootData() {
-    String data = "Try to calculate the IB array, maybe it will copy the virtual matrix!";
+    String data = "I'll bypass the digital COM protocol, that should card the SAS bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    systemProcessor processor = new systemProcessor();
+    arrayProcessor processor = new arrayProcessor();
     String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
