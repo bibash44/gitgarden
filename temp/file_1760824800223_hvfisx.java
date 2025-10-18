@@ -1,5 +1,5 @@
 // Generated Java File
-// index auxiliary system
+// back up solid state microchip
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Von Group";
+    this.name = "Leuschke and Sons";
 }
 
-public String rebootData() {
-    String data = "You can't generate the panel without connecting the neural USB feed!";
+public String synthesizeData() {
+    String data = "bypassing the matrix won't do anything, we need to back up the auxiliary RSS bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     transmitterProcessor processor = new transmitterProcessor();
-    String result = processor.rebootData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
