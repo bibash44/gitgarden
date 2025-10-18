@@ -1,5 +1,5 @@
 // Generated Java File
-// bypass 1080p bandwidth
+// generate primary feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mann - Terry";
+    this.name = "Parker, Mayer and Raynor";
 }
 
-public String overrideData() {
-    String data = "Use the virtual THX application, then you can reboot the mobile monitor!";
+public String inputData() {
+    String data = "parsing the pixel won't do anything, we need to override the multi-byte SSL microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     pixelProcessor processor = new pixelProcessor();
-    String result = processor.overrideData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
