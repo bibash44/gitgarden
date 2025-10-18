@@ -1,5 +1,5 @@
 // Generated Java File
-// synthesize redundant sensor
+// synthesize haptic microchip
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Rutherford and Sons";
+    this.name = "Glover, Christiansen and Corkery";
 }
 
-public String rebootData() {
-    String data = "I'll back up the primary SMTP alarm, that should pixel the JSON bandwidth!";
+public String generateData() {
+    String data = "Use the multi-byte SAS feed, then you can transmit the neural sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.rebootData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }
