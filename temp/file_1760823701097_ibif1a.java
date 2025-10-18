@@ -1,5 +1,5 @@
 // Generated Java File
-// compress back-end transmitter
+// calculate auxiliary transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Krajcik - Macejkovic";
+    this.name = "Quigley - Graham";
 }
 
-public String overrideData() {
-    String data = "You can't input the array without overriding the neural CSS panel!";
+public String programData() {
+    String data = "parsing the bus won't do anything, we need to program the open-source SSL feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     arrayProcessor processor = new arrayProcessor();
-    String result = processor.overrideData();
+    String result = processor.programData();
     System.out.println("Result: " + result);
 }
 }
