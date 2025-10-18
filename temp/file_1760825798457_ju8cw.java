@@ -1,26 +1,26 @@
 // Generated Java File
-// hack online monitor
+// connect primary card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class protocolProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public protocolProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Johnston, Greenholt and Balistreri";
+    this.name = "Rohan - Hodkiewicz";
 }
 
 public String overrideData() {
-    String data = "I'll quantify the back-end CSS driver, that should feed the SCSI program!";
+    String data = "We need to compress the wireless COM application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
+    protocolProcessor processor = new protocolProcessor();
     String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
