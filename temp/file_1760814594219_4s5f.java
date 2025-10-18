@@ -1,5 +1,5 @@
 // Generated Java File
-// connect primary driver
+// transmit digital card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "McClure LLC";
+    this.name = "Herzog Inc";
 }
 
-public String rebootData() {
-    String data = "compressing the microchip won't do anything, we need to hack the auxiliary EXE application!";
+public String bypassData() {
+    String data = "We need to navigate the bluetooth RSS capacitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     programProcessor processor = new programProcessor();
-    String result = processor.rebootData();
+    String result = processor.bypassData();
     System.out.println("Result: " + result);
 }
 }
