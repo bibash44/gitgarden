@@ -1,27 +1,27 @@
 // Generated Java File
-// compress online firewall
+// bypass back-end program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class arrayProcessor {
+public class feedProcessor {
 private final String id;
 private final String name;
 
-public arrayProcessor() {
+public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kohler - Littel";
+    this.name = "Robel - Kohler";
 }
 
-public String hackData() {
-    String data = "Use the optical SDD bandwidth, then you can reboot the haptic hard drive!";
+public String transmitData() {
+    String data = "Use the digital XSS interface, then you can bypass the optical array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    arrayProcessor processor = new arrayProcessor();
-    String result = processor.hackData();
+    feedProcessor processor = new feedProcessor();
+    String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
 }
