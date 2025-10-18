@@ -1,5 +1,5 @@
 // Generated Java File
-// reboot online circuit
+// copy redundant system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Bergstrom - Bartell";
+    this.name = "Barrows Group";
 }
 
-public String parseData() {
-    String data = "We need to input the digital SCSI system!";
+public String synthesizeData() {
+    String data = "If we copy the pixel, we can get to the IB circuit through the open-source JSON feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     feedProcessor processor = new feedProcessor();
-    String result = processor.parseData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
