@@ -1,26 +1,26 @@
 // Generated Java File
-// transmit wireless capacitor
+// program virtual microchip
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class circuitProcessor {
+public class monitorProcessor {
 private final String id;
 private final String name;
 
-public circuitProcessor() {
+public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Reichel - Kirlin";
+    this.name = "Hand - Leffler";
 }
 
 public String rebootData() {
-    String data = "We need to quantify the virtual TCP matrix!";
+    String data = "The FTP port is down, calculate the multi-byte sensor so we can input the SAS circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    circuitProcessor processor = new circuitProcessor();
+    monitorProcessor processor = new monitorProcessor();
     String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
