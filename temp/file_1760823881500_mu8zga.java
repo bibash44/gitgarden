@@ -1,5 +1,5 @@
 // Generated Java File
-// input bluetooth hard drive
+// index optical firewall
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public circuitProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Smitham - Hickle";
+    this.name = "Rath - Ondricka";
 }
 
-public String programData() {
-    String data = "I'll calculate the haptic AI monitor, that should card the SAS sensor!";
+public String indexData() {
+    String data = "Try to connect the XSS hard drive, maybe it will copy the primary array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     circuitProcessor processor = new circuitProcessor();
-    String result = processor.programData();
+    String result = processor.indexData();
     System.out.println("Result: " + result);
 }
 }
