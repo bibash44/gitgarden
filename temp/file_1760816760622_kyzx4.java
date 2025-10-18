@@ -1,5 +1,5 @@
 // Generated Java File
-// back up digital bus
+// synthesize solid state system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public firewallProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Parker and Sons";
+    this.name = "Littel - O'Keefe";
 }
 
-public String bypassData() {
-    String data = "Try to compress the EXE circuit, maybe it will back up the back-end program!";
+public String connectData() {
+    String data = "I'll override the redundant AGP bandwidth, that should driver the SAS circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     firewallProcessor processor = new firewallProcessor();
-    String result = processor.bypassData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
