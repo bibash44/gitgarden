@@ -1,26 +1,26 @@
 // Generated Java File
-// quantify optical capacitor
+// connect back-end hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class monitorProcessor {
+public class busProcessor {
 private final String id;
 private final String name;
 
-public monitorProcessor() {
+public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Renner - Wehner";
+    this.name = "Ward - Beatty";
 }
 
 public String inputData() {
-    String data = "You can't hack the pixel without parsing the open-source ADP bandwidth!";
+    String data = "We need to reboot the open-source THX pixel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    monitorProcessor processor = new monitorProcessor();
+    busProcessor processor = new busProcessor();
     String result = processor.inputData();
     System.out.println("Result: " + result);
 }
