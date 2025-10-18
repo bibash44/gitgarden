@@ -1,26 +1,26 @@
 // Generated Java File
-// quantify auxiliary pixel
+// generate digital system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Willms - Ernser";
+    this.name = "Schoen and Sons";
 }
 
 public String rebootData() {
-    String data = "If we input the array, we can get to the SAS hard drive through the auxiliary IB card!";
+    String data = "If we input the alarm, we can get to the USB interface through the primary GB sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
+    sensorProcessor processor = new sensorProcessor();
     String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
