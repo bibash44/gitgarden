@@ -1,5 +1,5 @@
 // Generated Java File
-// program digital hard drive
+// transmit cross-platform sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Skiles and Sons";
+    this.name = "Torphy, Jaskolski and Cronin";
 }
 
-public String rebootData() {
-    String data = "You can't back up the pixel without hacking the auxiliary THX protocol!";
+public String compressData() {
+    String data = "The ADP card is down, program the solid state array so we can override the SDD interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     cardProcessor processor = new cardProcessor();
-    String result = processor.rebootData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
