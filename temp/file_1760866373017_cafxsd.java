@@ -1,5 +1,5 @@
 // Generated Java File
-// override haptic hard drive
+// back up open-source capacitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Klein - Bogan";
+    this.name = "Gislason and Sons";
 }
 
-public String generateData() {
-    String data = "Use the haptic TCP matrix, then you can override the virtual hard drive!";
+public String quantifyData() {
+    String data = "The ADP system is down, compress the optical bandwidth so we can index the SMS panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.generateData();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
