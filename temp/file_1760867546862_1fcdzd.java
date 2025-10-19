@@ -1,26 +1,26 @@
 // Generated Java File
-// connect wireless bus
+// quantify 1080p capacitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class programProcessor {
+public class circuitProcessor {
 private final String id;
 private final String name;
 
-public programProcessor() {
+public circuitProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Watsica - Abernathy";
+    this.name = "Bechtelar, Lynch and Emard";
 }
 
 public String back upData() {
-    String data = "Try to calculate the GB capacitor, maybe it will copy the wireless matrix!";
+    String data = "backing up the capacitor won't do anything, we need to parse the neural PCI circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    programProcessor processor = new programProcessor();
+    circuitProcessor processor = new circuitProcessor();
     String result = processor.back upData();
     System.out.println("Result: " + result);
 }
