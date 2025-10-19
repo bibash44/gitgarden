@@ -1,5 +1,5 @@
 // Generated Java File
-// program redundant protocol
+// connect digital hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kozey and Sons";
+    this.name = "Hansen Group";
 }
 
-public String inputData() {
-    String data = "If we synthesize the transmitter, we can get to the AGP hard drive through the optical SMS sensor!";
+public String back upData() {
+    String data = "backing up the hard drive won't do anything, we need to calculate the redundant PNG capacitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     sensorProcessor processor = new sensorProcessor();
-    String result = processor.inputData();
+    String result = processor.back upData();
     System.out.println("Result: " + result);
 }
 }
