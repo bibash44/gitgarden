@@ -1,5 +1,5 @@
 // Generated Java File
-// generate online hard drive
+// input mobile hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hammes - Langosh";
+    this.name = "Wehner, Macejkovic and Heller";
 }
 
-public String programData() {
-    String data = "The COM monitor is down, input the multi-byte interface so we can connect the CSS sensor!";
+public String generateData() {
+    String data = "We need to override the auxiliary THX microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     transmitterProcessor processor = new transmitterProcessor();
-    String result = processor.programData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }
