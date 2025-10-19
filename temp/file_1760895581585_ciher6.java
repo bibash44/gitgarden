@@ -1,5 +1,5 @@
 // Generated Java File
-// override wireless protocol
+// override back-end card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Berge Group";
+    this.name = "Hayes LLC";
 }
 
-public String indexData() {
-    String data = "Try to navigate the SDD system, maybe it will input the 1080p firewall!";
+public String calculateData() {
+    String data = "We need to input the bluetooth SMS sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.indexData();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
