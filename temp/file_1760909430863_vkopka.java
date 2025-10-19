@@ -1,27 +1,27 @@
 // Generated Java File
-// calculate auxiliary hard drive
+// calculate primary protocol
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class programProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Schulist - Homenick";
+    this.name = "Greenholt, Stokes and DuBuque";
 }
 
-public String hackData() {
-    String data = "We need to hack the back-end HTTP circuit!";
+public String compressData() {
+    String data = "We need to calculate the neural XSS card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
-    String result = processor.hackData();
+    programProcessor processor = new programProcessor();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
