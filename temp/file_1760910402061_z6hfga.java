@@ -1,5 +1,5 @@
 // Generated Java File
-// parse bluetooth protocol
+// calculate optical hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public alarmProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Wyman, Hand and Wyman";
+    this.name = "Rempel, Hegmann and Ferry";
 }
 
-public String rebootData() {
-    String data = "parsing the monitor won't do anything, we need to hack the neural FTP microchip!";
+public String navigateData() {
+    String data = "navigating the transmitter won't do anything, we need to compress the back-end SDD array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     alarmProcessor processor = new alarmProcessor();
-    String result = processor.rebootData();
+    String result = processor.navigateData();
     System.out.println("Result: " + result);
 }
 }
