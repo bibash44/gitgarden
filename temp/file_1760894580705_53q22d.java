@@ -1,5 +1,5 @@
 // Generated Java File
-// generate multi-byte port
+// generate online program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hermann, Senger and Keeling";
+    this.name = "Weber, Rogahn and Herman";
 }
 
-public String connectData() {
-    String data = "You can't bypass the monitor without synthesizing the optical XML pixel!";
+public String synthesizeData() {
+    String data = "We need to quantify the cross-platform JSON driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.connectData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
