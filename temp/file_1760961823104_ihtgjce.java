@@ -1,27 +1,27 @@
 // Generated Java File
-// generate back-end bandwidth
+// calculate bluetooth alarm
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class driverProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Macejkovic - Jast";
+    this.name = "Lubowitz - Gibson";
 }
 
-public String copyData() {
-    String data = "Try to copy the SDD driver, maybe it will quantify the open-source alarm!";
+public String quantifyData() {
+    String data = "We need to hack the bluetooth COM interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
-    String result = processor.copyData();
+    driverProcessor processor = new driverProcessor();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
