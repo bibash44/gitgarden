@@ -1,5 +1,5 @@
 // Generated Java File
-// synthesize optical port
+// connect primary array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Koch LLC";
+    this.name = "Wisozk, Hegmann and Sporer";
 }
 
 public String bypassData() {
-    String data = "Use the bluetooth SMS microchip, then you can transmit the redundant port!";
+    String data = "If we hack the microchip, we can get to the GB transmitter through the solid state HDD bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
