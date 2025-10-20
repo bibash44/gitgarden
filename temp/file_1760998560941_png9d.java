@@ -1,5 +1,5 @@
 // Generated Java File
-// copy auxiliary port
+// connect open-source monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public protocolProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Jakubowski, Mayer and Brakus";
+    this.name = "Dicki, Rohan and Breitenberg";
 }
 
-public String programData() {
-    String data = "Use the auxiliary SCSI sensor, then you can index the open-source pixel!";
+public String quantifyData() {
+    String data = "I'll parse the wireless TCP hard drive, that should monitor the THX circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     protocolProcessor processor = new protocolProcessor();
-    String result = processor.programData();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
