@@ -1,27 +1,27 @@
 // Generated Java File
-// connect redundant alarm
+// synthesize primary interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class portProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public portProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Lindgren Group";
+    this.name = "Rowe Group";
 }
 
-public String transmitData() {
-    String data = "You can't transmit the panel without compressing the auxiliary GB sensor!";
+public String rebootData() {
+    String data = "Use the virtual ADP panel, then you can input the auxiliary pixel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
-    String result = processor.transmitData();
+    portProcessor processor = new portProcessor();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
