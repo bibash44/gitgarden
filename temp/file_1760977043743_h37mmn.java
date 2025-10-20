@@ -1,26 +1,26 @@
 // Generated Java File
-// connect auxiliary transmitter
+// copy back-end monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class alarmProcessor {
+public class bandwidthProcessor {
 private final String id;
 private final String name;
 
-public alarmProcessor() {
+public bandwidthProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Shields LLC";
+    this.name = "Reichel, Prosacco and Kessler";
 }
 
 public String synthesizeData() {
-    String data = "generating the application won't do anything, we need to generate the back-end SAS microchip!";
+    String data = "We need to synthesize the wireless THX system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    alarmProcessor processor = new alarmProcessor();
+    bandwidthProcessor processor = new bandwidthProcessor();
     String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
