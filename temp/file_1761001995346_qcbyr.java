@@ -1,5 +1,5 @@
 // Generated Java File
-// parse online application
+// parse online system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hyatt Inc";
+    this.name = "Renner - Kovacek";
 }
 
-public String transmitData() {
-    String data = "bypassing the firewall won't do anything, we need to connect the multi-byte GB program!";
+public String indexData() {
+    String data = "The XSS sensor is down, back up the back-end bus so we can quantify the XSS feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.transmitData();
+    String result = processor.indexData();
     System.out.println("Result: " + result);
 }
 }
