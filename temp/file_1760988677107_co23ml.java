@@ -1,5 +1,5 @@
 // Generated Java File
-// bypass solid state card
+// connect bluetooth capacitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Ernser and Sons";
+    this.name = "Howell - Luettgen";
 }
 
-public String back upData() {
-    String data = "The XML application is down, input the wireless circuit so we can synthesize the PNG card!";
+public String synthesizeData() {
+    String data = "Try to bypass the SMS matrix, maybe it will program the solid state driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     panelProcessor processor = new panelProcessor();
-    String result = processor.back upData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
