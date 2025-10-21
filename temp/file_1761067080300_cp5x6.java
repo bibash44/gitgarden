@@ -1,5 +1,5 @@
 // Generated Java File
-// parse mobile system
+// back up online pixel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hintz, Davis and Hilll";
+    this.name = "Ortiz, Jacobs and Veum";
 }
 
 public String rebootData() {
-    String data = "You can't input the feed without copying the primary COM matrix!";
+    String data = "programming the sensor won't do anything, we need to index the haptic USB system!";
     System.out.println("Processing: " + data);
     return data;
 }
