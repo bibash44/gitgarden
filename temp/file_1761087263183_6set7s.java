@@ -1,5 +1,5 @@
 // Generated Java File
-// program solid state firewall
+// bypass mobile driver
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hackett, Spencer and Kautzer";
+    this.name = "Rutherford - Trantow";
 }
 
-public String transmitData() {
-    String data = "Use the back-end SMTP matrix, then you can reboot the multi-byte matrix!";
+public String compressData() {
+    String data = "Use the open-source SMS monitor, then you can transmit the haptic bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.transmitData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
