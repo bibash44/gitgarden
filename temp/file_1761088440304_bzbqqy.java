@@ -1,5 +1,5 @@
 // Generated Java File
-// hack cross-platform circuit
+// navigate back-end program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Watsica, Tremblay and Moore";
+    this.name = "Bartoletti - Cremin";
 }
 
-public String calculateData() {
-    String data = "You can't copy the protocol without compressing the digital SMS matrix!";
+public String overrideData() {
+    String data = "Try to hack the SMTP capacitor, maybe it will generate the 1080p array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     cardProcessor processor = new cardProcessor();
-    String result = processor.calculateData();
+    String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
 }
