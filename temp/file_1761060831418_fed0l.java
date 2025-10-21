@@ -1,5 +1,5 @@
 // Generated Java File
-// override 1080p matrix
+// parse back-end sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Turner, Jones and Mills";
+    this.name = "Koelpin - Cartwright";
 }
 
-public String inputData() {
-    String data = "Try to program the SMS port, maybe it will reboot the cross-platform application!";
+public String hackData() {
+    String data = "You can't transmit the circuit without copying the virtual USB panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     transmitterProcessor processor = new transmitterProcessor();
-    String result = processor.inputData();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
