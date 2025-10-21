@@ -1,5 +1,5 @@
 // Generated Java File
-// transmit optical transmitter
+// copy online circuit
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public interfaceProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Bradtke - Ebert";
+    this.name = "Wisoky LLC";
 }
 
-public String indexData() {
-    String data = "We need to reboot the solid state THX transmitter!";
+public String connectData() {
+    String data = "You can't reboot the alarm without backing up the online XSS monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     interfaceProcessor processor = new interfaceProcessor();
-    String result = processor.indexData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
