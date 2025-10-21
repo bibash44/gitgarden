@@ -1,5 +1,5 @@
 // Generated Java File
-// connect wireless matrix
+// bypass auxiliary panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Anderson - Aufderhar";
+    this.name = "Runolfsson, Hoeger and Lind";
 }
 
-public String calculateData() {
-    String data = "If we input the pixel, we can get to the JSON program through the wireless SMTP firewall!";
+public String rebootData() {
+    String data = "Try to hack the IB monitor, maybe it will reboot the back-end driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     cardProcessor processor = new cardProcessor();
-    String result = processor.calculateData();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
