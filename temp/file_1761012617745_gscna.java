@@ -1,5 +1,5 @@
 // Generated Java File
-// generate open-source capacitor
+// back up digital sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Emard, Corwin and Harris";
+    this.name = "Koelpin - Howe";
 }
 
-public String transmitData() {
-    String data = "We need to transmit the multi-byte COM alarm!";
+public String navigateData() {
+    String data = "Try to override the HDD bus, maybe it will calculate the primary array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.transmitData();
+    String result = processor.navigateData();
     System.out.println("Result: " + result);
 }
 }
