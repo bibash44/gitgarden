@@ -1,5 +1,5 @@
 // Generated Java File
-// navigate 1080p program
+// override virtual array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Rolfson - Kub";
+    this.name = "Lockman LLC";
 }
 
-public String parseData() {
-    String data = "Try to override the XML protocol, maybe it will navigate the back-end alarm!";
+public String inputData() {
+    String data = "You can't reboot the capacitor without overriding the bluetooth FTP driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     programProcessor processor = new programProcessor();
-    String result = processor.parseData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
