@@ -1,5 +1,5 @@
 // Generated Java File
-// parse online port
+// hack bluetooth system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Terry Group";
+    this.name = "Graham - Leuschke";
 }
 
-public String inputData() {
-    String data = "If we navigate the protocol, we can get to the GB bandwidth through the back-end ADP circuit!";
+public String navigateData() {
+    String data = "The HDD matrix is down, navigate the digital capacitor so we can transmit the HDD alarm!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.inputData();
+    String result = processor.navigateData();
     System.out.println("Result: " + result);
 }
 }
