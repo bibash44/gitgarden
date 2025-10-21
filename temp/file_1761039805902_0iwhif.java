@@ -1,5 +1,5 @@
 // Generated Java File
-// input multi-byte microchip
+// hack online card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Considine - Rau";
+    this.name = "Hoppe - Greenfelder";
 }
 
-public String connectData() {
-    String data = "If we hack the circuit, we can get to the SDD panel through the virtual SMS capacitor!";
+public String programData() {
+    String data = "Try to generate the SMTP card, maybe it will parse the mobile pixel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     busProcessor processor = new busProcessor();
-    String result = processor.connectData();
+    String result = processor.programData();
     System.out.println("Result: " + result);
 }
 }
