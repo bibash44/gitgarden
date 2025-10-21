@@ -1,5 +1,5 @@
 // Generated Java File
-// index redundant capacitor
+// index haptic panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public alarmProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hane, Hayes and Mills";
+    this.name = "Christiansen, Ernser and Leuschke";
 }
 
-public String inputData() {
-    String data = "We need to compress the bluetooth SDD application!";
+public String calculateData() {
+    String data = "Use the solid state SCSI interface, then you can generate the haptic application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     alarmProcessor processor = new alarmProcessor();
-    String result = processor.inputData();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
