@@ -1,5 +1,5 @@
 // Generated Java File
-// program virtual firewall
+// reboot redundant matrix
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Gleason - Runolfsson";
+    this.name = "Walker, Koelpin and Monahan";
 }
 
-public String parseData() {
-    String data = "Use the virtual SDD protocol, then you can compress the back-end system!";
+public String copyData() {
+    String data = "Use the bluetooth XML microchip, then you can navigate the redundant microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.parseData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
