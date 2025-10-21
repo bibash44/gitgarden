@@ -1,5 +1,5 @@
 // Generated Java File
-// parse multi-byte matrix
+// transmit neural bandwidth
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Abernathy, Lockman and Kassulke";
+    this.name = "Runolfsson and Sons";
 }
 
-public String inputData() {
-    String data = "connecting the interface won't do anything, we need to quantify the primary RSS bus!";
+public String indexData() {
+    String data = "We need to hack the 1080p SMTP firewall!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     busProcessor processor = new busProcessor();
-    String result = processor.inputData();
+    String result = processor.indexData();
     System.out.println("Result: " + result);
 }
 }
