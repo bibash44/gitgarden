@@ -1,5 +1,5 @@
 // Generated Java File
-// hack bluetooth port
+// transmit auxiliary interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public interfaceProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "DuBuque, Weimann and Koch";
+    this.name = "Schoen - Lindgren";
 }
 
-public String indexData() {
-    String data = "We need to program the solid state FTP capacitor!";
+public String inputData() {
+    String data = "The CSS card is down, hack the optical bandwidth so we can parse the SAS card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     interfaceProcessor processor = new interfaceProcessor();
-    String result = processor.indexData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
