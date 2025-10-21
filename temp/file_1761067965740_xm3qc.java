@@ -1,5 +1,5 @@
 // Generated Java File
-// hack wireless monitor
+// hack 1080p card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Crona and Sons";
+    this.name = "Hessel Inc";
 }
 
-public String connectData() {
-    String data = "Use the auxiliary PCI system, then you can connect the solid state matrix!";
+public String quantifyData() {
+    String data = "Use the back-end AI microchip, then you can hack the cross-platform hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     hard driveProcessor processor = new hard driveProcessor();
-    String result = processor.connectData();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }

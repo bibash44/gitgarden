@@ -1,5 +1,5 @@
 // Generated Java File
-// navigate cross-platform microchip
+// override cross-platform interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public firewallProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Cassin - Rice";
+    this.name = "O'Kon Inc";
 }
 
 public String inputData() {
-    String data = "You can't bypass the panel without navigating the solid state RAM card!";
+    String data = "You can't calculate the bandwidth without transmitting the solid state SAS microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
