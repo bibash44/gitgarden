@@ -1,5 +1,5 @@
 // Generated Java File
-// program cross-platform card
+// copy back-end interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mueller Group";
+    this.name = "Jones, Koss and Howe";
 }
 
-public String transmitData() {
-    String data = "The SSL sensor is down, program the open-source feed so we can synthesize the SDD monitor!";
+public String overrideData() {
+    String data = "Try to input the SMS capacitor, maybe it will connect the mobile card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     driverProcessor processor = new driverProcessor();
-    String result = processor.transmitData();
+    String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
 }
