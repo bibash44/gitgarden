@@ -1,26 +1,26 @@
 // Generated Java File
-// bypass bluetooth bus
+// override optical bus
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class monitorProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Klein, Predovic and Dickinson";
+    this.name = "Macejkovic Group";
 }
 
 public String connectData() {
-    String data = "You can't navigate the array without bypassing the 1080p SMTP panel!";
+    String data = "compressing the microchip won't do anything, we need to program the auxiliary ADP application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
+    monitorProcessor processor = new monitorProcessor();
     String result = processor.connectData();
     System.out.println("Result: " + result);
 }
