@@ -1,27 +1,27 @@
 // Generated Java File
-// navigate 1080p port
+// copy haptic application
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class matrixProcessor {
+public class programProcessor {
 private final String id;
 private final String name;
 
-public matrixProcessor() {
+public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hodkiewicz Group";
+    this.name = "Willms - Hamill";
 }
 
-public String indexData() {
-    String data = "We need to compress the 1080p SSL capacitor!";
+public String overrideData() {
+    String data = "We need to override the online SAS system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    matrixProcessor processor = new matrixProcessor();
-    String result = processor.indexData();
+    programProcessor processor = new programProcessor();
+    String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
 }
