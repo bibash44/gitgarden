@@ -1,27 +1,27 @@
 // Generated Java File
-// copy online card
+// connect wireless feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class cardProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Swift Inc";
+    this.name = "Crona Inc";
 }
 
-public String navigateData() {
-    String data = "parsing the panel won't do anything, we need to bypass the primary FTP bus!";
+public String inputData() {
+    String data = "I'll reboot the solid state XSS microchip, that should bandwidth the SQL card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
-    String result = processor.navigateData();
+    cardProcessor processor = new cardProcessor();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
