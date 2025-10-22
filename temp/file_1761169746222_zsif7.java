@@ -1,27 +1,27 @@
 // Generated Java File
-// input cross-platform panel
+// copy 1080p monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class panelProcessor {
+public class programProcessor {
 private final String id;
 private final String name;
 
-public panelProcessor() {
+public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Becker LLC";
+    this.name = "Shanahan, Berge and O'Hara";
 }
 
-public String parseData() {
-    String data = "Use the wireless XSS alarm, then you can copy the back-end array!";
+public String inputData() {
+    String data = "We need to input the open-source XML program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    panelProcessor processor = new panelProcessor();
-    String result = processor.parseData();
+    programProcessor processor = new programProcessor();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
