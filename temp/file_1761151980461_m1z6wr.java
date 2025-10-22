@@ -1,26 +1,26 @@
 // Generated Java File
-// parse multi-byte hard drive
+// quantify multi-byte feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class feedProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Morissette - Hagenes";
+    this.name = "Murphy and Sons";
 }
 
 public String copyData() {
-    String data = "If we quantify the sensor, we can get to the HTTP card through the multi-byte EXE array!";
+    String data = "quantifying the interface won't do anything, we need to hack the primary HTTP bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
+    feedProcessor processor = new feedProcessor();
     String result = processor.copyData();
     System.out.println("Result: " + result);
 }
