@@ -1,5 +1,5 @@
 // Generated Java File
-// bypass solid state bus
+// synthesize neural protocol
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Johns Inc";
+    this.name = "Daniel, Beier and Nader";
 }
 
-public String hackData() {
-    String data = "The RAM alarm is down, index the open-source application so we can back up the RSS bus!";
+public String synthesizeData() {
+    String data = "I'll synthesize the optical SQL feed, that should monitor the SCSI monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     programProcessor processor = new programProcessor();
-    String result = processor.hackData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
