@@ -1,5 +1,5 @@
 // Generated Java File
-// reboot multi-byte protocol
+// transmit 1080p array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Howell LLC";
+    this.name = "Pouros, Herman and Heaney";
 }
 
 public String hackData() {
-    String data = "We need to copy the primary SMTP card!";
+    String data = "synthesizing the capacitor won't do anything, we need to parse the online TCP protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
