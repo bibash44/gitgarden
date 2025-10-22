@@ -1,5 +1,5 @@
 // Generated Java File
-// override 1080p matrix
+// index bluetooth program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Goodwin, Gulgowski and Abernathy";
+    this.name = "Kiehn Group";
 }
 
-public String copyData() {
-    String data = "Try to synthesize the FTP port, maybe it will program the 1080p matrix!";
+public String generateData() {
+    String data = "hacking the driver won't do anything, we need to compress the online SCSI microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.copyData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }
