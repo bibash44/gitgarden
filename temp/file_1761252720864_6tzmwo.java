@@ -1,5 +1,5 @@
 // Generated Java File
-// hack primary panel
+// connect mobile hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public portProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Terry, Mertz and Marquardt";
+    this.name = "Cole, Cruickshank and Harvey";
 }
 
-public String overrideData() {
-    String data = "The SQL card is down, input the primary bus so we can navigate the FTP application!";
+public String connectData() {
+    String data = "You can't bypass the system without programming the virtual COM system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     portProcessor processor = new portProcessor();
-    String result = processor.overrideData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
