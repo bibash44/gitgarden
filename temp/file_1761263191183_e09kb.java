@@ -1,5 +1,5 @@
 // Generated Java File
-// back up online system
+// transmit redundant monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Konopelski Inc";
+    this.name = "Upton, Gleichner and Kassulke";
 }
 
-public String calculateData() {
-    String data = "copying the matrix won't do anything, we need to generate the bluetooth SDD system!";
+public String generateData() {
+    String data = "Use the optical GB alarm, then you can bypass the online interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.calculateData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }
