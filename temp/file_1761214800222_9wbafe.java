@@ -1,5 +1,5 @@
 // Generated Java File
-// copy primary transmitter
+// synthesize online sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Robel Group";
+    this.name = "Botsford, Bogisich and Dietrich";
 }
 
-public String calculateData() {
-    String data = "Try to hack the SCSI program, maybe it will quantify the solid state firewall!";
+public String parseData() {
+    String data = "hacking the system won't do anything, we need to bypass the virtual SQL interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     arrayProcessor processor = new arrayProcessor();
-    String result = processor.calculateData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
