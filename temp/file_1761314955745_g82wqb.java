@@ -1,5 +1,5 @@
 // Generated Java File
-// input 1080p microchip
+// copy cross-platform application
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Lueilwitz - Yundt";
+    this.name = "Bailey Group";
 }
 
-public String connectData() {
-    String data = "compressing the system won't do anything, we need to generate the neural SMS circuit!";
+public String parseData() {
+    String data = "If we connect the protocol, we can get to the JSON driver through the cross-platform USB circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.connectData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
