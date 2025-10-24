@@ -1,5 +1,5 @@
 // Generated Java File
-// synthesize multi-byte pixel
+// connect open-source transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Brakus LLC";
+    this.name = "Grimes, Bartoletti and Sauer";
 }
 
-public String programData() {
-    String data = "The SDD application is down, quantify the mobile pixel so we can hack the SAS microchip!";
+public String transmitData() {
+    String data = "We need to input the wireless SCSI array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     sensorProcessor processor = new sensorProcessor();
-    String result = processor.programData();
+    String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
 }
