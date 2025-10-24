@@ -1,27 +1,27 @@
 // Generated Java File
-// program open-source circuit
+// hack online feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class interfaceProcessor {
+public class alarmProcessor {
 private final String id;
 private final String name;
 
-public interfaceProcessor() {
+public alarmProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mann - DuBuque";
+    this.name = "Kuvalis - Emard";
 }
 
-public String bypassData() {
-    String data = "We need to program the mobile USB monitor!";
+public String rebootData() {
+    String data = "Try to generate the FTP sensor, maybe it will input the back-end circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    interfaceProcessor processor = new interfaceProcessor();
-    String result = processor.bypassData();
+    alarmProcessor processor = new alarmProcessor();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
