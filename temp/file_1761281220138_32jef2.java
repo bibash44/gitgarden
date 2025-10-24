@@ -1,5 +1,5 @@
 // Generated Java File
-// transmit solid state monitor
+// quantify haptic system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public protocolProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Sawayn, Bernhard and Kassulke";
+    this.name = "Cassin and Sons";
 }
 
 public String quantifyData() {
-    String data = "We need to index the virtual GB sensor!";
+    String data = "Use the wireless GB panel, then you can generate the online monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
