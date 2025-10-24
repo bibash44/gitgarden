@@ -1,5 +1,5 @@
 // Generated Java File
-// quantify wireless protocol
+// navigate haptic monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Sipes - Marvin";
+    this.name = "Hahn - Klocko";
 }
 
-public String synthesizeData() {
-    String data = "Use the open-source PNG card, then you can program the redundant interface!";
+public String indexData() {
+    String data = "The PNG sensor is down, back up the 1080p circuit so we can copy the SCSI hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     applicationProcessor processor = new applicationProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.indexData();
     System.out.println("Result: " + result);
 }
 }
