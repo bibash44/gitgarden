@@ -1,5 +1,5 @@
 // Generated Java File
-// override 1080p monitor
+// navigate online card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Shanahan, Adams and Schuster";
+    this.name = "Lueilwitz - Grady";
 }
 
-public String quantifyData() {
-    String data = "indexing the bus won't do anything, we need to reboot the primary PCI application!";
+public String hackData() {
+    String data = "Use the online XML driver, then you can hack the cross-platform sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     feedProcessor processor = new feedProcessor();
-    String result = processor.quantifyData();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
