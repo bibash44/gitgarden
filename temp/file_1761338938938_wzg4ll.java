@@ -1,5 +1,5 @@
 // Generated Java File
-// calculate optical protocol
+// program digital array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "DuBuque - Strosin";
+    this.name = "Kozey - Nolan";
 }
 
-public String navigateData() {
-    String data = "We need to compress the neural CSS firewall!";
+public String compressData() {
+    String data = "Use the mobile JBOD alarm, then you can bypass the haptic sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     feedProcessor processor = new feedProcessor();
-    String result = processor.navigateData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
