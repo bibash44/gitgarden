@@ -1,27 +1,27 @@
 // Generated Java File
-// back up primary application
+// connect mobile application
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class panelProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "King LLC";
+    this.name = "Cassin Group";
 }
 
-public String back upData() {
-    String data = "We need to back up the online AI card!";
+public String copyData() {
+    String data = "Use the haptic XSS protocol, then you can back up the online microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
-    String result = processor.back upData();
+    panelProcessor processor = new panelProcessor();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
