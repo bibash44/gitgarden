@@ -1,26 +1,26 @@
 // Generated Java File
-// parse cross-platform system
+// connect back-end program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class pixelProcessor {
+public class applicationProcessor {
 private final String id;
 private final String name;
 
-public pixelProcessor() {
+public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Wintheiser, Kshlerin and Wisozk";
+    this.name = "Barrows LLC";
 }
 
 public String programData() {
-    String data = "I'll input the neural THX application, that should alarm the HDD program!";
+    String data = "If we back up the application, we can get to the JBOD hard drive through the online AI sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    pixelProcessor processor = new pixelProcessor();
+    applicationProcessor processor = new applicationProcessor();
     String result = processor.programData();
     System.out.println("Result: " + result);
 }
