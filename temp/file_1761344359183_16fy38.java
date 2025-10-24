@@ -1,26 +1,26 @@
 // Generated Java File
-// bypass auxiliary microchip
+// override online panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Goodwin, Casper and Zboncak";
+    this.name = "Dicki, Nikolaus and Kassulke";
 }
 
 public String parseData() {
-    String data = "I'll index the 1080p HDD program, that should interface the PCI sensor!";
+    String data = "We need to synthesize the redundant SDD hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
+    sensorProcessor processor = new sensorProcessor();
     String result = processor.parseData();
     System.out.println("Result: " + result);
 }
