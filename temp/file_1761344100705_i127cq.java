@@ -1,27 +1,27 @@
 // Generated Java File
-// index virtual monitor
+// reboot solid state driver
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class monitorProcessor {
+public class programProcessor {
 private final String id;
 private final String name;
 
-public monitorProcessor() {
+public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Lang - Cummerata";
+    this.name = "Nolan, Armstrong and Heidenreich";
 }
 
-public String quantifyData() {
-    String data = "We need to generate the optical RSS card!";
+public String bypassData() {
+    String data = "We need to quantify the auxiliary EXE card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    monitorProcessor processor = new monitorProcessor();
-    String result = processor.quantifyData();
+    programProcessor processor = new programProcessor();
+    String result = processor.bypassData();
     System.out.println("Result: " + result);
 }
 }
