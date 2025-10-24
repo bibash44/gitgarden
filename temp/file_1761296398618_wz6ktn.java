@@ -1,5 +1,5 @@
 // Generated Java File
-// copy bluetooth firewall
+// connect primary interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public interfaceProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Auer Group";
+    this.name = "Armstrong - Koch";
 }
 
-public String overrideData() {
-    String data = "bypassing the feed won't do anything, we need to generate the online JBOD feed!";
+public String synthesizeData() {
+    String data = "If we generate the interface, we can get to the RSS feed through the digital USB card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     interfaceProcessor processor = new interfaceProcessor();
-    String result = processor.overrideData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
