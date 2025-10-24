@@ -1,5 +1,5 @@
 // Generated Java File
-// compress solid state transmitter
+// program virtual alarm
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Bauch Group";
+    this.name = "Ankunding, Mohr and Murray";
 }
 
-public String programData() {
-    String data = "We need to input the online PNG capacitor!";
+public String rebootData() {
+    String data = "I'll compress the wireless SAS panel, that should panel the PNG hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     driverProcessor processor = new driverProcessor();
-    String result = processor.programData();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
