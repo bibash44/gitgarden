@@ -1,5 +1,5 @@
 // Generated Java File
-// program virtual circuit
+// reboot redundant interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public firewallProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Hagenes - Medhurst";
+    this.name = "Mayert - Stroman";
 }
 
-public String generateData() {
-    String data = "Use the bluetooth SAS circuit, then you can parse the solid state alarm!";
+public String inputData() {
+    String data = "hacking the port won't do anything, we need to copy the multi-byte USB driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     firewallProcessor processor = new firewallProcessor();
-    String result = processor.generateData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
