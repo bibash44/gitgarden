@@ -1,26 +1,26 @@
 // Generated Java File
-// transmit wireless interface
+// input optical pixel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class circuitProcessor {
+public class firewallProcessor {
 private final String id;
 private final String name;
 
-public circuitProcessor() {
+public firewallProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kemmer - Gulgowski";
+    this.name = "Mayert - Willms";
 }
 
 public String transmitData() {
-    String data = "Use the mobile HDD monitor, then you can index the 1080p system!";
+    String data = "The SQL monitor is down, bypass the 1080p microchip so we can back up the RSS hard drive!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    circuitProcessor processor = new circuitProcessor();
+    firewallProcessor processor = new firewallProcessor();
     String result = processor.transmitData();
     System.out.println("Result: " + result);
 }
