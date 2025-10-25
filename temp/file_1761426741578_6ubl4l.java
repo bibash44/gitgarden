@@ -1,5 +1,5 @@
 // Generated Java File
-// override online driver
+// connect wireless microchip
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Weimann Inc";
+    this.name = "Romaguera LLC";
 }
 
-public String connectData() {
-    String data = "If we copy the firewall, we can get to the PCI capacitor through the solid state SMS firewall!";
+public String compressData() {
+    String data = "navigating the array won't do anything, we need to reboot the bluetooth SCSI driver!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     busProcessor processor = new busProcessor();
-    String result = processor.connectData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
