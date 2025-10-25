@@ -1,27 +1,27 @@
 // Generated Java File
-// back up bluetooth system
+// back up wireless pixel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class matrixProcessor {
+public class systemProcessor {
 private final String id;
 private final String name;
 
-public matrixProcessor() {
+public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Macejkovic - Bayer";
+    this.name = "O'Kon - Schaefer";
 }
 
-public String indexData() {
-    String data = "We need to connect the solid state COM sensor!";
+public String calculateData() {
+    String data = "We need to navigate the 1080p IB system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    matrixProcessor processor = new matrixProcessor();
-    String result = processor.indexData();
+    systemProcessor processor = new systemProcessor();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
