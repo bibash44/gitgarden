@@ -1,5 +1,5 @@
 // Generated Java File
-// compress 1080p firewall
+// input redundant transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Heaney - Anderson";
+    this.name = "Rohan - Leffler";
 }
 
-public String transmitData() {
-    String data = "Try to navigate the JSON card, maybe it will parse the haptic application!";
+public String overrideData() {
+    String data = "The ADP interface is down, generate the open-source sensor so we can program the HDD sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     arrayProcessor processor = new arrayProcessor();
-    String result = processor.transmitData();
+    String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
 }
