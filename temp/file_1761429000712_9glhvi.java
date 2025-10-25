@@ -1,5 +1,5 @@
 // Generated Java File
-// index online hard drive
+// generate optical program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public portProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Funk, Pfannerstill and Hodkiewicz";
+    this.name = "Kassulke, Casper and Cole";
 }
 
-public String synthesizeData() {
-    String data = "You can't program the application without hacking the haptic JSON transmitter!";
+public String calculateData() {
+    String data = "If we copy the matrix, we can get to the USB interface through the cross-platform RAM interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     portProcessor processor = new portProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
