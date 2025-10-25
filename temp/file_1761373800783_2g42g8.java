@@ -1,5 +1,5 @@
 // Generated Java File
-// copy auxiliary array
+// back up open-source array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Bauch - Skiles";
+    this.name = "Lakin, Upton and Kuphal";
 }
 
-public String quantifyData() {
-    String data = "Use the bluetooth EXE application, then you can calculate the digital array!";
+public String copyData() {
+    String data = "Try to index the IB circuit, maybe it will back up the mobile interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     busProcessor processor = new busProcessor();
-    String result = processor.quantifyData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
