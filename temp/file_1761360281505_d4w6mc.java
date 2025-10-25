@@ -1,5 +1,5 @@
 // Generated Java File
-// generate open-source program
+// quantify wireless bandwidth
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Blanda Inc";
+    this.name = "Mraz, Block and Gerlach";
 }
 
 public String overrideData() {
-    String data = "Try to input the JBOD application, maybe it will navigate the mobile bandwidth!";
+    String data = "Use the wireless THX system, then you can hack the haptic matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
