@@ -1,27 +1,27 @@
 // Generated Java File
-// program haptic card
+// input cross-platform transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class systemProcessor {
+public class pixelProcessor {
 private final String id;
 private final String name;
 
-public systemProcessor() {
+public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Wisoky Inc";
+    this.name = "Bernier - Bartoletti";
 }
 
-public String connectData() {
-    String data = "We need to hack the bluetooth HTTP program!";
+public String synthesizeData() {
+    String data = "We need to parse the haptic THX interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    systemProcessor processor = new systemProcessor();
-    String result = processor.connectData();
+    pixelProcessor processor = new pixelProcessor();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
