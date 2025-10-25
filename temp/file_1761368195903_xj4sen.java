@@ -4,24 +4,24 @@
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class hard driveProcessor {
+public class portProcessor {
 private final String id;
 private final String name;
 
-public hard driveProcessor() {
+public portProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Witting - Medhurst";
+    this.name = "Conn Inc";
 }
 
-public String inputData() {
-    String data = "The IB matrix is down, back up the mobile hard drive so we can input the ADP circuit!";
+public String overrideData() {
+    String data = "Use the cross-platform COM driver, then you can hack the multi-byte bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    hard driveProcessor processor = new hard driveProcessor();
-    String result = processor.inputData();
+    portProcessor processor = new portProcessor();
+    String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
 }
