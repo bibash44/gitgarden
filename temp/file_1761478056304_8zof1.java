@@ -1,5 +1,5 @@
 // Generated Java File
-// program digital alarm
+// copy digital sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public microchipProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Okuneva LLC";
+    this.name = "Moen and Sons";
 }
 
-public String synthesizeData() {
-    String data = "We need to back up the auxiliary COM transmitter!";
+public String hackData() {
+    String data = "We need to bypass the 1080p GB sensor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     microchipProcessor processor = new microchipProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
