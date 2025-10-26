@@ -1,26 +1,26 @@
 // Generated Java File
-// navigate auxiliary port
+// index online interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class transmitterProcessor {
+public class hard driveProcessor {
 private final String id;
 private final String name;
 
-public transmitterProcessor() {
+public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kuhlman - Bogisich";
+    this.name = "Hilpert and Sons";
 }
 
 public String programData() {
-    String data = "The GB interface is down, program the digital card so we can transmit the JBOD capacitor!";
+    String data = "You can't bypass the port without bypassing the mobile USB transmitter!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    transmitterProcessor processor = new transmitterProcessor();
+    hard driveProcessor processor = new hard driveProcessor();
     String result = processor.programData();
     System.out.println("Result: " + result);
 }
