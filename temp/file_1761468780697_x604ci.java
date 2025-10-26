@@ -1,5 +1,5 @@
 // Generated Java File
-// calculate digital circuit
+// bypass mobile monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Towne Group";
+    this.name = "Grady - Schumm";
 }
 
-public String compressData() {
-    String data = "Try to generate the SAS port, maybe it will quantify the wireless driver!";
+public String parseData() {
+    String data = "Try to bypass the SSL interface, maybe it will override the back-end program!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     arrayProcessor processor = new arrayProcessor();
-    String result = processor.compressData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
