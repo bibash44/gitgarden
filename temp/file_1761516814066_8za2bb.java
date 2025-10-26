@@ -1,5 +1,5 @@
 // Generated Java File
-// parse back-end firewall
+// navigate mobile array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public microchipProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kling, Frami and Mayer";
+    this.name = "Zboncak - Koepp";
 }
 
-public String copyData() {
-    String data = "programming the program won't do anything, we need to back up the back-end SDD application!";
+public String hackData() {
+    String data = "copying the bandwidth won't do anything, we need to bypass the virtual RAM pixel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     microchipProcessor processor = new microchipProcessor();
-    String result = processor.copyData();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
