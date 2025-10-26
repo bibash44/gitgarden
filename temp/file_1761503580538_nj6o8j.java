@@ -1,5 +1,5 @@
 // Generated Java File
-// quantify cross-platform array
+// transmit haptic circuit
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public programProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Heathcote, Keebler and Sanford";
+    this.name = "Wyman - Marvin";
 }
 
-public String parseData() {
-    String data = "Use the auxiliary HDD capacitor, then you can generate the open-source bandwidth!";
+public String connectData() {
+    String data = "Try to parse the USB card, maybe it will compress the neural circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     programProcessor processor = new programProcessor();
-    String result = processor.parseData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
