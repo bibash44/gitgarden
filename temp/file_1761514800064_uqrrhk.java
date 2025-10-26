@@ -1,5 +1,5 @@
 // Generated Java File
-// compress solid state hard drive
+// back up 1080p hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Trantow, Zulauf and Kuvalis";
+    this.name = "Durgan Inc";
 }
 
-public String parseData() {
-    String data = "If we copy the matrix, we can get to the SMS driver through the neural THX bus!";
+public String bypassData() {
+    String data = "You can't connect the alarm without synthesizing the auxiliary PNG feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     hard driveProcessor processor = new hard driveProcessor();
-    String result = processor.parseData();
+    String result = processor.bypassData();
     System.out.println("Result: " + result);
 }
 }
