@@ -1,5 +1,5 @@
 // Generated Java File
-// generate bluetooth bandwidth
+// copy digital port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Lesch - Heidenreich";
+    this.name = "Gusikowski Inc";
 }
 
-public String programData() {
-    String data = "If we bypass the sensor, we can get to the THX interface through the online AGP microchip!";
+public String inputData() {
+    String data = "We need to back up the back-end SSL protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     arrayProcessor processor = new arrayProcessor();
-    String result = processor.programData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
