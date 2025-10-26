@@ -1,26 +1,26 @@
 // Generated Java File
-// override mobile application
+// generate primary monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class applicationProcessor {
+public class driverProcessor {
 private final String id;
 private final String name;
 
-public applicationProcessor() {
+public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kozey - Jaskolski";
+    this.name = "O'Hara Group";
 }
 
 public String rebootData() {
-    String data = "copying the interface won't do anything, we need to parse the wireless JBOD firewall!";
+    String data = "You can't connect the hard drive without compressing the primary RSS microchip!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    applicationProcessor processor = new applicationProcessor();
+    driverProcessor processor = new driverProcessor();
     String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
