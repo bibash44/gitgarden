@@ -1,26 +1,26 @@
 // Generated Java File
-// index virtual port
+// generate optical port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class circuitProcessor {
+public class systemProcessor {
 private final String id;
 private final String name;
 
-public circuitProcessor() {
+public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Will, Morar and Fahey";
+    this.name = "Goodwin - Anderson";
 }
 
 public String calculateData() {
-    String data = "If we input the capacitor, we can get to the HDD card through the bluetooth AGP transmitter!";
+    String data = "indexing the hard drive won't do anything, we need to synthesize the cross-platform SMS array!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    circuitProcessor processor = new circuitProcessor();
+    systemProcessor processor = new systemProcessor();
     String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
