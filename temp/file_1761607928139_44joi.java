@@ -1,27 +1,27 @@
 // Generated Java File
-// back up solid state program
+// reboot online sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class busProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Koss Group";
+    this.name = "Goldner - Monahan";
 }
 
-public String rebootData() {
-    String data = "Try to back up the ADP feed, maybe it will index the open-source bandwidth!";
+public String bypassData() {
+    String data = "Try to index the TCP feed, maybe it will connect the haptic firewall!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
-    String result = processor.rebootData();
+    busProcessor processor = new busProcessor();
+    String result = processor.bypassData();
     System.out.println("Result: " + result);
 }
 }

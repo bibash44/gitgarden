@@ -1,27 +1,27 @@
 // Generated Java File
-// back up solid state program
+// bypass primary port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class pixelProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public pixelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Koss Group";
+    this.name = "Murray and Sons";
 }
 
-public String rebootData() {
-    String data = "Try to back up the ADP feed, maybe it will index the open-source bandwidth!";
+public String compressData() {
+    String data = "We need to transmit the optical PNG protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
-    String result = processor.rebootData();
+    pixelProcessor processor = new pixelProcessor();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
