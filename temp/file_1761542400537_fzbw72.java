@@ -1,5 +1,5 @@
 // Generated Java File
-// parse open-source monitor
+// compress 1080p array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public panelProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Shanahan - White";
+    this.name = "Hayes Inc";
 }
 
-public String navigateData() {
-    String data = "Try to transmit the GB transmitter, maybe it will navigate the haptic driver!";
+public String synthesizeData() {
+    String data = "Try to copy the SDD program, maybe it will generate the bluetooth bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     panelProcessor processor = new panelProcessor();
-    String result = processor.navigateData();
+    String result = processor.synthesizeData();
     System.out.println("Result: " + result);
 }
 }
