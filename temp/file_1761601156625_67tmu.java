@@ -1,5 +1,5 @@
 // Generated Java File
-// back up 1080p matrix
+// bypass wireless system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public matrixProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kunze, Kunze and Dach";
+    this.name = "Wiza, Green and Altenwerth";
 }
 
-public String parseData() {
-    String data = "You can't transmit the card without hacking the 1080p ADP transmitter!";
+public String connectData() {
+    String data = "overriding the program won't do anything, we need to reboot the cross-platform PCI port!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     matrixProcessor processor = new matrixProcessor();
-    String result = processor.parseData();
+    String result = processor.connectData();
     System.out.println("Result: " + result);
 }
 }
