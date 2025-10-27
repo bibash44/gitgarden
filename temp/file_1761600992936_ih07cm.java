@@ -1,5 +1,5 @@
 // Generated Java File
-// index neural application
+// compress back-end program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Senger LLC";
+    this.name = "Hyatt - Witting";
 }
 
-public String back upData() {
-    String data = "You can't override the application without synthesizing the 1080p SMTP bandwidth!";
+public String calculateData() {
+    String data = "The THX system is down, index the back-end card so we can hack the RSS interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     sensorProcessor processor = new sensorProcessor();
-    String result = processor.back upData();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
