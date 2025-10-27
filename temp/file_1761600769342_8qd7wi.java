@@ -1,5 +1,5 @@
 // Generated Java File
-// bypass digital sensor
+// bypass optical feed
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public protocolProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Waters Inc";
+    this.name = "Bosco - Kessler";
 }
 
 public String inputData() {
-    String data = "I'll bypass the multi-byte JBOD circuit, that should array the SMS circuit!";
+    String data = "We need to synthesize the back-end HDD protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
