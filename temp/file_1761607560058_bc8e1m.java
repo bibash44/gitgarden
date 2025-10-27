@@ -1,5 +1,5 @@
 // Generated Java File
-// hack redundant sensor
+// navigate redundant capacitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,11 +10,11 @@ private final String name;
 
 public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Metz - Effertz";
+    this.name = "Jast, Goyette and Cormier";
 }
 
 public String transmitData() {
-    String data = "We need to navigate the multi-byte SCSI microchip!";
+    String data = "Try to reboot the IB alarm, maybe it will program the multi-byte protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
