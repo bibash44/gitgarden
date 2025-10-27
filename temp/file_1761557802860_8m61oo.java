@@ -1,27 +1,27 @@
 // Generated Java File
-// transmit 1080p alarm
+// transmit online system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class cardProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kuhn - Heller";
+    this.name = "Brekke - Wyman";
 }
 
-public String indexData() {
-    String data = "Try to hack the EXE system, maybe it will index the 1080p monitor!";
+public String navigateData() {
+    String data = "Use the auxiliary SMTP capacitor, then you can program the neural pixel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
-    String result = processor.indexData();
+    cardProcessor processor = new cardProcessor();
+    String result = processor.navigateData();
     System.out.println("Result: " + result);
 }
 }
