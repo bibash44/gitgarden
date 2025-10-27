@@ -1,5 +1,5 @@
 // Generated Java File
-// override cross-platform driver
+// override digital monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public transmitterProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Homenick Inc";
+    this.name = "Schamberger, Waelchi and Morissette";
 }
 
-public String overrideData() {
-    String data = "calculating the port won't do anything, we need to input the haptic SAS alarm!";
+public String hackData() {
+    String data = "The CSS microchip is down, quantify the optical pixel so we can connect the RSS panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     transmitterProcessor processor = new transmitterProcessor();
-    String result = processor.overrideData();
+    String result = processor.hackData();
     System.out.println("Result: " + result);
 }
 }
