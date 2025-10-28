@@ -1,5 +1,5 @@
 // Generated Java File
-// parse bluetooth hard drive
+// generate cross-platform firewall
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Murazik, Welch and Krajcik";
+    this.name = "Gleason - Mosciski";
 }
 
-public String overrideData() {
-    String data = "You can't navigate the transmitter without compressing the solid state HTTP monitor!";
+public String programData() {
+    String data = "You can't reboot the feed without connecting the auxiliary USB matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     monitorProcessor processor = new monitorProcessor();
-    String result = processor.overrideData();
+    String result = processor.programData();
     System.out.println("Result: " + result);
 }
 }
