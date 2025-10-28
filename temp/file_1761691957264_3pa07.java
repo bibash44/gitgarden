@@ -1,5 +1,5 @@
 // Generated Java File
-// override virtual panel
+// override wireless array
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public circuitProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Crooks, Schmeler and Bogisich";
+    this.name = "Howell and Sons";
 }
 
-public String rebootData() {
-    String data = "We need to transmit the solid state AI panel!";
+public String copyData() {
+    String data = "calculating the feed won't do anything, we need to bypass the multi-byte IB bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     circuitProcessor processor = new circuitProcessor();
-    String result = processor.rebootData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
