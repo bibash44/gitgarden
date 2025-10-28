@@ -1,27 +1,27 @@
 // Generated Java File
-// reboot back-end port
+// calculate bluetooth circuit
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class alarmProcessor {
+public class feedProcessor {
 private final String id;
 private final String name;
 
-public alarmProcessor() {
+public feedProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Cassin LLC";
+    this.name = "Okuneva LLC";
 }
 
-public String copyData() {
-    String data = "Use the online COM program, then you can hack the mobile application!";
+public String inputData() {
+    String data = "Try to input the SMTP array, maybe it will back up the back-end system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    alarmProcessor processor = new alarmProcessor();
-    String result = processor.copyData();
+    feedProcessor processor = new feedProcessor();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
