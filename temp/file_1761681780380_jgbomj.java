@@ -1,5 +1,5 @@
 // Generated Java File
-// generate back-end capacitor
+// parse virtual monitor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public capacitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Jast, Walker and Deckow";
+    this.name = "Nader - Hoppe";
 }
 
-public String programData() {
-    String data = "I'll quantify the wireless ADP transmitter, that should driver the AGP interface!";
+public String calculateData() {
+    String data = "I'll generate the wireless AI program, that should pixel the CSS capacitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     capacitorProcessor processor = new capacitorProcessor();
-    String result = processor.programData();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
