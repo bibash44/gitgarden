@@ -1,5 +1,5 @@
 // Generated Java File
-// compress redundant sensor
+// connect optical application
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Rogahn - Lemke";
+    this.name = "Batz Group";
 }
 
-public String rebootData() {
-    String data = "I'll hack the primary USB protocol, that should sensor the COM card!";
+public String inputData() {
+    String data = "Try to bypass the PCI matrix, maybe it will navigate the solid state matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     driverProcessor processor = new driverProcessor();
-    String result = processor.rebootData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
