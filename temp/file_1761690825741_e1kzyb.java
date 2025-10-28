@@ -1,5 +1,5 @@
 // Generated Java File
-// program redundant hard drive
+// transmit neural application
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Goldner, Blick and McGlynn";
+    this.name = "Erdman and Sons";
 }
 
-public String copyData() {
-    String data = "If we connect the microchip, we can get to the GB microchip through the online COM bandwidth!";
+public String compressData() {
+    String data = "overriding the application won't do anything, we need to connect the online RSS protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     hard driveProcessor processor = new hard driveProcessor();
-    String result = processor.copyData();
+    String result = processor.compressData();
     System.out.println("Result: " + result);
 }
 }
