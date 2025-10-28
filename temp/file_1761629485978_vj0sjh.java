@@ -1,26 +1,26 @@
 // Generated Java File
-// transmit wireless transmitter
+// input auxiliary transmitter
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class applicationProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public applicationProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Fay Group";
+    this.name = "Rath Inc";
 }
 
 public String back upData() {
-    String data = "If we override the array, we can get to the RAM port through the 1080p HTTP panel!";
+    String data = "The THX array is down, quantify the online capacitor so we can compress the ADP bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
+    applicationProcessor processor = new applicationProcessor();
     String result = processor.back upData();
     System.out.println("Result: " + result);
 }
