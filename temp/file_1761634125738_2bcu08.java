@@ -1,5 +1,5 @@
 // Generated Java File
-// bypass 1080p circuit
+// calculate wireless matrix
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Bauch - Stamm";
+    this.name = "Johns, Schulist and Pagac";
 }
 
-public String hackData() {
-    String data = "Try to input the SMTP program, maybe it will quantify the online transmitter!";
+public String back upData() {
+    String data = "parsing the circuit won't do anything, we need to back up the primary THX application!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     arrayProcessor processor = new arrayProcessor();
-    String result = processor.hackData();
+    String result = processor.back upData();
     System.out.println("Result: " + result);
 }
 }
