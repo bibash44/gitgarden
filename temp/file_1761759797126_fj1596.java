@@ -1,5 +1,5 @@
 // Generated Java File
-// calculate digital system
+// generate wireless bus
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public systemProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Bartoletti Group";
+    this.name = "Metz - Feil";
 }
 
-public String synthesizeData() {
-    String data = "Use the back-end COM matrix, then you can calculate the mobile driver!";
+public String calculateData() {
+    String data = "Try to bypass the THX program, maybe it will input the open-source bus!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     systemProcessor processor = new systemProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.calculateData();
     System.out.println("Result: " + result);
 }
 }
