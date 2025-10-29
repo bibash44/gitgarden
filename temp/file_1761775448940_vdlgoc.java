@@ -1,26 +1,26 @@
 // Generated Java File
-// input 1080p capacitor
+// reboot bluetooth port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Gutmann and Sons";
+    this.name = "Cruickshank - Ruecker";
 }
 
 public String generateData() {
-    String data = "calculating the protocol won't do anything, we need to navigate the back-end IB array!";
+    String data = "Use the haptic TCP pixel, then you can index the solid state protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
+    sensorProcessor processor = new sensorProcessor();
     String result = processor.generateData();
     System.out.println("Result: " + result);
 }
