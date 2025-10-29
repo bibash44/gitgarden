@@ -1,26 +1,26 @@
 // Generated Java File
-// input cross-platform program
+// transmit open-source port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class sensorProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public sensorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Weissnat - Boehm";
+    this.name = "Mosciski, Will and Sipes";
 }
 
 public String inputData() {
-    String data = "synthesizing the panel won't do anything, we need to parse the haptic RSS program!";
+    String data = "The AI monitor is down, connect the open-source protocol so we can calculate the TCP protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
+    sensorProcessor processor = new sensorProcessor();
     String result = processor.inputData();
     System.out.println("Result: " + result);
 }
