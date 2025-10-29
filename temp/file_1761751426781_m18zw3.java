@@ -1,5 +1,5 @@
 // Generated Java File
-// connect 1080p application
+// input virtual port
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public bandwidthProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Mraz, Kovacek and Effertz";
+    this.name = "Krajcik - Powlowski";
 }
 
-public String bypassData() {
-    String data = "If we compress the protocol, we can get to the RAM application through the wireless USB monitor!";
+public String copyData() {
+    String data = "Try to quantify the AGP transmitter, maybe it will synthesize the cross-platform monitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     bandwidthProcessor processor = new bandwidthProcessor();
-    String result = processor.bypassData();
+    String result = processor.copyData();
     System.out.println("Result: " + result);
 }
 }
