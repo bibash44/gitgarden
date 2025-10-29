@@ -1,27 +1,27 @@
 // Generated Java File
-// back up solid state monitor
+// generate cross-platform alarm
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class portProcessor {
+public class capacitorProcessor {
 private final String id;
 private final String name;
 
-public portProcessor() {
+public capacitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Gibson and Sons";
+    this.name = "Jenkins - Romaguera";
 }
 
-public String synthesizeData() {
-    String data = "We need to generate the online HDD hard drive!";
+public String rebootData() {
+    String data = "We need to hack the bluetooth XML port!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    portProcessor processor = new portProcessor();
-    String result = processor.synthesizeData();
+    capacitorProcessor processor = new capacitorProcessor();
+    String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
 }
