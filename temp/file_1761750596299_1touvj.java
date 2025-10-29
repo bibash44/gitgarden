@@ -1,26 +1,26 @@
 // Generated Java File
-// copy solid state transmitter
+// override 1080p hard drive
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class firewallProcessor {
+public class cardProcessor {
 private final String id;
 private final String name;
 
-public firewallProcessor() {
+public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Padberg - Goyette";
+    this.name = "Durgan, Bogisich and Ritchie";
 }
 
 public String compressData() {
-    String data = "calculating the port won't do anything, we need to generate the open-source TCP panel!";
+    String data = "Use the 1080p RAM alarm, then you can back up the primary bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    firewallProcessor processor = new firewallProcessor();
+    cardProcessor processor = new cardProcessor();
     String result = processor.compressData();
     System.out.println("Result: " + result);
 }
