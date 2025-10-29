@@ -1,5 +1,5 @@
 // Generated Java File
-// generate bluetooth pixel
+// bypass digital program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public microchipProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Strosin, Watsica and Denesik";
+    this.name = "Gleason, DuBuque and Jacobi";
 }
 
-public String synthesizeData() {
-    String data = "I'll hack the bluetooth SDD program, that should firewall the SDD bus!";
+public String parseData() {
+    String data = "Use the wireless JBOD pixel, then you can index the digital system!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     microchipProcessor processor = new microchipProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
