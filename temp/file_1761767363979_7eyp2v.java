@@ -1,26 +1,26 @@
 // Generated Java File
-// input open-source port
+// connect back-end sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class firewallProcessor {
+public class portProcessor {
 private final String id;
 private final String name;
 
-public firewallProcessor() {
+public portProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Cormier Group";
+    this.name = "Bashirian, Frami and Leffler";
 }
 
 public String rebootData() {
-    String data = "parsing the port won't do anything, we need to back up the optical GB sensor!";
+    String data = "Use the cross-platform USB interface, then you can quantify the haptic card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    firewallProcessor processor = new firewallProcessor();
+    portProcessor processor = new portProcessor();
     String result = processor.rebootData();
     System.out.println("Result: " + result);
 }
