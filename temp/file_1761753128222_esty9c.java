@@ -1,27 +1,27 @@
 // Generated Java File
-// generate cross-platform array
+// input open-source program
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class arrayProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public arrayProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Lynch LLC";
+    this.name = "Ruecker LLC";
 }
 
-public String copyData() {
-    String data = "We need to quantify the open-source SAS hard drive!";
+public String inputData() {
+    String data = "You can't connect the feed without synthesizing the neural SQL matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
-    String result = processor.copyData();
+    arrayProcessor processor = new arrayProcessor();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
