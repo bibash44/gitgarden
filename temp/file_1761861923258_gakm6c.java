@@ -1,5 +1,5 @@
 // Generated Java File
-// hack back-end firewall
+// synthesize mobile sensor
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public firewallProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Muller - Prohaska";
+    this.name = "Blanda - Kilback";
 }
 
-public String synthesizeData() {
-    String data = "You can't bypass the card without programming the 1080p PNG circuit!";
+public String generateData() {
+    String data = "Use the cross-platform FTP microchip, then you can generate the auxiliary port!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     firewallProcessor processor = new firewallProcessor();
-    String result = processor.synthesizeData();
+    String result = processor.generateData();
     System.out.println("Result: " + result);
 }
 }
