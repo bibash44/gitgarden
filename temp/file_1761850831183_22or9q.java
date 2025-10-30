@@ -1,26 +1,26 @@
 // Generated Java File
-// synthesize virtual program
+// override multi-byte system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class driverProcessor {
+public class monitorProcessor {
 private final String id;
 private final String name;
 
-public driverProcessor() {
+public monitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Herzog - Blanda";
+    this.name = "Hand, McCullough and Swift";
 }
 
 public String compressData() {
-    String data = "overriding the program won't do anything, we need to connect the bluetooth IB microchip!";
+    String data = "We need to compress the online ADP panel!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    driverProcessor processor = new driverProcessor();
+    monitorProcessor processor = new monitorProcessor();
     String result = processor.compressData();
     System.out.println("Result: " + result);
 }
