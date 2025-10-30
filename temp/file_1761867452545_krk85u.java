@@ -1,5 +1,5 @@
 // Generated Java File
-// quantify wireless interface
+// hack wireless system
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public protocolProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Stiedemann, Wuckert and Rosenbaum";
+    this.name = "Thompson, Rosenbaum and Herman";
 }
 
-public String programData() {
-    String data = "Try to generate the JSON feed, maybe it will input the bluetooth firewall!";
+public String quantifyData() {
+    String data = "The EXE protocol is down, synthesize the bluetooth microchip so we can quantify the SMS feed!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     protocolProcessor processor = new protocolProcessor();
-    String result = processor.programData();
+    String result = processor.quantifyData();
     System.out.println("Result: " + result);
 }
 }
