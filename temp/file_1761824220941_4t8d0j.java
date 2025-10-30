@@ -1,5 +1,5 @@
 // Generated Java File
-// program primary hard drive
+// connect 1080p panel
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public busProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Weimann - Parisian";
+    this.name = "Kunde, Shields and Schoen";
 }
 
-public String calculateData() {
-    String data = "compressing the bus won't do anything, we need to navigate the haptic THX interface!";
+public String parseData() {
+    String data = "I'll input the wireless PNG system, that should hard drive the ADP matrix!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     busProcessor processor = new busProcessor();
-    String result = processor.calculateData();
+    String result = processor.parseData();
     System.out.println("Result: " + result);
 }
 }
