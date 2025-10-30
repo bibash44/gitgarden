@@ -1,26 +1,26 @@
 // Generated Java File
-// program 1080p port
+// bypass cross-platform interface
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class systemProcessor {
+public class hard driveProcessor {
 private final String id;
 private final String name;
 
-public systemProcessor() {
+public hard driveProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Walker and Sons";
+    this.name = "Cormier - Brakus";
 }
 
 public String parseData() {
-    String data = "Use the auxiliary SCSI array, then you can program the primary microchip!";
+    String data = "Use the redundant FTP transmitter, then you can copy the back-end capacitor!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    systemProcessor processor = new systemProcessor();
+    hard driveProcessor processor = new hard driveProcessor();
     String result = processor.parseData();
     System.out.println("Result: " + result);
 }
