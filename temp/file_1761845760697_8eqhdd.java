@@ -1,26 +1,26 @@
 // Generated Java File
-// compress digital card
+// reboot virtual card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class cardProcessor {
+public class capacitorProcessor {
 private final String id;
 private final String name;
 
-public cardProcessor() {
+public capacitorProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Veum - Spencer";
+    this.name = "Predovic - Lakin";
 }
 
 public String connectData() {
-    String data = "parsing the transmitter won't do anything, we need to generate the mobile EXE bus!";
+    String data = "You can't parse the application without copying the auxiliary AI card!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    cardProcessor processor = new cardProcessor();
+    capacitorProcessor processor = new capacitorProcessor();
     String result = processor.connectData();
     System.out.println("Result: " + result);
 }
