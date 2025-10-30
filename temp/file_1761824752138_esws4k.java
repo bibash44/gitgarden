@@ -1,27 +1,27 @@
 // Generated Java File
-// connect 1080p panel
+// input bluetooth driver
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class busProcessor {
+public class driverProcessor {
 private final String id;
 private final String name;
 
-public busProcessor() {
+public driverProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Kunde, Shields and Schoen";
+    this.name = "Breitenberg - Bartell";
 }
 
-public String parseData() {
-    String data = "I'll input the wireless PNG system, that should hard drive the ADP matrix!";
+public String overrideData() {
+    String data = "We need to override the haptic RAM circuit!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    busProcessor processor = new busProcessor();
-    String result = processor.parseData();
+    driverProcessor processor = new driverProcessor();
+    String result = processor.overrideData();
     System.out.println("Result: " + result);
 }
 }
