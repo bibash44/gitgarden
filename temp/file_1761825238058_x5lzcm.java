@@ -1,5 +1,5 @@
 // Generated Java File
-// parse bluetooth monitor
+// compress 1080p driver
 
 import java.util.UUID;
 import java.time.LocalDateTime;
@@ -10,18 +10,18 @@ private final String name;
 
 public circuitProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Herzog, Streich and Kirlin";
+    this.name = "Ankunding - Reinger";
 }
 
-public String programData() {
-    String data = "Try to calculate the SDD bandwidth, maybe it will copy the haptic feed!";
+public String inputData() {
+    String data = "You can't generate the interface without programming the digital PNG interface!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
     circuitProcessor processor = new circuitProcessor();
-    String result = processor.programData();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
