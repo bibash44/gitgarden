@@ -1,26 +1,26 @@
 // Generated Java File
-// transmit back-end hard drive
+// override solid state card
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class capacitorProcessor {
+public class matrixProcessor {
 private final String id;
 private final String name;
 
-public capacitorProcessor() {
+public matrixProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Orn and Sons";
+    this.name = "Langworth - Fadel";
 }
 
 public String programData() {
-    String data = "Try to compress the JBOD bus, maybe it will program the auxiliary monitor!";
+    String data = "We need to hack the back-end AGP bandwidth!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    capacitorProcessor processor = new capacitorProcessor();
+    matrixProcessor processor = new matrixProcessor();
     String result = processor.programData();
     System.out.println("Result: " + result);
 }
