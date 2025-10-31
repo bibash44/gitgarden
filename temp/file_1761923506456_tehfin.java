@@ -1,27 +1,27 @@
 // Generated Java File
-// index back-end sensor
+// index cross-platform firewall
 
 import java.util.UUID;
 import java.time.LocalDateTime;
 
-public class feedProcessor {
+public class cardProcessor {
 private final String id;
 private final String name;
 
-public feedProcessor() {
+public cardProcessor() {
     this.id = UUID.randomUUID().toString();
-    this.name = "Wehner LLC";
+    this.name = "Bruen - Kihn";
 }
 
-public String copyData() {
-    String data = "You can't connect the bus without overriding the digital PNG capacitor!";
+public String inputData() {
+    String data = "We need to reboot the back-end XML protocol!";
     System.out.println("Processing: " + data);
     return data;
 }
 
 public static void main(String[] args) {
-    feedProcessor processor = new feedProcessor();
-    String result = processor.copyData();
+    cardProcessor processor = new cardProcessor();
+    String result = processor.inputData();
     System.out.println("Result: " + result);
 }
 }
